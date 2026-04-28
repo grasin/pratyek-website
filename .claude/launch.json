@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pratyek",
+      "runtimeExecutable": "php",
+      "runtimeArgs": ["artisan", "serve", "--port=8020"],
+      "port": 8020
+    }
+  ]
+}

@@ -965,13 +965,13 @@ _Update at the end of each Claude Code session._
 
 ### Build phases
 - [x] Phase 0 — Foundation _(Laravel 11 scaffolded, 10 routes wired, placeholder views, CSS design tokens, header+footer components, Vite build — 28 Apr 2026)_
-- [ ] Phase 1 — Design system + components
-- [ ] Phase 2 — Home page
-- [ ] Phase 3 — Product, Features, Trust
-- [ ] Phase 4 — About, FAQ, Contact
-- [ ] Phase 5 — Legal pages
-- [ ] Phase 6 — SEO finalization
-- [ ] Phase 7 — QA and ship
+- [x] Phase 1 — Design system + components _(full app.css with hero/editorial/scenes/dashboard/promise/cards/accordion/forms/legal styles; 28 SVG icons; FAQ accordion JS — 28 Apr 2026)_
+- [x] Phase 2 — Home page _(hero, founder story with drop cap, two surfaces, 4 chat scenes, dashboard mockup, Kasam se promise, 3 FAQs, CTA — 28 Apr 2026)_
+- [x] Phase 3 — Product, Features, Trust _(8 chat scenes, full dashboard, memory model; 12 feature categories with Indian brand specifics; 7 trust blocks with DigiLocker/DPDP/retention — 28 Apr 2026)_
+- [x] Phase 4 — About, FAQ, Contact _(About leads with Relynext + legal entity card in first viewport; 25 FAQs in 4 groups with FAQPage JSON-LD; Contact form + email + legal entity — 28 Apr 2026)_
+- [x] Phase 5 — Legal pages _(Privacy Policy, Terms, DPDP — all naming Relynext as data fiduciary, all DPDP-compliant — 28 Apr 2026)_
+- [x] Phase 6 — SEO _(per-page meta, OG, Twitter, hreflang, JSON-LD Organization on every page, FAQPage on /faq, sitemap.xml, robots.txt — 28 Apr 2026; OG images and favicons remain a TODO)_
+- [ ] Phase 7 — QA and ship _(remaining: Lighthouse audit, real-browser cross-checks, OG image generation, favicon set, lawyer review of legal pages)_
 
 ### Open issues
 _Track here as they come up._
