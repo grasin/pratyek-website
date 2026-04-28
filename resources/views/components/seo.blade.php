@@ -29,7 +29,7 @@
 <meta name="description" content="{{ $description }}">
 <meta name="keywords" content="{{ $keywords }}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="theme-color" content="#EFE8D8">
+<meta name="theme-color" content="#FAF4E4">
 <meta name="format-detection" content="telephone=no">
 <meta name="author" content="Relynext Solutions">
 <meta name="publisher" content="Relynext Solutions">

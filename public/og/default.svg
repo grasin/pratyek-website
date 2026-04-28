@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <rect width="1200" height="630" fill="#EFE8D8"/>
+  <rect width="1200" height="630" fill="#FAF4E4"/>
 
   <!-- Hairline at top -->
   <rect x="0" y="0" width="1200" height="1" fill="rgba(18,17,16,0.06)"/>
