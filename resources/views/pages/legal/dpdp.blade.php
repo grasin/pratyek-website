@@ -34,9 +34,9 @@
             <h2>1. Identity of the data fiduciary</h2>
             <p>
                 The data fiduciary for the personal data Pratyek processes is
-                <strong>Relynext Solutions Private Limited</strong>, a private limited company registered in
-                India under the Companies Act, 2013. CIN: [placeholder]. Registered office:
-                [Mumbai, Maharashtra, India]. Email: <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>.
+                <strong>Relynext Solutions</strong>, an Indian product company based in Mumbai, Maharashtra,
+                India. Email: <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>.
+                WhatsApp: <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a>.
             </p>
 
             <h2>2. Consent</h2>
@@ -117,16 +117,16 @@
                 the subject line beginning "DPDP". We respond within 7 working days.
             </p>
 
-            <h2>10. Grievance officer</h2>
+            <h2>10. Grievance redressal</h2>
             <p>
-                Pratyek has appointed a grievance officer per Section 8(10) of the DPDP Act. The officer
-                handles privacy-related grievances and works with the Data Protection Board where required.
+                Pratyek handles privacy-related grievances per Section 8(10) of the DPDP Act, and works with
+                the Data Protection Board of India where required.
             </p>
             <ul>
-                <li><strong>Name:</strong> [Grievance officer name &mdash; placeholder]</li>
-                <li><strong>Email:</strong> <a href="mailto:hello@pratyek.com">hello@pratyek.com</a> (subject: DPDP grievance)</li>
-                <li><strong>Postal:</strong> Relynext Solutions Private Limited, [Mumbai, India]</li>
-                <li><strong>Response time:</strong> 7 working days from receipt.</li>
+                <li><strong>Email:</strong> <a href="mailto:hello@pratyek.com">hello@pratyek.com</a> (subject line beginning with <em>DPDP</em>)</li>
+                <li><strong>WhatsApp:</strong> <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a></li>
+                <li><strong>Postal:</strong> Relynext Solutions, Mumbai, India</li>
+                <li><strong>Response time:</strong> within 7 working days of receipt.</li>
             </ul>
 
             <h2>11. Data Protection Board of India</h2>

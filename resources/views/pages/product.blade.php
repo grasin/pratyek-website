@@ -1,6 +1,6 @@
 <x-layouts.app
     title="How Pratyek Works — WhatsApp In, Web Memory Out"
-    description="Pratyek captures from WhatsApp and surfaces back at pratyek.com/memory. Bills, warranties, renewals, staff, appliances — all sorted, all searchable, India-hosted."
+    description="Pratyek captures from WhatsApp and surfaces back at memory.pratyek.com. Bills, warranties, renewals, staff, appliances — all sorted, all searchable, India-hosted."
     keywords="how Pratyek works, WhatsApp household management, Indian family memory app, bill tracking WhatsApp, warranty tracking India, voice note bill reminder, DigiLocker"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -21,7 +21,7 @@
   "applicationSubCategory": "Household management concierge",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
-  "description": "Two-surface household concierge: capture in WhatsApp (forward bills, voice notes, photos), retrieve at pratyek.com/memory (sortable, searchable, exportable).",
+  "description": "Two-surface household concierge: capture in WhatsApp (forward bills, voice notes, photos), retrieve at memory.pratyek.com (sortable, searchable, exportable).",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "offers": {
     "@type": "Offer",
@@ -45,7 +45,7 @@
         <p class="lede" style="margin-top: var(--space-5);">
             Pratyek is built around two surfaces. The WhatsApp chat is where your family captures
             &mdash; effortlessly, in the language they already speak. The web dashboard at
-            <strong>pratyek.com/memory</strong> is where you retrieve, sort, and export. One product, two doors.
+            <strong>memory.pratyek.com</strong> is where you retrieve, sort, and export. One product, two doors.
         </p>
     </div>
 </section>
@@ -80,7 +80,7 @@
         </div>
 
         <div class="surface">
-            <p class="surface-label">Surface 2 &middot; pratyek.com/memory</p>
+            <p class="surface-label">Surface 2 &middot; memory.pratyek.com</p>
             <h3 class="surface-name">Retrieval is precise, sortable, and exportable on demand.</h3>
             <p class="surface-caption">
                 Open the dashboard. Sidebar lists every category &mdash; Bills, Renewals, Documents, Vehicles,
@@ -583,12 +583,12 @@
     <div class="wrap">
         <h2>Ready to invite Pratyek into your household?</h2>
         <p>
-            We're inviting families through the beta one at a time, with care.
+            Send <em>"Hi"</em> to <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> &mdash; or scan the QR on the home page.
         </p>
         <div class="cta-block-actions">
-            <a href="https://tally.so/r/2ExJyD" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Apply for private beta
-                <x-icon name="arrow-right" />
+            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <x-icon name="whatsapp" />
+                Start on WhatsApp
             </a>
             <a href="{{ route('features') }}" class="btn-link">
                 See every category Pratyek tracks

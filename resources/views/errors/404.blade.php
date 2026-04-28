@@ -1,6 +1,6 @@
 <x-layouts.app
     title="Page not found — Pratyek"
-    description="The page you were looking for doesn't exist. Try the home page, or apply for the Pratyek private beta."
+    description="The page you were looking for doesn't exist. Try the home page, or start using Pratyek on WhatsApp."
     keywords="404, page not found, Pratyek"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -33,12 +33,12 @@
 
 <section class="cta-block">
     <div class="wrap">
-        <h2>Or just apply for the beta.</h2>
+        <h2>Or just start using Pratyek.</h2>
         <p>That's the only thing most visitors are here to do anyway.</p>
         <div class="cta-block-actions">
-            <a href="https://tally.so/r/2ExJyD" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Apply for private beta
-                <x-icon name="arrow-right" />
+            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <x-icon name="whatsapp" />
+                Start on WhatsApp
             </a>
             <a href="{{ route('home') }}" class="btn-link">
                 Back to home

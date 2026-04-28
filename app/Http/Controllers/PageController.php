@@ -14,6 +14,11 @@ class PageController extends Controller
         return view('pages.product');
     }
 
+    public function why()
+    {
+        return view('pages.why');
+    }
+
     public function features()
     {
         return view('pages.features');

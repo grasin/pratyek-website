@@ -1,6 +1,6 @@
 <x-layouts.app
     title="Terms of Service — Pratyek by Relynext Solutions"
-    description="Terms governing your use of Pratyek, the WhatsApp-native household concierge by Relynext Solutions Private Limited. Governed by the laws of India."
+    description="Terms governing your use of Pratyek, the WhatsApp-native household concierge by Relynext Solutions. Governed by the laws of India."
     keywords="terms of service India, Relynext Solutions terms, Pratyek user agreement, governing law India, Mumbai jurisdiction"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -21,9 +21,8 @@
 
             <p>
                 These Terms of Service ("Terms") govern your use of <strong>Pratyek</strong>, a WhatsApp-native
-                household concierge service operated by <strong>Relynext Solutions Private Limited</strong>
-                ("Relynext", "we", "us"), a private limited company registered in India under the Companies Act,
-                2013, with registered office in Mumbai, Maharashtra, India.
+                household concierge service operated by <strong>Relynext Solutions</strong>
+                ("Relynext", "we", "us"), an Indian product company based in Mumbai, Maharashtra, India.
             </p>
             <p>
                 By using Pratyek you agree to these Terms. If you don't agree, please don't use the service.
@@ -33,7 +32,7 @@
             <p>
                 Pratyek is a service that lets you forward documents, send voice notes, and ask questions
                 via WhatsApp; it extracts and files structured information (bills, renewals, staff records,
-                etc.) and surfaces them through a web dashboard at <strong>pratyek.com/memory</strong>.
+                etc.) and surfaces them through a web dashboard at <strong>memory.pratyek.com</strong>.
                 Pratyek does not auto-pay any bills, never handles payment credentials, and does not act on
                 your behalf with third parties.
             </p>
@@ -66,25 +65,24 @@
 
             <h2>5. Service availability</h2>
             <p>
-                During the private beta (April&ndash;June 2026 and any extensions), Pratyek is provided on a
-                best-effort basis with no service-level commitment. We will inform households of planned
-                downtime where possible. Post-beta, an SLA may be introduced for paid tiers.
+                Pratyek is provided on a best-effort basis with no formal service-level commitment.
+                We will inform households of planned downtime where possible. A formal SLA may be introduced
+                with paid tiers in future.
             </p>
 
             <h2>6. Pricing &amp; billing</h2>
             <p>
-                Pratyek is <strong>free during private beta</strong>. After the beta, we will introduce a
-                household subscription. Pricing will be communicated in advance, with reasonable notice and
-                grandfathering for beta households for a defined period. We will never introduce advertising,
-                data-sale, or behavioural-targeting tiers.
+                Pratyek is <strong>free to use right now.</strong> When paid plans are introduced, pricing will
+                be communicated in advance with reasonable notice, and early households will be grandfathered for
+                a defined period. We will never introduce advertising, data-sale, or behavioural-targeting tiers.
             </p>
 
             <h2>7. Intellectual property</h2>
             <p>
                 The Pratyek brand, the Pratyek service, the website at pratyek.com, the dashboard at
-                pratyek.com/memory, and all source code are the intellectual property of Relynext Solutions
-                Private Limited. The data you send us remains yours; you grant us only the licence necessary to
-                provide the service.
+                memory.pratyek.com, and all source code are the intellectual property of
+                <strong>Relynext Solutions</strong>. The data you send us remains yours; you grant us only the
+                licence necessary to provide the service.
             </p>
 
             <h2>8. Termination</h2>
@@ -133,7 +131,7 @@
             <h2>13. Contact</h2>
             <p>
                 Email <a href="mailto:hello@pratyek.com">hello@pratyek.com</a> or write to:
-                Relynext Solutions Private Limited, [registered office &mdash; Mumbai, Maharashtra, India].
+                Relynext Solutions, Mumbai, Maharashtra, India.
             </p>
 
         </div>

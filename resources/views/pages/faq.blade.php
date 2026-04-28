@@ -1,7 +1,7 @@
 <x-layouts.app
     title="FAQ — How Pratyek Works for Indian Families"
     description="What it is, where data lives, what languages it speaks, what it costs. The 25 questions every family asks before they invite Pratyek in."
-    keywords="Pratyek FAQ, WhatsApp household concierge questions, Pratyek pricing, DPDP family service, Indian languages WhatsApp, Pratyek beta, Aadhaar PAN passport storage"
+    keywords="Pratyek FAQ, WhatsApp household concierge questions, Pratyek pricing, DPDP family service, Indian languages WhatsApp, Aadhaar PAN passport storage"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -17,16 +17,16 @@
   "@type": "FAQPage",
   "@id": "https://pratyek.com/faq#faqpage",
   "mainEntity": [
-    {"@type":"Question","name":"Is Pratyek an app I have to install?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact. There is nothing to install. The dashboard at pratyek.com/memory is web-only."}},
+    {"@type":"Question","name":"Is Pratyek an app I have to install?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact. There is nothing to install. The dashboard at memory.pratyek.com is web-only."}},
     {"@type":"Question","name":"Can Pratyek join my existing family WhatsApp group?","acceptedAnswer":{"@type":"Answer","text":"No, and we wouldn't ask for that. You create a separate small chat with Pratyek and use it as your household's filing thread. Your existing family group stays untouched."}},
     {"@type":"Question","name":"What languages does Pratyek understand?","acceptedAnswer":{"@type":"Answer","text":"English, Hindi, Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, Punjabi, plus the Hinglish your family actually speaks. Voice notes can switch mid-sentence."}},
     {"@type":"Question","name":"Where is my data stored?","acceptedAnswer":{"@type":"Answer","text":"On servers in Bangalore, India (DigitalOcean BLR1). Backups also in India. No replication outside the country."}},
     {"@type":"Question","name":"Do you store my Aadhaar / PAN / passport?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek refuses to store these and points you to DigiLocker, the government's official document vault. We keep only expiry dates."}},
-    {"@type":"Question","name":"What does Pratyek cost?","acceptedAnswer":{"@type":"Answer","text":"Free during private beta (Apr-Jun 2026). After beta, a single per-household monthly subscription with no advertising tier and no data-sale tier."}},
+    {"@type":"Question","name":"What does Pratyek cost?","acceptedAnswer":{"@type":"Answer","text":"Free to use right now. Paid plans will arrive when the product is mature; we will publish prices in advance with notice. There will never be an advertising tier or a data-sale tier."}},
     {"@type":"Question","name":"Will Pratyek auto-pay my bills?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek never handles payment credentials and never auto-pays anything. Pratyek's job is to remember and nudge — paying stays with you, on the platform you trust."}},
     {"@type":"Question","name":"Are you DPDP-compliant?","acceptedAnswer":{"@type":"Answer","text":"Yes. India's Digital Personal Data Protection Act 2023 is the law we are built around — consent, purpose limitation, data minimisation, retention, user rights, grievance officer."}},
     {"@type":"Question","name":"Do you train AI models on my messages?","acceptedAnswer":{"@type":"Answer","text":"No. We use Claude (Anthropic) and Gemma (Google) via OpenRouter under contracts that explicitly forbid training on our data."}},
-    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Relynext Solutions Private Limited, an Indian product company registered in Mumbai under the Companies Act 2013. Pratyek is its first product."}}
+    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Relynext Solutions, an Indian product company registered in Mumbai under the Companies Act 2013. Pratyek is its first product."}}
   ]
 }
 @endverbatim</script>
@@ -61,7 +61,7 @@
             <div class="faq">
                 <button class="faq-q">Is Pratyek an app I have to install? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p>No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact &mdash; forward bills, send voice notes, ask questions. There's nothing to install, nothing to learn. For retrieval and exports, there's a simple web dashboard at <strong>pratyek.com/memory</strong>, with one log-in for the whole household.</p>
+                    <p>No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact &mdash; forward bills, send voice notes, ask questions. There's nothing to install, nothing to learn. For retrieval and exports, there's a simple web dashboard at <strong>memory.pratyek.com</strong>, with one log-in for the whole household.</p>
                 </div></div></div>
             </div>
 
@@ -89,7 +89,7 @@
             <div class="faq">
                 <button class="faq-q">What does it cost? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p><strong>Free during private beta</strong> (Apr&ndash;Jun 2026). After beta, Pratyek will be a paid subscription &mdash; pricing is being finalised, but it'll be a single per-household monthly fee, not per-user, not metered, no advertising tier. We'll publish the price in advance and grandfather beta households for the first year.</p>
+                    <p><strong>Free to use right now.</strong> Paid plans will arrive when the product is mature; pricing is being finalised, but it'll be a single per-household monthly fee &mdash; not per-user, not metered, no advertising tier, no data-sale tier. We'll publish the price in advance with notice and grandfather early households for the first year.</p>
                 </div></div></div>
             </div>
 
@@ -130,7 +130,7 @@
             <div class="faq">
                 <button class="faq-q">Can I export everything? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p>Yes. From <strong>pratyek.com/memory</strong>, there's an Export button that gives you the entire household's data as JSON or CSV. No fees, no quotas, no waiting period. Your data is your data.</p>
+                    <p>Yes. From <strong>memory.pratyek.com</strong>, there's an Export button that gives you the entire household's data as JSON or CSV. No fees, no quotas, no waiting period. Your data is your data.</p>
                 </div></div></div>
             </div>
 
@@ -206,7 +206,7 @@
             <div class="faq">
                 <button class="faq-q">Can I set different permissions for different family members? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p>Yes &mdash; from the dashboard. By default everyone in the household sees everything, but you can scope permissions (e.g., children see only their own school records, the maid sees only her attendance entries). This becomes meaningful at scale; in the beta, most households leave it on default.</p>
+                    <p>Yes &mdash; from the dashboard. By default everyone in the household sees everything, but you can scope permissions (e.g., children see only their own school records, the maid sees only her attendance entries). This becomes meaningful at scale; most households leave it on default.</p>
                 </div></div></div>
             </div>
 
@@ -219,7 +219,7 @@
             <div class="faq">
                 <button class="faq-q">Who builds Pratyek? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p><strong>Relynext Solutions Private Limited</strong>, an Indian product company registered in Mumbai. Pratyek is its first product. Every contract &mdash; with WhatsApp, with our LLM partners, with our hosting provider &mdash; is signed under that name. See the <a href="{{ route('about') }}">About page</a> for the full legal entity block.</p>
+                    <p><strong>Relynext Solutions</strong>, an Indian product company based in Mumbai. Pratyek is its current product. See the <a href="{{ route('about') }}">About page</a> for more.</p>
                 </div></div></div>
             </div>
 
@@ -270,13 +270,13 @@
     <div class="wrap">
         <h2>Still curious?</h2>
         <p>
-            Apply for the private beta below, or write to <a href="mailto:hello@pratyek.com" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">hello@pratyek.com</a>.
-            We answer every email.
+            Send <em>"Hi"</em> to <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> on WhatsApp,
+            or write to <a href="mailto:hello@pratyek.com" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">hello@pratyek.com</a>. We answer every message.
         </p>
         <div class="cta-block-actions">
-            <a href="https://tally.so/r/2ExJyD" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Apply for private beta
-                <x-icon name="arrow-right" />
+            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <x-icon name="whatsapp" />
+                Start on WhatsApp
             </a>
             <a href="{{ route('contact') }}" class="btn-link">
                 Contact us

@@ -1,6 +1,6 @@
 <x-layouts.app
     title="Trust &amp; Privacy — DPDP-Compliant, India-Hosted | Pratyek"
-    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. Full DPDP-compliance. Built by Relynext Solutions Private Limited."
+    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. Full DPDP-compliance. Built by Relynext Solutions."
     keywords="DPDP compliant, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Relynext Solutions trust, Bangalore servers"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -182,11 +182,11 @@
         <div class="trust-block">
             <div class="trust-block-head">
                 <p class="trust-block-num">07 &middot; Who's behind this</p>
-                <h3 class="trust-block-name">Pratyek is a product of Relynext Solutions Private Limited.</h3>
+                <h3 class="trust-block-name">Pratyek is a product of Relynext Solutions.</h3>
             </div>
             <div class="trust-block-body">
                 <p>
-                    Relynext Solutions Private Limited is an Indian product company, registered in Mumbai.
+                    Relynext Solutions is an Indian product company, registered in Mumbai.
                     Pratyek is its first and current product. We sign every contract &mdash; with WhatsApp,
                     with our LLM partners, with our hosting provider &mdash; under that name. There's no
                     holding-company shell game.
@@ -207,12 +207,12 @@
     <div class="wrap">
         <h2>If this is the company you'd want handling your household's memory&hellip;</h2>
         <p>
-            We'd love to add yours to the beta. Apply below &mdash; we'll write back from a real person.
+            Pratyek is live. Send <em>"Hi"</em> to <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> on WhatsApp.
         </p>
         <div class="cta-block-actions">
-            <a href="https://tally.so/r/2ExJyD" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Apply for private beta
-                <x-icon name="arrow-right" />
+            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <x-icon name="whatsapp" />
+                Start on WhatsApp
             </a>
             <a href="{{ route('legal.privacy-policy') }}" class="btn-link">
                 Read the full privacy policy

@@ -6,7 +6,7 @@
             </a>
             <p class="devanagari-accent" aria-label="Pratyek in Devanagari">प्रत्येक</p>
             <p class="footer-company-line">
-                A product of Relynext Solutions Private Limited.
+                A product of Relynext Solutions.
             </p>
             <p class="footer-location">Mumbai, India.</p>
         </div>
@@ -16,6 +16,7 @@
             <ul role="list">
                 <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('product') }}">Product</a></li>
+                <li><a href="{{ route('why') }}">Why Pratyek</a></li>
                 <li><a href="{{ route('features') }}">Features</a></li>
                 <li><a href="{{ route('trust') }}">Trust &amp; Privacy</a></li>
                 <li><a href="{{ route('faq') }}">FAQ</a></li>
@@ -28,8 +29,8 @@
                 <li><a href="{{ route('about') }}">About</a></li>
                 <li><a href="{{ route('contact') }}">Contact</a></li>
                 <li>
-                    <a href="https://tally.so/r/2ExJyD" target="_blank" rel="noopener noreferrer">
-                        Apply for beta
+                    <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">
+                        Start on WhatsApp
                     </a>
                 </li>
             </ul>
@@ -48,10 +49,9 @@
     <div class="footer-bottom">
         <div class="footer-bottom-inner wrap-wide">
             <p class="footer-legal-line">
-                &copy; 2026 Relynext Solutions Private Limited. All rights reserved.
-                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span>CIN: [placeholder]
-                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span>GST: [placeholder]
+                &copy; 2026 Relynext Solutions. All rights reserved.
                 <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="mailto:hello@pratyek.com">hello@pratyek.com</a>
+                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a>
             </p>
             <p class="footer-devanagari" aria-hidden="true">प्रत्येक</p>
         </div>

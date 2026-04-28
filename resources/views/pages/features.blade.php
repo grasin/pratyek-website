@@ -41,7 +41,7 @@
     "price": "0",
     "priceCurrency": "INR",
     "availability": "https://schema.org/LimitedAvailability",
-    "description": "Free during private beta (Apr–Jun 2026)"
+    "description": "Free to use; no advertising, no data sale."
   },
   "publisher": { "@id": "https://pratyek.com/#organization" }
 }
@@ -374,13 +374,12 @@
     <div class="wrap">
         <h2>Pratyek is patient. We'd rather get this right than ship fast.</h2>
         <p>
-            We're inviting families through the beta one at a time.
-            If your household has more to track than this list, you're our person.
+            Pratyek is live on WhatsApp. If your household has more to track than this list, send <em>"Hi"</em> to <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a>.
         </p>
         <div class="cta-block-actions">
-            <a href="https://tally.so/r/2ExJyD" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Apply for private beta
-                <x-icon name="arrow-right" />
+            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <x-icon name="whatsapp" />
+                Start on WhatsApp
             </a>
             <a href="{{ route('trust') }}" class="btn-link">
                 Read our trust commitments

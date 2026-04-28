@@ -1,6 +1,6 @@
 @props([
     'title'       => 'Pratyek',
-    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families, by Relynext Solutions Private Limited.',
+    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families, by Relynext Solutions.',
     'keywords'    => 'WhatsApp household concierge India, Indian family bill reminder, DPDP compliant family assistant, household management WhatsApp, Pratyek',
     'ogImage'     => '/og/default.svg',
     'ogType'      => 'website',

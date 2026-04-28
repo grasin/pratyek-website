@@ -20,7 +20,7 @@
         <div class="legal-content">
 
             <p>
-                This Privacy Policy explains how <strong>Relynext Solutions Private Limited</strong>
+                This Privacy Policy explains how <strong>Relynext Solutions</strong>
                 ("Relynext", "we", "us"), the company that builds and operates the Pratyek service ("Pratyek",
                 "the service"), collects, uses, stores, and protects your personal data. By using Pratyek you
                 agree to this policy.
@@ -28,10 +28,9 @@
 
             <h2>1. Who we are</h2>
             <p>
-                Relynext Solutions Private Limited is a private limited company registered in India under the
-                Companies Act, 2013. Our registered office is in Mumbai, Maharashtra, India. We are the
-                <em>data fiduciary</em> for the personal data Pratyek processes, in the sense of the Digital
-                Personal Data Protection Act, 2023 ("DPDP Act").
+                Relynext Solutions is an Indian product company based in Mumbai, Maharashtra, India.
+                We are the <em>data fiduciary</em> for the personal data Pratyek processes, in the sense
+                of the Digital Personal Data Protection Act, 2023 ("DPDP Act").
             </p>
             <p>
                 For any privacy-related question, write to <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>.
@@ -44,7 +43,7 @@
                 <li><strong>Messages you send us on WhatsApp</strong> &mdash; text, voice notes, photos, documents you forward into your Pratyek chat thread.</li>
                 <li><strong>Derived metadata</strong> &mdash; the structured information we extract from those messages (e.g., bill amount, due date, account number).</li>
                 <li><strong>Account information</strong> &mdash; the WhatsApp number you message us from, an email if you supply one, and a household name if you set one.</li>
-                <li><strong>Web dashboard usage</strong> &mdash; basic logs (IP, browser, page visited) needed to operate the dashboard at pratyek.com/memory.</li>
+                <li><strong>Web dashboard usage</strong> &mdash; basic logs (IP, browser, page visited) needed to operate the dashboard at memory.pratyek.com.</li>
                 <li><strong>Cookies</strong> &mdash; only essential authentication cookies on the dashboard. No third-party tracking cookies.</li>
             </ul>
 
@@ -128,7 +127,7 @@
             <p>
                 Email <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>. For DPDP-related questions
                 specifically, contact our grievance officer named on the <a href="{{ route('legal.dpdp') }}">DPDP page</a>.
-                Postal address: Relynext Solutions Private Limited, [registered office &mdash; Mumbai, Maharashtra, India].
+                Postal address: Relynext Solutions, Mumbai, Maharashtra, India.
             </p>
 
         </div>

@@ -1,6 +1,6 @@
 <x-layouts.app
     title="Pratyek — WhatsApp Concierge for Indian Households"
-    description="WhatsApp-native household concierge for Indian families. Forward bills, send voice notes — Pratyek remembers. DPDP-compliant. By Relynext Solutions Pvt Ltd."
+    description="WhatsApp-native household concierge for Indian families. Forward bills, send voice notes — Pratyek remembers. DPDP-compliant. By Relynext Solutions, Mumbai."
     keywords="WhatsApp household concierge India, Indian family bill reminder, household management WhatsApp, family concierge India, Pratyek, Relynext Solutions"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -24,7 +24,7 @@
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://pratyek.com/memory?q={search_term_string}"
+        "urlTemplate": "https://memory.pratyek.com?q={search_term_string}"
       },
       "query-input": "required name=search_term_string"
     }
@@ -49,10 +49,8 @@
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "INR",
-    "availability": "https://schema.org/LimitedAvailability",
-    "validFrom": "2026-04-01",
-    "validThrough": "2026-06-30",
-    "description": "Free during private beta (Apr–Jun 2026); paid subscription post-beta, no advertising tier."
+    "availability": "https://schema.org/InStock",
+    "description": "Free to use; no advertising tier, no data-sale tier."
   },
   "publisher": { "@id": "https://pratyek.com/#organization" },
   "featureList": [
@@ -89,9 +87,9 @@
             Pratyek reads, sorts, and remembers — quietly, in the background, in the chat your family already lives in.
         </p>
         <div class="hero-actions">
-            <a href="https://tally.so/r/2ExJyD" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Apply for private beta
-                <x-icon name="arrow-right" />
+            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                <x-icon name="whatsapp" />
+                Start on WhatsApp
             </a>
             <a href="{{ route('product') }}" class="btn-link">
                 See how it works
@@ -99,7 +97,7 @@
             </a>
         </div>
         <p class="hero-fineprint">
-            In private beta, Apr&ndash;Jun 2026 &middot; no app to install &middot; works inside WhatsApp
+            Live now &middot; <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> &middot; no app to install &middot; works inside WhatsApp
         </p>
     </div>
 </section>
@@ -135,7 +133,7 @@
                 It writes everything down. And when you need it, it remembers.
             </p>
         </div>
-        <p class="signoff"><strong>Nisarg</strong>, founder &middot; Mumbai</p>
+        <p class="signoff">&mdash; <strong>the makers of Pratyek</strong> &middot; Mumbai</p>
     </div>
 </section>
 
@@ -167,7 +165,7 @@
         </div>
 
         <div class="surface">
-            <p class="surface-label">pratyek.com/memory &mdash; retrieval</p>
+            <p class="surface-label">memory.pratyek.com &mdash; retrieval</p>
             <h3 class="surface-name">Everything sorted, searchable, exportable.</h3>
             <p class="surface-caption">
                 Bills, renewals, staff attendance, appliance warranties &mdash; all in one quiet dashboard.
@@ -380,7 +378,7 @@
     <div class="wrap-wide">
         <div class="section-head section-head--center">
             <p class="kicker">The other surface</p>
-            <h2 style="max-width: 24ch;">Open <em>pratyek.com/memory</em>. Your household, sorted.</h2>
+            <h2 style="max-width: 24ch;">Open <em>memory.pratyek.com</em>. Your household, sorted.</h2>
         </div>
 
         <div class="dash-frame" aria-label="Memory dashboard preview">
@@ -524,7 +522,7 @@
                         nothing to learn. Anyone in the family who already uses WhatsApp can use Pratyek.
                     </p>
                     <p>
-                        For retrieval and exports, there's a simple web dashboard at <strong>pratyek.com/memory</strong>
+                        For retrieval and exports, there's a simple web dashboard at <strong>memory.pratyek.com</strong>
                         &mdash; one log-in for the whole household.
                     </p>
                 </div></div></div>
@@ -575,23 +573,46 @@
 {{-- ============================================================
      Closing CTA
      ============================================================ --}}
-<section class="cta-block">
+<section class="live-cta">
     <div class="wrap">
-        <p class="kicker kicker--red" style="margin-bottom: var(--space-3);">Private beta &middot; Apr&ndash;Jun 2026</p>
-        <h2>Bring Pratyek into your household.</h2>
-        <p>
-            We're inviting a small number of families through the beta one at a time, by hand.
-            Tell us about yours.
-        </p>
-        <div class="cta-block-actions">
-            <a href="https://tally.so/r/2ExJyD" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
-                Apply for private beta
-                <x-icon name="arrow-right" />
-            </a>
-            <a href="{{ route('trust') }}" class="btn-link">
-                Read our trust commitments
-                <x-icon name="arrow-right" />
-            </a>
+        <div class="live-cta-card">
+            <div class="live-cta-stamp">Live</div>
+
+            <div class="live-cta-grid">
+                <div class="live-cta-text">
+                    <p class="kicker kicker--red" style="margin-bottom: var(--space-3);">Pratyek is live</p>
+                    <h2 style="margin-bottom: var(--space-4);">
+                        Add the number. Send <em>"Hi"</em>. You're in.
+                    </h2>
+                    <p class="live-cta-number">
+                        <a href="https://wa.me/919372023537?text=Hi">
+                            <x-icon name="whatsapp" /> +91 93720 23537
+                        </a>
+                    </p>
+                    <p class="live-cta-sub">
+                        No app to install. No form to fill. No beta waitlist.
+                        Just the WhatsApp number your household will message
+                        for everything from now on.
+                    </p>
+                    <div class="live-cta-actions">
+                        <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            <x-icon name="whatsapp" />
+                            Start on WhatsApp
+                        </a>
+                        <a href="{{ route('trust') }}" class="btn-link">
+                            Read our trust commitments
+                            <x-icon name="arrow-right" />
+                        </a>
+                    </div>
+                </div>
+
+                <figure class="live-cta-qr">
+                    <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat with Pratyek">
+                        <img src="/qr/whatsapp.svg" alt="QR code &mdash; scan to open WhatsApp chat with Pratyek at +91 93720 23537" width="220" height="220">
+                    </a>
+                    <figcaption>Or scan with your phone's camera.</figcaption>
+                </figure>
+            </div>
         </div>
     </div>
 </section>

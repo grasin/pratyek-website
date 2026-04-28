@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/product', [PageController::class, 'product'])->name('product');
+Route::get('/why-pratyek', [PageController::class, 'why'])->name('why');
 Route::get('/features', [PageController::class, 'features'])->name('features');
 Route::get('/trust', [PageController::class, 'trust'])->name('trust');
 Route::get('/about', [PageController::class, 'about'])->name('about');

@@ -1,6 +1,6 @@
 @props([
     'title'       => 'Pratyek',
-    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families, by Relynext Solutions Private Limited.',
+    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families, by Relynext Solutions.',
     'keywords'    => 'WhatsApp household concierge India, Indian family bill reminder, DPDP compliant family assistant, household management WhatsApp, Pratyek',
     'ogImage'     => '/og/default.svg',
     'ogType'      => 'website',
@@ -31,8 +31,8 @@
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="theme-color" content="#EFE8D8">
 <meta name="format-detection" content="telephone=no">
-<meta name="author" content="Relynext Solutions Private Limited">
-<meta name="publisher" content="Relynext Solutions Private Limited">
+<meta name="author" content="Relynext Solutions">
+<meta name="publisher" content="Relynext Solutions">
 <meta name="geo.region" content="IN">
 <meta name="geo.placename" content="Mumbai">
 <meta name="geo.country" content="India">
@@ -72,9 +72,9 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://pratyek.com/#organization",
-  "name": "Relynext Solutions Private Limited",
+  "name": "Relynext Solutions",
   "alternateName": "Pratyek",
-  "legalName": "Relynext Solutions Private Limited",
+  "legalName": "Relynext Solutions",
   "url": "https://pratyek.com",
   "logo": {
     "@type": "ImageObject",
@@ -82,7 +82,7 @@
     "width": 512,
     "height": 512
   },
-  "description": "Relynext Solutions Private Limited is the maker of Pratyek, a WhatsApp-native household concierge for Indian families. DPDP-compliant, India-hosted, no ads, no data sold.",
+  "description": "Relynext Solutions is the maker of Pratyek, a WhatsApp-native household concierge for Indian families. DPDP-compliant, India-hosted, no ads, no data sold.",
   "foundingLocation": {
     "@type": "Place",
     "address": {
@@ -94,19 +94,25 @@
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "[placeholder]",
     "addressLocality": "Mumbai",
     "addressRegion": "Maharashtra",
-    "postalCode": "[placeholder]",
     "addressCountry": "IN"
   },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "hello@pratyek.com",
-    "contactType": "customer support",
-    "areaServed": "IN",
-    "availableLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"]
-  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91-93720-23537",
+      "contactType": "customer support",
+      "areaServed": "IN",
+      "availableLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"]
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "hello@pratyek.com",
+      "contactType": "customer support",
+      "areaServed": "IN"
+    }
+  ],
   "knowsAbout": [
     "household management",
     "WhatsApp business automation",
@@ -116,8 +122,7 @@
   "areaServed": {
     "@type": "Country",
     "name": "India"
-  },
-  "sameAs": []
+  }
 }
 @endverbatim</script>
 

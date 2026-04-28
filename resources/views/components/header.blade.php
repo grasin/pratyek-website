@@ -2,6 +2,7 @@
     $currentRoute = request()->route()?->getName();
     $navLinks = [
         ['route' => 'product',  'label' => 'Product'],
+        ['route' => 'why',      'label' => 'Why Pratyek'],
         ['route' => 'features', 'label' => 'Features'],
         ['route' => 'trust',    'label' => 'Trust'],
         ['route' => 'about',    'label' => 'About'],
@@ -30,13 +31,13 @@
         </nav>
 
         <a
-            href="https://tally.so/r/2ExJyD"
+            href="https://wa.me/919372023537?text=Hi"
             class="btn btn-primary"
             target="_blank"
             rel="noopener noreferrer"
         >
-            Apply for beta
-            <x-icon name="external" aria-hidden="true" />
+            <x-icon name="whatsapp" aria-hidden="true" />
+            Start on WhatsApp
         </a>
 
         <button
@@ -71,11 +72,14 @@
                 </ul>
             </nav>
             <a
-                href="https://tally.so/r/2ExJyD"
+                href="https://wa.me/919372023537?text=Hi"
                 class="btn btn-primary"
                 target="_blank"
                 rel="noopener noreferrer"
-            >Apply for beta</a>
+            >
+                <x-icon name="whatsapp" aria-hidden="true" />
+                Start on WhatsApp
+            </a>
         </div>
     </div>
 </header>

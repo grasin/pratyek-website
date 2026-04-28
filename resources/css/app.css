@@ -1219,6 +1219,148 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 }
 
 /* -----------------------------------------------------------
+   15b. Live CTA (phone + QR)
+   ----------------------------------------------------------- */
+.live-cta {
+  padding-block: var(--space-9);
+}
+
+.live-cta-card {
+  position: relative;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-md);
+  padding: var(--space-8);
+  max-width: var(--wrap-wide);
+  margin-inline: auto;
+  background: var(--paper-warm);
+  box-shadow: var(--shadow-soft);
+}
+
+.live-cta-stamp {
+  position: absolute;
+  top: -14px;
+  left: 32px;
+  background: var(--green);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.live-cta-stamp::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+  animation: live-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.4; }
+}
+
+.live-cta-grid {
+  display: grid;
+  grid-template-columns: 1.5fr auto;
+  gap: var(--space-8);
+  align-items: center;
+}
+
+.live-cta-text { min-width: 0; }
+
+.live-cta-text h2 em { font-style: italic; color: var(--red); }
+
+.live-cta-number {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 300;
+  font-size: clamp(28px, 4vw, 40px);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin-bottom: var(--space-4);
+}
+
+.live-cta-number a {
+  color: var(--ink);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1.5px solid var(--rule-strong);
+  padding-bottom: 6px;
+  transition: border-color 0.15s ease;
+}
+
+.live-cta-number a:hover {
+  border-color: var(--green);
+}
+
+.live-cta-number .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.live-cta-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 48ch;
+  margin-bottom: var(--space-5);
+}
+
+.live-cta-actions {
+  display: flex;
+  gap: var(--space-4);
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.live-cta-qr {
+  background: white;
+  padding: var(--space-3);
+  border-radius: var(--radius);
+  border: 1px solid var(--rule-faint);
+  box-shadow: var(--shadow-soft);
+  text-align: center;
+  max-width: 240px;
+}
+
+.live-cta-qr a {
+  display: block;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.live-cta-qr img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.live-cta-qr figcaption {
+  font-family: 'Inter', sans-serif;
+  font-size: 12.5px;
+  color: var(--ink-mute);
+  margin-top: var(--space-3);
+  margin-bottom: var(--space-1);
+}
+
+@media (max-width: 800px) {
+  .live-cta-card { padding: var(--space-5) var(--space-5) var(--space-6); }
+  .live-cta-grid { grid-template-columns: 1fr; gap: var(--space-6); }
+  .live-cta-qr   { max-width: 200px; margin-inline: auto; }
+}
+
+/* -----------------------------------------------------------
    16. Feature category grid
    ----------------------------------------------------------- */
 .cat {
