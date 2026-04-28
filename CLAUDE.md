@@ -964,7 +964,7 @@ Do not deploy to production with any of these still as `[placeholder]` text. Sur
 _Update at the end of each Claude Code session._
 
 ### Build phases
-- [ ] Phase 0 — Foundation
+- [x] Phase 0 — Foundation _(Laravel 11 scaffolded, 10 routes wired, placeholder views, CSS design tokens, header+footer components, Vite build — 28 Apr 2026)_
 - [ ] Phase 1 — Design system + components
 - [ ] Phase 2 — Home page
 - [ ] Phase 3 — Product, Features, Trust

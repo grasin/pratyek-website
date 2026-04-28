@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <x-seo
+        :title="$title ?? 'Pratyek'"
+        :description="$description ?? 'Pratyek is a WhatsApp-native household concierge for Indian families.'"
+        :og-image="$ogImage ?? '/og/home.png'"
+        :canonical="$canonical ?? request()->url()"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <x-header />
+    <main id="main-content">
+        {{ $slot }}
+    </main>
+    <x-footer />
+    {{-- Plausible Analytics — replace domain before launch --}}
+    <script defer data-domain="pratyek.com" src="https://plausible.io/js/script.js"></script>
+</body>
+</html>

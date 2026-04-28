@@ -1,0 +1,515 @@
+/* ============================================================
+   PRATYEK — app.css
+   Design tokens, base reset, typography, layout utilities,
+   header, footer, and shared component styles.
+   Phase 1 will expand this into the full design system.
+   ============================================================ */
+
+/* -----------------------------------------------------------
+   1. Design tokens
+   ----------------------------------------------------------- */
+:root {
+  /* Foundation */
+  --paper:      #EFE8D8;
+  --ink:        #121110;
+  --ink-soft:   #3C3A35;
+  --ink-mute:   #7A7267;
+  --rule:       rgba(18, 17, 16, 0.12);
+  --rule-faint: rgba(18, 17, 16, 0.06);
+
+  /* Accent */
+  --red:        #B8321E;
+
+  /* Status (product UI mockups only) */
+  --green:      #0F6E56;
+  --amber:      #C98A04;
+
+  /* WhatsApp chat surface */
+  --wa-chat-bg: #E8E0D2;
+  --wa-out:     #DCF8C6;
+  --wa-in:      #ffffff;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  /* Layout */
+  --wrap-narrow: 680px;
+  --wrap:        820px;
+  --wrap-wide:   1280px;
+  --pad-x:       28px;
+  --pad-x-mobile: 22px;
+}
+
+/* -----------------------------------------------------------
+   2. Base reset
+   ----------------------------------------------------------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* -----------------------------------------------------------
+   3. Skip link (accessibility)
+   ----------------------------------------------------------- */
+.skip-link {
+  position: absolute;
+  top: -999px;
+  left: var(--pad-x);
+  background: var(--ink);
+  color: var(--paper);
+  padding: var(--space-2) var(--space-4);
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  z-index: 9999;
+  border-radius: 0 0 4px 4px;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* -----------------------------------------------------------
+   4. Layout utilities
+   ----------------------------------------------------------- */
+.wrap {
+  max-width: var(--wrap);
+  margin-inline: auto;
+  padding-inline: var(--pad-x);
+}
+
+.wrap-narrow {
+  max-width: var(--wrap-narrow);
+  margin-inline: auto;
+  padding-inline: var(--pad-x);
+}
+
+.wrap-wide {
+  max-width: var(--wrap-wide);
+  margin-inline: auto;
+  padding-inline: var(--pad-x);
+}
+
+@media (max-width: 767px) {
+  .wrap,
+  .wrap-narrow,
+  .wrap-wide {
+    padding-inline: var(--pad-x-mobile);
+  }
+}
+
+/* -----------------------------------------------------------
+   5. Typography
+   ----------------------------------------------------------- */
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', Georgia, serif;
+  text-wrap: balance;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: clamp(34px, 5.2vw, 52px);
+  letter-spacing: -0.028em;
+  line-height: 1.08;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: clamp(26px, 3.6vw, 38px);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: clamp(20px, 2.4vw, 26px);
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+p {
+  text-wrap: pretty;
+  line-height: 1.6;
+}
+
+em {
+  font-style: italic;
+  color: var(--red);
+}
+
+/* -----------------------------------------------------------
+   6. Buttons
+   ----------------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background-color: var(--ink);
+  color: var(--paper);
+}
+
+.btn-primary:hover {
+  background-color: var(--red);
+}
+
+/* -----------------------------------------------------------
+   7. Icons
+   ----------------------------------------------------------- */
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* -----------------------------------------------------------
+   8. Header
+   ----------------------------------------------------------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--paper);
+  border-bottom: 1px solid var(--rule-faint);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+  height: 60px;
+}
+
+.wordmark {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  flex-shrink: 0;
+}
+
+.wordmark-dot {
+  color: var(--red);
+}
+
+.main-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: var(--space-6);
+}
+
+.main-nav a {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--ink-soft);
+  transition: color 0.12s ease;
+}
+
+.main-nav a:hover,
+.main-nav a.nav-active {
+  color: var(--ink);
+}
+
+.main-nav a.nav-active {
+  color: var(--red);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+
+.main-nav a:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.menu-toggle {
+  display: none;
+  color: var(--ink);
+  padding: var(--space-2);
+}
+
+.menu-toggle:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: var(--paper);
+  z-index: 200;
+  padding: var(--pad-x-mobile);
+  flex-direction: column;
+}
+
+.mobile-menu.is-open {
+  display: flex;
+}
+
+.mobile-menu-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobile-menu-close {
+  align-self: flex-end;
+  padding: var(--space-2);
+  color: var(--ink);
+  margin-bottom: var(--space-7);
+}
+
+.mobile-menu nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.mobile-menu nav a {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: var(--ink);
+}
+
+.mobile-menu nav a.nav-active {
+  color: var(--red);
+}
+
+.mobile-menu .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .main-nav,
+  .header-inner > .btn {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+    margin-left: auto;
+  }
+}
+
+/* -----------------------------------------------------------
+   9. Footer
+   ----------------------------------------------------------- */
+.site-footer {
+  border-top: 1px solid var(--rule-faint);
+  padding-top: 60px;
+  margin-top: var(--space-9);
+}
+
+.footer-inner {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: var(--space-8);
+  padding-bottom: var(--space-8);
+}
+
+.footer-col--brand .wordmark {
+  font-size: 19px;
+}
+
+.devanagari-accent {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 14px;
+  color: var(--ink-mute);
+  margin-top: var(--space-2);
+}
+
+.footer-company-line {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-top: var(--space-4);
+  line-height: 1.5;
+}
+
+.footer-location {
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  color: var(--ink-mute);
+  margin-top: var(--space-2);
+}
+
+.footer-col-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-mute);
+  margin-bottom: var(--space-4);
+}
+
+.footer-col ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.footer-col a {
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  color: var(--ink-mute);
+  transition: color 0.12s ease;
+}
+
+.footer-col a:hover {
+  color: var(--ink);
+}
+
+.footer-col a:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--rule-faint);
+  padding-block: var(--space-5);
+}
+
+.footer-bottom-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.footer-legal-line {
+  font-family: 'Inter', sans-serif;
+  font-size: 12.5px;
+  color: var(--ink-mute);
+  line-height: 1.6;
+}
+
+.footer-legal-line a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.footer-sep {
+  opacity: 0.5;
+}
+
+.footer-devanagari {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 14px;
+  color: var(--red);
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .footer-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-7);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-inner {
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+  }
+
+  .site-footer {
+    padding-top: 48px;
+    margin-top: var(--space-7);
+  }
+}
+
+/* -----------------------------------------------------------
+   10. Placeholder page styles (remove in Phase 2+)
+   ----------------------------------------------------------- */
+.page-placeholder {
+  padding-block: var(--space-9);
+}
+
+.page-placeholder h1 {
+  margin-bottom: var(--space-4);
+}
