@@ -1,8 +1,39 @@
 <x-layouts.app
-    title="How Pratyek works — WhatsApp writes, the dashboard reads"
-    description="Pratyek captures from WhatsApp and surfaces back through pratyek.com/memory. Bills, warranties, renewals, staff, appliances — all sorted, all searchable."
-    og-image="/og/product.png"
+    title="How Pratyek Works — WhatsApp In, Web Memory Out"
+    description="Pratyek captures from WhatsApp and surfaces back at pratyek.com/memory. Bills, warranties, renewals, staff, appliances — all sorted, all searchable, India-hosted."
+    keywords="how Pratyek works, WhatsApp household management, Indian family memory app, bill tracking WhatsApp, warranty tracking India, voice note bill reminder, DigiLocker"
+    og-image="/og/default.svg"
+    page-type="WebPage"
+    :breadcrumbs="[
+        ['name' => 'Home',    'url' => '/'],
+        ['name' => 'Product', 'url' => '/product'],
+    ]"
 >
+
+<x-slot:structuredData>
+<script type="application/ld+json">@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://pratyek.com/#software",
+  "name": "Pratyek",
+  "applicationCategory": "LifestyleApplication",
+  "applicationSubCategory": "Household management concierge",
+  "operatingSystem": "WhatsApp, Web",
+  "url": "https://pratyek.com",
+  "description": "Two-surface household concierge: capture in WhatsApp (forward bills, voice notes, photos), retrieve at pratyek.com/memory (sortable, searchable, exportable).",
+  "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/LimitedAvailability"
+  },
+  "publisher": { "@id": "https://pratyek.com/#organization" }
+}
+@endverbatim</script>
+</x-slot:structuredData>
+
 
 {{-- ============================================================
      Page intro

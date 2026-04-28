@@ -1,8 +1,37 @@
 <x-layouts.app
-    title="FAQ — Pratyek answers"
-    description="What it is, where data lives, what languages it speaks, what it costs. The questions every family asks before they invite Pratyek in."
-    og-image="/og/faq.png"
+    title="FAQ — How Pratyek Works for Indian Families"
+    description="What it is, where data lives, what languages it speaks, what it costs. The 25 questions every family asks before they invite Pratyek in."
+    keywords="Pratyek FAQ, WhatsApp household concierge questions, Pratyek pricing, DPDP family service, Indian languages WhatsApp, Pratyek beta, Aadhaar PAN passport storage"
+    og-image="/og/default.svg"
+    page-type="WebPage"
+    :breadcrumbs="[
+        ['name' => 'Home', 'url' => '/'],
+        ['name' => 'FAQ',  'url' => '/faq'],
+    ]"
 >
+
+<x-slot:structuredData>
+<script type="application/ld+json">@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://pratyek.com/faq#faqpage",
+  "mainEntity": [
+    {"@type":"Question","name":"Is Pratyek an app I have to install?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact. There is nothing to install. The dashboard at pratyek.com/memory is web-only."}},
+    {"@type":"Question","name":"Can Pratyek join my existing family WhatsApp group?","acceptedAnswer":{"@type":"Answer","text":"No, and we wouldn't ask for that. You create a separate small chat with Pratyek and use it as your household's filing thread. Your existing family group stays untouched."}},
+    {"@type":"Question","name":"What languages does Pratyek understand?","acceptedAnswer":{"@type":"Answer","text":"English, Hindi, Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, Punjabi, plus the Hinglish your family actually speaks. Voice notes can switch mid-sentence."}},
+    {"@type":"Question","name":"Where is my data stored?","acceptedAnswer":{"@type":"Answer","text":"On servers in Bangalore, India (DigitalOcean BLR1). Backups also in India. No replication outside the country."}},
+    {"@type":"Question","name":"Do you store my Aadhaar / PAN / passport?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek refuses to store these and points you to DigiLocker, the government's official document vault. We keep only expiry dates."}},
+    {"@type":"Question","name":"What does Pratyek cost?","acceptedAnswer":{"@type":"Answer","text":"Free during private beta (Apr-Jun 2026). After beta, a single per-household monthly subscription with no advertising tier and no data-sale tier."}},
+    {"@type":"Question","name":"Will Pratyek auto-pay my bills?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek never handles payment credentials and never auto-pays anything. Pratyek's job is to remember and nudge — paying stays with you, on the platform you trust."}},
+    {"@type":"Question","name":"Are you DPDP-compliant?","acceptedAnswer":{"@type":"Answer","text":"Yes. India's Digital Personal Data Protection Act 2023 is the law we are built around — consent, purpose limitation, data minimisation, retention, user rights, grievance officer."}},
+    {"@type":"Question","name":"Do you train AI models on my messages?","acceptedAnswer":{"@type":"Answer","text":"No. We use Claude (Anthropic) and Gemma (Google) via OpenRouter under contracts that explicitly forbid training on our data."}},
+    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Relynext Solutions Private Limited, an Indian product company registered in Mumbai under the Companies Act 2013. Pratyek is its first product."}}
+  ]
+}
+@endverbatim</script>
+</x-slot:structuredData>
+
 
 {{-- ============================================================
      Page intro
@@ -256,23 +285,5 @@
         </div>
     </div>
 </section>
-
-{{-- FAQPage JSON-LD for rich results --}}
-<script type="application/ld+json">
-@verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type":"Question","name":"Is Pratyek an app I have to install?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact. There's nothing to install. The dashboard at pratyek.com/memory is web-only."}},
-    {"@type":"Question","name":"Where is my data stored?","acceptedAnswer":{"@type":"Answer","text":"On servers in Bangalore, India (DigitalOcean BLR1). Backups also in India. No replication outside the country."}},
-    {"@type":"Question","name":"Do you store my Aadhaar / PAN / passport?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek refuses to store these and points you to DigiLocker, the government's vault. We keep only expiry dates."}},
-    {"@type":"Question","name":"What languages does it understand?","acceptedAnswer":{"@type":"Answer","text":"English, Hindi, Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, Punjabi, plus Hinglish."}},
-    {"@type":"Question","name":"What does it cost?","acceptedAnswer":{"@type":"Answer","text":"Free during private beta (Apr-Jun 2026). After beta, a single per-household monthly subscription with no advertising tier."}},
-    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Relynext Solutions Private Limited, an Indian product company registered in Mumbai."}}
-  ]
-}
-@endverbatim
-</script>
 
 </x-layouts.app>

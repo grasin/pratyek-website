@@ -1,7 +1,13 @@
 <x-layouts.app
-    title="Contact Pratyek and Relynext Solutions"
-    description="Email us. We read everything. Press, partnerships, support, feedback — hello@pratyek.com. Registered office: Mumbai, India."
-    og-image="/og/contact.png"
+    title="Contact — hello@pratyek.com | Pratyek"
+    description="Email hello@pratyek.com. We read every message. Press, partnerships, support, feedback — same address. Registered office: Mumbai, India."
+    keywords="contact Pratyek, hello@pratyek.com, Relynext Solutions email, household concierge support, Mumbai office, press partnerships India"
+    og-image="/og/default.svg"
+    page-type="ContactPage"
+    :breadcrumbs="[
+        ['name' => 'Home',    'url' => '/'],
+        ['name' => 'Contact', 'url' => '/contact'],
+    ]"
 >
 
 {{-- ============================================================

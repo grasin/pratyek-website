@@ -1,7 +1,13 @@
 <x-layouts.app
-    title="Trust &amp; Privacy — DPDP-compliant by default, no ads, no data sold"
-    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. Full DPDP compliance. Built by Relynext Solutions Private Limited."
-    og-image="/og/trust.png"
+    title="Trust &amp; Privacy — DPDP-Compliant, India-Hosted | Pratyek"
+    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. Full DPDP-compliance. Built by Relynext Solutions Private Limited."
+    keywords="DPDP compliant, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Relynext Solutions trust, Bangalore servers"
+    og-image="/og/default.svg"
+    page-type="WebPage"
+    :breadcrumbs="[
+        ['name' => 'Home',            'url' => '/'],
+        ['name' => 'Trust & Privacy', 'url' => '/trust'],
+    ]"
 >
 
 {{-- ============================================================

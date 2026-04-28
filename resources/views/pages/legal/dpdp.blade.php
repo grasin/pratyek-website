@@ -1,7 +1,14 @@
 <x-layouts.app
-    title="DPDP Act compliance — Pratyek"
-    description="How Pratyek complies with India's Digital Personal Data Protection Act, 2023. Consent, retention, user rights, grievance officer."
-    og-image="/og/legal.png"
+    title="DPDP Act 2023 Compliance — Pratyek"
+    description="How Pratyek complies with India's Digital Personal Data Protection Act, 2023. Consent, retention, user rights, grievance officer named."
+    keywords="DPDP Act 2023, Digital Personal Data Protection Act compliance, India data fiduciary, grievance officer, Indian privacy law, Data Protection Board India"
+    og-image="/og/default.svg"
+    page-type="WebPage"
+    :breadcrumbs="[
+        ['name' => 'Home',            'url' => '/'],
+        ['name' => 'Legal',           'url' => '/legal/dpdp'],
+        ['name' => 'DPDP Compliance', 'url' => '/legal/dpdp'],
+    ]"
 >
 
 <section class="legal-page">

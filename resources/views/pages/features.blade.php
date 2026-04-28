@@ -1,8 +1,53 @@
 <x-layouts.app
-    title="Features — Everything Pratyek remembers for your household"
+    title="Features — Bills, Renewals, Staff &amp; 9 More | Pratyek"
     description="Bills, renewals, documents, vehicles, staff, appliances, subscriptions, occasions, health, education, finance, coordination — all in one second mind."
-    og-image="/og/features.png"
+    keywords="household features, bill tracking India, warranty management India, family staff salary tracker, Indian renewal reminders, BBMP property tax tracker, Adani Tata Play bills, Bajaj Allianz renewal"
+    og-image="/og/default.svg"
+    page-type="WebPage"
+    :breadcrumbs="[
+        ['name' => 'Home',     'url' => '/'],
+        ['name' => 'Features', 'url' => '/features'],
+    ]"
 >
+
+<x-slot:structuredData>
+<script type="application/ld+json">@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://pratyek.com/#software",
+  "name": "Pratyek",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "WhatsApp, Web",
+  "url": "https://pratyek.com/features",
+  "description": "Pratyek tracks twelve household categories for Indian families — every bill, every renewal, every staff record, every appliance warranty, every family occasion.",
+  "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
+  "featureList": [
+    "Bills & utilities — Adani, BSES, BESCOM, BEST, MSEDCL, TANGEDCO, KSEB, JioFiber, Tata Play",
+    "Renewals & expiry — motor insurance, mediclaim, PUC, passport, driving licence, vehicle RC",
+    "Documents & IDs — DigiLocker pointers, expiry-only storage, no images of Aadhaar PAN passport",
+    "Vehicles — registration, insurance, PUC, FASTag, service cycle, fines and 15-year re-registration",
+    "Domestic staff — maid, cook, driver, nanny, attendance, salary, leaves, festival bonuses",
+    "Appliances & warranties — AC, washing machine, refrigerator, water purifier, geyser, microwave",
+    "Subscriptions & deliveries — milk, newspaper, OTT (Netflix, Hotstar, Prime), DTH, cloud storage",
+    "Family & occasions — birthdays, anniversaries, shraadh, Diwali Onam Eid Pongal Christmas prep",
+    "Health — medication refills, periodic tests, elder care, children milestones, pet care",
+    "Education — school fees, tuition, exam dates, transport fees, coaching IIT NEET prep",
+    "Finance — EMIs, SIPs, advance tax, ITR, GST, credit card dues, BBMP BMC MCD property tax",
+    "Coordination — shared shopping list, todos, family contacts, holiday list, meal planning"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/LimitedAvailability",
+    "description": "Free during private beta (Apr–Jun 2026)"
+  },
+  "publisher": { "@id": "https://pratyek.com/#organization" }
+}
+@endverbatim</script>
+</x-slot:structuredData>
+
 
 {{-- ============================================================
      Page intro

@@ -1,8 +1,78 @@
 <x-layouts.app
-    title="Your family's WhatsApp, with memory"
-    description="Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes — Pratyek remembers. A product of Relynext Solutions Pvt Ltd."
-    og-image="/og/home.png"
+    title="Pratyek — WhatsApp Concierge for Indian Households"
+    description="WhatsApp-native household concierge for Indian families. Forward bills, send voice notes — Pratyek remembers. DPDP-compliant. By Relynext Solutions Pvt Ltd."
+    keywords="WhatsApp household concierge India, Indian family bill reminder, household management WhatsApp, family concierge India, Pratyek, Relynext Solutions"
+    og-image="/og/default.svg"
+    page-type="WebPage"
 >
+
+<x-slot:structuredData>
+{{-- WebSite + SearchAction (sitelinks searchbox eligibility) --}}
+<script type="application/ld+json">@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://pratyek.com/#website",
+  "url": "https://pratyek.com",
+  "name": "Pratyek",
+  "alternateName": "प्रत्येक",
+  "description": "WhatsApp-native household concierge for Indian families.",
+  "inLanguage": "en-IN",
+  "publisher": { "@id": "https://pratyek.com/#organization" },
+  "potentialAction": [
+    {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://pratyek.com/memory?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  ]
+}
+@endverbatim</script>
+
+{{-- SoftwareApplication describing the product itself --}}
+<script type="application/ld+json">@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://pratyek.com/#software",
+  "name": "Pratyek",
+  "applicationCategory": "LifestyleApplication",
+  "applicationSubCategory": "Household management",
+  "operatingSystem": "WhatsApp, Web",
+  "url": "https://pratyek.com",
+  "description": "Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes, ask in any Indian language — Pratyek extracts, files, and remembers.",
+  "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "INR",
+    "availability": "https://schema.org/LimitedAvailability",
+    "validFrom": "2026-04-01",
+    "validThrough": "2026-06-30",
+    "description": "Free during private beta (Apr–Jun 2026); paid subscription post-beta, no advertising tier."
+  },
+  "publisher": { "@id": "https://pratyek.com/#organization" },
+  "featureList": [
+    "Bills & utilities tracking",
+    "Renewals and expiry tracking",
+    "Document expiry tracking via DigiLocker",
+    "Vehicle records and PUC reminders",
+    "Domestic staff attendance and salary",
+    "Appliance warranties and service cycles",
+    "Subscription and delivery management",
+    "Family occasions and festival prep",
+    "Health reminders and pet care",
+    "Education fees and exam dates",
+    "Finance EMIs SIPs tax deadlines",
+    "Coordination — shared lists, todos, contacts"
+  ]
+}
+@endverbatim</script>
+</x-slot:structuredData>
+
 
 {{-- ============================================================
      Hero

@@ -1,7 +1,14 @@
 <x-layouts.app
-    title="Terms of Service — Pratyek and Relynext Solutions"
-    description="Terms governing your use of Pratyek, the WhatsApp-native household concierge by Relynext Solutions Private Limited."
-    og-image="/og/legal.png"
+    title="Terms of Service — Pratyek by Relynext Solutions"
+    description="Terms governing your use of Pratyek, the WhatsApp-native household concierge by Relynext Solutions Private Limited. Governed by the laws of India."
+    keywords="terms of service India, Relynext Solutions terms, Pratyek user agreement, governing law India, Mumbai jurisdiction"
+    og-image="/og/default.svg"
+    page-type="WebPage"
+    :breadcrumbs="[
+        ['name' => 'Home',             'url' => '/'],
+        ['name' => 'Legal',            'url' => '/legal/terms'],
+        ['name' => 'Terms of Service', 'url' => '/legal/terms'],
+    ]"
 >
 
 <section class="legal-page">

@@ -1,7 +1,14 @@
 <x-layouts.app
-    title="Privacy Policy — Pratyek and Relynext Solutions"
-    description="Plain-language privacy policy. What we collect, what we don't, where we store it, how to delete it. DPDP-compliant."
-    og-image="/og/legal.png"
+    title="Privacy Policy — Pratyek by Relynext Solutions"
+    description="What we collect, what we don't, where we store it, how to delete it. Plain-language privacy policy, DPDP-compliant. Last updated 1 April 2026."
+    keywords="privacy policy India, DPDP compliance, household data protection, Relynext Solutions privacy, Pratyek data retention, India data residency"
+    og-image="/og/default.svg"
+    page-type="WebPage"
+    :breadcrumbs="[
+        ['name' => 'Home',           'url' => '/'],
+        ['name' => 'Legal',          'url' => '/legal/privacy-policy'],
+        ['name' => 'Privacy Policy', 'url' => '/legal/privacy-policy'],
+    ]"
 >
 
 <section class="legal-page">

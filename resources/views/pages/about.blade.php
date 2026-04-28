@@ -1,8 +1,38 @@
 <x-layouts.app
-    title="About — Pratyek is a product of Relynext Solutions Private Limited"
-    description="The company behind Pratyek. Mission, team, registered address, CIN. Building a second mind for the Indian household CFO."
-    og-image="/og/about.png"
+    title="About — Built by Relynext Solutions, Mumbai | Pratyek"
+    description="Pratyek is a product of Relynext Solutions Private Limited, a Mumbai product company. Mission, team, registered address, CIN, GST — the people behind Pratyek."
+    keywords="Relynext Solutions Private Limited, Pratyek company, Mumbai product company, Indian product startup, Pratyek founder Nisarg, household concierge company"
+    og-image="/og/default.svg"
+    page-type="AboutPage"
+    :breadcrumbs="[
+        ['name' => 'Home',  'url' => '/'],
+        ['name' => 'About', 'url' => '/about'],
+    ]"
 >
+
+<x-slot:structuredData>
+{{-- Founder Person — E-E-A-T signal --}}
+<script type="application/ld+json">@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://pratyek.com/about#nisarg",
+  "name": "Nisarg",
+  "jobTitle": "Founder",
+  "worksFor": { "@id": "https://pratyek.com/#organization" },
+  "homeLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    }
+  }
+}
+@endverbatim</script>
+</x-slot:structuredData>
+
 
 {{-- ============================================================
      Page intro — leads with Relynext (Meta-critical)

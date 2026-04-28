@@ -1,5 +1,5 @@
 @php
-    $currentRoute = request()->route()->getName();
+    $currentRoute = request()->route()?->getName();
     $navLinks = [
         ['route' => 'product',  'label' => 'Product'],
         ['route' => 'features', 'label' => 'Features'],

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#EFE8D8"/>
+
+  <!-- Hairline at top -->
+  <rect x="0" y="0" width="1200" height="1" fill="rgba(18,17,16,0.06)"/>
+
+  <!-- Wordmark top-left -->
+  <text x="80" y="100" font-family="Georgia, 'Times New Roman', serif"
+        font-size="34" font-weight="400" letter-spacing="-0.012em" fill="#121110">Pratyek</text>
+  <circle cx="219" cy="93" r="6" fill="#B8321E"/>
+
+  <!-- Headline -->
+  <text x="80" y="290" font-family="Georgia, 'Times New Roman', serif"
+        font-size="76" font-weight="300" letter-spacing="-0.025em" fill="#121110">Your family's WhatsApp,</text>
+  <text x="80" y="380" font-family="Georgia, 'Times New Roman', serif"
+        font-size="76" font-weight="300" letter-spacing="-0.025em" font-style="italic" fill="#B8321E">with memory.</text>
+
+  <!-- Sub -->
+  <text x="80" y="450" font-family="Helvetica, Arial, sans-serif"
+        font-size="22" font-weight="400" fill="#3C3A35">A WhatsApp-native household concierge for Indian families.</text>
+
+  <!-- Footer line -->
+  <rect x="80" y="540" width="1040" height="1" fill="rgba(18,17,16,0.12)"/>
+  <text x="80" y="585" font-family="Helvetica, Arial, sans-serif"
+        font-size="18" font-weight="500" fill="#3C3A35">A product of Relynext Solutions Private Limited.</text>
+  <text x="1120" y="585" font-family="Georgia, 'Times New Roman', serif"
+        font-size="22" font-weight="400" fill="#B8321E" text-anchor="end">प्रत्येक</text>
+</svg>
