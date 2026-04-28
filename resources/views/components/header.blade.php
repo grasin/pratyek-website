@@ -52,12 +52,19 @@
 
     <div id="mobile-menu" class="mobile-menu" aria-hidden="true" role="dialog" aria-label="Navigation menu">
         <div class="mobile-menu-inner">
-            <button
-                class="mobile-menu-close"
-                aria-label="Close navigation menu"
-            >
-                <x-icon name="x" aria-hidden="true" />
-            </button>
+            <div class="mobile-menu-top">
+                <a href="{{ route('home') }}" class="wordmark" aria-label="Pratyek home">
+                    Pratyek<span class="wordmark-dot" aria-hidden="true">.</span>
+                </a>
+                <button
+                    class="mobile-menu-close"
+                    aria-label="Close navigation menu"
+                    type="button"
+                >
+                    <x-icon name="x" aria-hidden="true" />
+                </button>
+            </div>
+
             <nav aria-label="Mobile navigation">
                 <ul role="list">
                     @foreach ($navLinks as $link)
@@ -71,15 +78,21 @@
                     @endforeach
                 </ul>
             </nav>
-            <a
-                href="https://wa.me/919372023537?text=Hi"
-                class="btn btn-primary"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <x-icon name="whatsapp" aria-hidden="true" />
-                Start on WhatsApp
-            </a>
+
+            <div class="mobile-menu-foot">
+                <a
+                    href="https://wa.me/919372023537?text=Hi"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <x-icon name="whatsapp" aria-hidden="true" />
+                    Start on WhatsApp
+                </a>
+                <p class="mobile-menu-phone">
+                    or call <a href="https://wa.me/919372023537?text=Hi">+91 93720 23537</a>
+                </p>
+            </div>
         </div>
     </div>
 </header>

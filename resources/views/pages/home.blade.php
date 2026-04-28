@@ -184,7 +184,7 @@
             <p class="kicker">Four moments</p>
             <h2 style="max-width: 24ch;">What it looks like inside the chat.</h2>
             <p class="lede" style="margin-top: var(--space-3); max-width: 56ch;">
-                Pratyek lives at <strong>+91 98XXX XXXXX</strong>. You message it like any other contact.
+                Pratyek lives at <strong><a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 4px;">+91 93720 23537</a></strong>. You message it like any other contact.
                 Below: four real beats, four real days.
             </p>
         </div>
