@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Pratyek — WhatsApp Concierge for Indian Households"
-    description="WhatsApp-native household concierge for Indian families. Forward bills, send voice notes — Pratyek remembers. DPDP-compliant. By Relynext Solutions, Mumbai."
-    keywords="WhatsApp household concierge India, Indian family bill reminder, household management WhatsApp, family concierge India, Pratyek, Relynext Solutions"
+    title="Pratyek by Relynext Solutions — WhatsApp Household Concierge"
+    description="Pratyek by Relynext Solutions, Mumbai — a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes; Pratyek remembers. DPDP-compliant."
+    keywords="Pratyek by Relynext Solutions, Relynext Solutions Mumbai, WhatsApp household concierge India, Indian family bill reminder, household management WhatsApp, Pratyek"
     og-image="/og/default.svg"
     page-type="WebPage"
 >
@@ -77,7 +77,7 @@
      ============================================================ --}}
 <section class="hero">
     <div class="wrap">
-        <p class="hero-eyebrow">A second mind for the household CFO</p>
+        <p class="hero-eyebrow">A Relynext Solutions product &middot; A second mind for the household CFO</p>
         <h1>
             Your family's WhatsApp forgets everything.
             <em>We built something that remembers.</em>

@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="How Pratyek Works — WhatsApp In, Web Memory Out"
-    description="Pratyek captures from WhatsApp and surfaces back at memory.pratyek.com. Bills, warranties, renewals, staff, appliances — all sorted, all searchable, India-hosted."
-    keywords="how Pratyek works, WhatsApp household management, Indian family memory app, bill tracking WhatsApp, warranty tracking India, voice note bill reminder, DigiLocker"
+    title="How Pratyek by Relynext Solutions Works — WhatsApp Memory"
+    description="How Pratyek by Relynext Solutions works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, warranties, renewals, staff — all sorted, all searchable, India-hosted."
+    keywords="how Pratyek works, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -40,12 +40,13 @@
      ============================================================ --}}
 <section class="page-intro">
     <div class="wrap">
-        <p class="hero-eyebrow">How it works</p>
+        <p class="hero-eyebrow">A Relynext Solutions product &middot; How it works</p>
         <h1>WhatsApp <em>writes.</em> The dashboard <em>reads.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek is built around two surfaces. The WhatsApp chat is where your family captures
-            &mdash; effortlessly, in the language they already speak. The web dashboard at
-            <strong>memory.pratyek.com</strong> is where you retrieve, sort, and export. One product, two doors.
+            Pratyek &mdash; built and operated by <strong>Relynext Solutions</strong>, Mumbai &mdash; runs on two
+            surfaces. The WhatsApp chat is where your family captures, effortlessly, in the language they already
+            speak. The web dashboard at <strong>memory.pratyek.com</strong> is where you retrieve, sort, and export.
+            One product, two doors.
         </p>
     </div>
 </section>

@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Why Pratyek — Made in India, for the Indian household"
-    description="A manifesto. India deserves products built from the inside out — not Western tools dressed in a kurta. Why we built Pratyek for the Indian household."
-    keywords="why Pratyek, made in India, Indian product company, productivity tools India, swadeshi software, Indian household productivity, products for India not Western"
+    title="Why Pratyek by Relynext Solutions — Made in India"
+    description="A manifesto from Relynext Solutions, Mumbai. India deserves products built from the inside out — not Western tools dressed in a kurta. Why we built Pratyek."
+    keywords="why Pratyek, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, made in India, Indian product company, productivity tools India, swadeshi software, products for India not Western"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -15,15 +15,15 @@
      ============================================================ --}}
 <section class="page-intro">
     <div class="wrap-narrow">
-        <p class="hero-eyebrow">Why Pratyek</p>
+        <p class="hero-eyebrow">A Relynext Solutions product &middot; Why Pratyek</p>
         <h1>
             India runs on <em>300 million</em> households. Not one of the big productivity tools
             was built for any of them.
         </h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            A manifesto, plainly stated. India does not need another translated app.
-            India needs <em>its own products</em> &mdash; built from the inside out, for the way Indian
-            families actually live. Pratyek is the first one we're building.
+            A manifesto from <strong>Relynext Solutions</strong>, Mumbai, plainly stated. India does not need
+            another translated app. India needs <em>its own products</em> &mdash; built from the inside out, for
+            the way Indian families actually live. Pratyek is the first one we're building.
         </p>
     </div>
 </section>
@@ -248,7 +248,7 @@
         </div>
 
         <p class="signoff" style="margin-top: var(--space-7);">
-            &mdash; <strong>the makers of Pratyek</strong> &middot; Mumbai
+            &mdash; <strong>the makers of Pratyek</strong>, at <strong>Relynext Solutions</strong> &middot; Mumbai
         </p>
     </div>
 </section>

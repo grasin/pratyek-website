@@ -34,6 +34,19 @@
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to content</a>
+
+    {{-- Persistent legal-entity ribbon. Establishes the Pratyek↔Relynext
+         Solutions relationship in the first pixel of every page so Meta
+         reviewers (and humans) find it without scrolling. --}}
+    <div class="entity-ribbon" role="complementary" aria-label="Legal entity">
+        <div class="wrap-wide entity-ribbon-inner">
+            <span>
+                <strong>Pratyek</strong> is a product of
+                <a href="{{ route('about') }}"><strong>Relynext Solutions</strong></a>, Mumbai.
+            </span>
+        </div>
+    </div>
+
     <x-header />
     <main id="main-content">
         {{ $slot }}

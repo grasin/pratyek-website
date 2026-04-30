@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Features — Bills, Renewals, Staff &amp; 9 More | Pratyek"
-    description="Bills, renewals, documents, vehicles, staff, appliances, subscriptions, occasions, health, education, finance, coordination — all in one second mind."
-    keywords="household features, bill tracking India, warranty management India, family staff salary tracker, Indian renewal reminders, BBMP property tax tracker, Adani Tata Play bills, Bajaj Allianz renewal"
+    title="Features — Pratyek by Relynext Solutions, Mumbai"
+    description="Twelve categories Pratyek (by Relynext Solutions, Mumbai) tracks for Indian households — bills, renewals, staff, appliances, occasions, health, education, finance, more."
+    keywords="Pratyek by Relynext Solutions, Relynext Solutions Mumbai, household features, bill tracking India, warranty management India, BBMP property tax tracker, Adani Tata Play bills"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -54,12 +54,12 @@
      ============================================================ --}}
 <section class="page-intro">
     <div class="wrap">
-        <p class="hero-eyebrow">Features</p>
+        <p class="hero-eyebrow">A Relynext Solutions product &middot; Features</p>
         <h1>Everything an Indian household actually <em>tracks</em>.</h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            We started by writing down what one household needed to remember in a single year. We came up with
-            <strong>twelve categories</strong>. Every category below is something a real Indian family deals with;
-            we name brands and providers because vagueness is a tell.
+            Pratyek (by <strong>Relynext Solutions</strong>, Mumbai) started by writing down what one household
+            needed to remember in a single year. We came up with <strong>twelve categories</strong>. Every category
+            below is something a real Indian family deals with; we name brands and providers because vagueness is a tell.
         </p>
     </div>
 </section>
