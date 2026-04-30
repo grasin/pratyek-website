@@ -17,7 +17,7 @@
     <div class="wrap-narrow">
         <p class="hero-eyebrow">Why Pratyek</p>
         <h1>
-            India runs on <em>1.4 billion</em> households. Not one of the big productivity tools
+            India runs on <em>300 million</em> households. Not one of the big productivity tools
             was built for any of them.
         </h1>
         <p class="lede" style="margin-top: var(--space-5);">

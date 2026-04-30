@@ -133,7 +133,7 @@
                 It writes everything down. And when you need it, it remembers.
             </p>
         </div>
-        <p class="signoff">&mdash; <strong>the makers of Pratyek</strong> &middot; Mumbai</p>
+        <p class="signoff">&mdash; a story from <strong>one of the makers</strong> &middot; Mumbai</p>
     </div>
 </section>
 

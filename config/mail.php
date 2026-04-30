@@ -18,6 +18,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Contact form recipient
+    |--------------------------------------------------------------------------
+    | The address that contact-form submissions are emailed to. Set the
+    | MAIL_TO env var in production. Defaults to hello@pratyek.com.
+    */
+
+    'contact_to' => env('MAIL_TO', 'hello@pratyek.com'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Mailer Configurations
     |--------------------------------------------------------------------------
     |

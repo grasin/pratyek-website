@@ -15,7 +15,7 @@
     <div class="wrap-narrow">
         <p class="hero-eyebrow">Legal</p>
         <h1>DPDP Act compliance</h1>
-        <p class="legal-page-meta">Last updated: 1 April 2026 &middot; Version 1.0</p>
+        <p class="legal-page-meta">Last updated: 30 April 2026 &middot; Version 1.0</p>
 
         <div class="legal-content">
 
