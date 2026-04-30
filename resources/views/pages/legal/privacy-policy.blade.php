@@ -44,7 +44,7 @@
                 <li><strong>Derived metadata</strong> &mdash; the structured information we extract from those messages (e.g., bill amount, due date, account number).</li>
                 <li><strong>Account information</strong> &mdash; the WhatsApp number you message us from, an email if you supply one, and a household name if you set one.</li>
                 <li><strong>Web dashboard usage</strong> &mdash; basic logs (IP, browser, page visited) needed to operate the dashboard at memory.pratyek.com.</li>
-                <li><strong>Cookies</strong> &mdash; only essential authentication cookies on the dashboard. No third-party tracking cookies.</li>
+                <li><strong>Cookies</strong> &mdash; essential authentication cookies on the dashboard, and a small set of analytics cookies (Plausible, which is cookieless; and Google Analytics 4 with IP anonymisation) on the marketing site to measure aggregate usage. No advertising or behavioural-targeting cookies, ever.</li>
             </ul>
 
             <h2>3. What we explicitly do not collect</h2>
@@ -84,6 +84,8 @@
                 <li><strong>OpenRouter</strong> &mdash; routing layer for LLM access (Claude from Anthropic, Gemma from Google).</li>
                 <li><strong>Sarvam</strong> &mdash; speech-to-text for voice notes in Indian languages.</li>
                 <li><strong>DigitalOcean</strong> &mdash; hosting and backup, India region only.</li>
+                <li><strong>Plausible Analytics</strong> &mdash; aggregate, cookieless website analytics (no personal identifiers).</li>
+                <li><strong>Google Analytics 4</strong> &mdash; aggregate website analytics with IP anonymisation enabled. Helps us understand which pages and features are used; not used to identify you.</li>
             </ul>
             <p>
                 None of these processors retain your data for their own purposes, train models on it, or sell

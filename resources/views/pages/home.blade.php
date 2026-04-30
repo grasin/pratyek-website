@@ -87,11 +87,11 @@
             Pratyek reads, sorts, and remembers — quietly, in the background, in the chat your family already lives in.
         </p>
         <div class="hero-actions">
-            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-track-location="hero_home">
                 <x-icon name="whatsapp" />
                 Start on WhatsApp
             </a>
-            <a href="{{ route('product') }}" class="btn-link">
+            <a href="{{ route('product') }}" class="btn-link" data-track-event="cta_click" data-track-location="hero_home">
                 See how it works
                 <x-icon name="arrow-right" />
             </a>

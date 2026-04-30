@@ -29,7 +29,7 @@
                 <li><a href="{{ route('about') }}">About</a></li>
                 <li><a href="{{ route('contact') }}">Contact</a></li>
                 <li>
-                    <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">
+                    <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer" data-track-location="footer">
                         Start on WhatsApp
                     </a>
                 </li>
@@ -50,8 +50,8 @@
         <div class="footer-bottom-inner wrap-wide">
             <p class="footer-legal-line">
                 &copy; 2026 Relynext Solutions. All rights reserved.
-                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="mailto:hello@pratyek.com">hello@pratyek.com</a>
-                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a>
+                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="mailto:hello@pratyek.com" data-track-location="footer">hello@pratyek.com</a>
+                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer" data-track-location="footer">+91 93720 23537</a>
             </p>
             <p class="footer-devanagari" aria-hidden="true">प्रत्येक</p>
         </div>

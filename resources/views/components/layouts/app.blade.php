@@ -29,8 +29,25 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    {{-- Google Analytics 4. Override the ID via GA_MEASUREMENT_ID env var. --}}
+    @php($gaId = env('GA_MEASUREMENT_ID', 'G-T7189SH5EV'))
+    @if ($gaId)
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ $gaId }}"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ $gaId }}', {
+            anonymize_ip: true,
+            page_path: window.location.pathname,
+        });
+        window.__GA_ID__ = '{{ $gaId }}';
+    </script>
+    @endif
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to content</a>

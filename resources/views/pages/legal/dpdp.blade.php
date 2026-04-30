@@ -141,8 +141,8 @@
                 Pratyek does not transfer personal data outside India for storage. Production data and backups
                 live on servers in Bangalore. The only outbound connections are to processors named in our
                 Privacy Policy &mdash; Meta (for WhatsApp delivery), OpenRouter (for LLM access), Sarvam
-                (for speech-to-text) &mdash; each under data processing agreements that limit retention and
-                forbid further use.
+                (for speech-to-text), Plausible and Google Analytics 4 (for aggregate website analytics) &mdash;
+                each under data processing agreements that limit retention and forbid further use.
             </p>
 
             <h2>13. Children</h2>

@@ -35,6 +35,7 @@
             class="btn btn-primary"
             target="_blank"
             rel="noopener noreferrer"
+            data-track-location="header"
         >
             <x-icon name="whatsapp" aria-hidden="true" />
             Start on WhatsApp
@@ -85,12 +86,13 @@
                     class="btn btn-primary"
                     target="_blank"
                     rel="noopener noreferrer"
+                    data-track-location="mobile_menu"
                 >
                     <x-icon name="whatsapp" aria-hidden="true" />
                     Start on WhatsApp
                 </a>
                 <p class="mobile-menu-phone">
-                    or call <a href="https://wa.me/919372023537?text=Hi">+91 93720 23537</a>
+                    or call <a href="https://wa.me/919372023537?text=Hi" data-track-location="mobile_menu">+91 93720 23537</a>
                 </p>
             </div>
         </div>
