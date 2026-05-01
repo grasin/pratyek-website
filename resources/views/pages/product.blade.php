@@ -1,6 +1,6 @@
 <x-layouts.app
     title="How Pratyek by Relynext Solutions Works — WhatsApp Memory"
-    description="How Pratyek by Relynext Solutions works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, warranties, renewals, staff — all sorted, all searchable, India-hosted."
+    description="How Pratyek by Relynext Solutions works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, warranties, renewals, staff — all sorted, all searchable."
     keywords="how Pratyek works, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -187,7 +187,7 @@
             <h2 style="max-width: 28ch;">Real scenes from real households &mdash; what the chat looks like.</h2>
         </div>
 
-        <div class="scenes-grid">
+        <div class="scenes-grid" data-nosnippet>
 
             {{-- 1. Bill --}}
             <div class="scene">
@@ -484,7 +484,7 @@
             </p>
         </div>
 
-        <div class="dash-frame">
+        <div class="dash-frame" data-nosnippet>
             <div class="dash-chrome">
                 <div class="dash-chrome-dots"><span></span><span></span><span></span></div>
                 <div class="dash-url"><strong>pratyek.com</strong>/memory/bills</div>

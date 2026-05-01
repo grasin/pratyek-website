@@ -1,6 +1,6 @@
 <x-layouts.app
     title="Features — Pratyek by Relynext Solutions, Mumbai"
-    description="Twelve categories Pratyek (by Relynext Solutions, Mumbai) tracks for Indian households — bills, renewals, staff, appliances, occasions, health, education, finance, more."
+    description="Twelve categories Pratyek (by Relynext Solutions) tracks — bills, renewals, staff, appliances, occasions, health, education, finance, and more."
     keywords="Pratyek by Relynext Solutions, Relynext Solutions Mumbai, household features, bill tracking India, warranty management India, BBMP property tax tracker, Adani Tata Play bills"
     og-image="/og/default.svg"
     page-type="WebPage"
