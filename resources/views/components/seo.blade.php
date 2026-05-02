@@ -66,14 +66,16 @@
 <link rel="alternate" hreflang="en-IN" href="{{ $canonicalUrl }}">
 <link rel="alternate" hreflang="x-default" href="{{ $canonicalUrl }}">
 
-{{-- Schema.org Organization (every page) --}}
+{{-- Schema.org Organization (every page).
+     Includes Knowledge-Graph-friendly fields for entity disambiguation
+     vs. similarly-named entities (e.g., the NGO at pratyek.org.in). --}}
 <script type="application/ld+json">@verbatim
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://pratyek.com/#organization",
   "name": "Relynext Solutions",
-  "alternateName": "Pratyek",
+  "alternateName": ["Pratyek", "Pratyek by Relynext Solutions"],
   "legalName": "Relynext Solutions",
   "url": "https://pratyek.com",
   "logo": {
@@ -82,7 +84,11 @@
     "width": 512,
     "height": 512
   },
+  "image": "https://pratyek.com/og/default.svg",
+  "slogan": "A second mind for the Indian household.",
   "description": "Relynext Solutions is the maker of Pratyek, a WhatsApp-native household concierge for Indian families. DPDP-compliant, India-hosted, no ads, no data sold.",
+  "disambiguatingDescription": "Pratyek (the WhatsApp-native household concierge by Relynext Solutions, Mumbai) is a software product company. Distinct from any other entity sharing the name 'Pratyek'.",
+  "foundingDate": "2026",
   "foundingLocation": {
     "@type": "Place",
     "address": {
@@ -115,13 +121,35 @@
   ],
   "knowsAbout": [
     "household management",
-    "WhatsApp business automation",
+    "WhatsApp household concierge",
+    "family bill reminders",
+    "Indian household productivity",
+    "domestic staff salary tracking",
+    "appliance warranty management",
+    "vehicle insurance renewal reminders",
     "Digital Personal Data Protection Act 2023",
-    "Indian family services"
+    "DigiLocker",
+    "Indian family services",
+    "WhatsApp business automation"
+  ],
+  "knowsLanguage": [
+    {"@type": "Language", "name": "English",   "alternateName": "en"},
+    {"@type": "Language", "name": "Hindi",     "alternateName": "hi"},
+    {"@type": "Language", "name": "Marathi",   "alternateName": "mr"},
+    {"@type": "Language", "name": "Tamil",     "alternateName": "ta"},
+    {"@type": "Language", "name": "Telugu",    "alternateName": "te"},
+    {"@type": "Language", "name": "Kannada",   "alternateName": "kn"},
+    {"@type": "Language", "name": "Bengali",   "alternateName": "bn"},
+    {"@type": "Language", "name": "Gujarati",  "alternateName": "gu"},
+    {"@type": "Language", "name": "Punjabi",   "alternateName": "pa"}
   ],
   "areaServed": {
     "@type": "Country",
     "name": "India"
+  },
+  "subjectOf": {
+    "@type": "WebPage",
+    "url": "https://pratyek.com/about"
   }
 }
 @endverbatim</script>

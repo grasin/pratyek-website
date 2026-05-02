@@ -1,7 +1,7 @@
 <x-layouts.app
     title="How Pratyek by Relynext Solutions Works — WhatsApp Memory"
     description="How Pratyek by Relynext Solutions works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, warranties, renewals, staff — all sorted, all searchable."
-    keywords="how Pratyek works, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker"
+    keywords="how Pratyek works, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker integration, household app two surfaces, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, family CFO dashboard"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[

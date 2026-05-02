@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Features — Pratyek by Relynext Solutions, Mumbai"
     description="Twelve categories Pratyek (by Relynext Solutions) tracks — bills, renewals, staff, appliances, occasions, health, education, finance, and more."
-    keywords="Pratyek by Relynext Solutions, Relynext Solutions Mumbai, household features, bill tracking India, warranty management India, BBMP property tax tracker, Adani Tata Play bills"
+    keywords="Pratyek features, household management features India, Pratyek by Relynext Solutions, bill tracking app India, warranty management India, AC service reminder, RO filter change reminder, BBMP property tax tracker, BMC property tax reminder, Adani electricity reminder, JioFiber bill, Tata Play subscription, Bajaj Allianz renewal, ICICI Lombard mediclaim renewal, vehicle PUC reminder, passport renewal reminder, FASTag balance tracker, maid salary tracker, Diwali bonus reminder, family expense tracker WhatsApp"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[

@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Pratyek by Relynext Solutions — WhatsApp Household Concierge"
     description="Pratyek by Relynext Solutions, Mumbai — a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes; Pratyek remembers."
-    keywords="Pratyek by Relynext Solutions, Relynext Solutions Mumbai, WhatsApp household concierge India, Indian family bill reminder, household management WhatsApp, Pratyek"
+    keywords="Pratyek, Pratyek WhatsApp, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, household management app India, WhatsApp household concierge, family bill reminder app, track maid salary, Indian family productivity, Adani electricity bill reminder, BMC property tax tracker, Bajaj Allianz renewal alert, JioFiber bill tracker, Tata Play renewal, mediclaim renewal reminder, household CFO tool, DPDP compliant family app, made in India productivity"
     og-image="/og/default.svg"
     page-type="WebPage"
 >
@@ -39,12 +39,22 @@
   "@type": "SoftwareApplication",
   "@id": "https://pratyek.com/#software",
   "name": "Pratyek",
+  "alternateName": ["Pratyek by Relynext Solutions", "Pratyek WhatsApp household concierge"],
   "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household management",
+  "applicationSubCategory": "Household management concierge",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
-  "description": "Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes, ask in any Indian language — Pratyek extracts, files, and remembers.",
+  "image": "https://pratyek.com/og/default.svg",
+  "screenshot": "https://pratyek.com/og/default.svg",
+  "description": "Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim — Pratyek extracts, files, and remembers.",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
+  "audience": {
+    "@type": "PeopleAudience",
+    "name": "Indian household CFO",
+    "geographicArea": { "@type": "Country", "name": "India" },
+    "suggestedMinAge": 18
+  },
+  "countriesSupported": "IN",
   "offers": {
     "@type": "Offer",
     "price": "0",
@@ -54,18 +64,18 @@
   },
   "publisher": { "@id": "https://pratyek.com/#organization" },
   "featureList": [
-    "Bills & utilities tracking",
-    "Renewals and expiry tracking",
+    "Bills & utilities tracking — Adani Electricity, BSES, BESCOM, BEST, MSEDCL, JioFiber, Tata Play",
+    "Renewals and expiry tracking — Bajaj Allianz, ICICI Lombard, vehicle PUC, passport, DL",
     "Document expiry tracking via DigiLocker",
-    "Vehicle records and PUC reminders",
-    "Domestic staff attendance and salary",
-    "Appliance warranties and service cycles",
-    "Subscription and delivery management",
-    "Family occasions and festival prep",
-    "Health reminders and pet care",
-    "Education fees and exam dates",
-    "Finance EMIs SIPs tax deadlines",
-    "Coordination — shared lists, todos, contacts"
+    "Vehicle records — registration, insurance, PUC, FASTag, service cycle",
+    "Domestic staff attendance, salary, leaves, festival bonuses",
+    "Appliance warranties and service cycles — AC, washing machine, refrigerator, RO filter",
+    "Subscription and delivery management — milk, newspaper, OTT, DTH",
+    "Family occasions — birthdays, anniversaries, shraadh, Diwali Onam Eid Pongal Christmas prep",
+    "Health reminders, periodic tests, elder care, children milestones, pet care",
+    "Education — school fees, tuition, exam dates, IIT/NEET coaching",
+    "Finance — EMIs, SIPs, advance tax, ITR, GST, BBMP/BMC property tax",
+    "Coordination — shared shopping list, todos, family contacts, holiday list"
   ]
 }
 @endverbatim</script>
@@ -176,8 +186,31 @@
 </section>
 
 {{-- ============================================================
-     Scenes (4 selected)
+     What Pratyek tracks — SEO-rich text section (snippet-eligible).
+     Uses real Indian brand names so Google indexes long-tail queries
+     like 'Adani electricity bill reminder', 'BMC property tax tracker',
+     'Bajaj Allianz renewal alert' against this page.
      ============================================================ --}}
+<section class="section-tight">
+    <div class="wrap-narrow">
+        <p class="kicker">What Pratyek tracks</p>
+        <h2 style="margin-top: var(--space-3); margin-bottom: var(--space-5);">
+            A WhatsApp household concierge for Indian families.
+        </h2>
+        <p class="lede" style="max-width: 64ch;">
+            Pratyek (by Relynext Solutions, Mumbai) is a <strong>household management app for Indian
+            families</strong> that lives on WhatsApp. Forward your <strong>Adani Electricity</strong>,
+            <strong>JioFiber</strong>, <strong>Tata Play</strong>, or <strong>Mahanagar Gas</strong>
+            bill and Pratyek extracts the amount, due date, and account number. Get
+            <strong>Bajaj Allianz motor insurance</strong>, <strong>ICICI Lombard mediclaim</strong>,
+            and <strong>vehicle PUC</strong> renewal reminders weeks ahead. Log your maid's attendance
+            and salary in three words, track <strong>BMC / BBMP property tax</strong> windows, remember
+            Diwali bonuses across years, never miss an AC service or RO filter change.
+            All in your existing WhatsApp chat &mdash; nothing to install, no app to learn.
+        </p>
+    </div>
+</section>
+
 <section class="section">
     <div class="wrap-wide">
         <div class="section-head">

@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Why Pratyek by Relynext Solutions — Made in India"
     description="A manifesto from Relynext Solutions, Mumbai. India deserves products built from the inside out — not Western tools dressed in a kurta. Why we built Pratyek."
-    keywords="why Pratyek, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, made in India, Indian product company, productivity tools India, swadeshi software, products for India not Western"
+    keywords="why Pratyek, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, made in India productivity, Indian product company, productivity tools India, swadeshi software, products for India not Western, Indian household management, Notion alternative India, Trello alternative India, Indian-built productivity, Hindi productivity app, Hinglish productivity"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
