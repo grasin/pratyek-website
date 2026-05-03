@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Pratyek - India's Household Jugaad System"
-    description="India's household jugaad system, built inside WhatsApp. Turn family messages into bills, tasks, reminders, assets, staff, and services."
-    keywords="Pratyek, Pratyek WhatsApp, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family organizer India, family organiser India, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household jugaad system India"
+    title="Pratyek - India's Household Management System"
+    description="India's household management system, built inside WhatsApp. Turn family messages into bills, tasks, reminders, assets, staff, and services."
+    keywords="Pratyek, Pratyek WhatsApp, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family organizer India, family organiser India, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household management system India"
     og-image="/og/default.svg"
     page-type="WebPage"
 >
@@ -16,7 +16,7 @@
   "url": "https://pratyek.com",
   "name": "Pratyek",
   "alternateName": "\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915",
-  "description": "India's household jugaad system, built inside WhatsApp.",
+  "description": "India's household management system, built inside WhatsApp.",
   "inLanguage": "en-IN",
   "publisher": { "@id": "https://pratyek.com/#organization" },
   "potentialAction": [
@@ -39,15 +39,15 @@
   "@type": "SoftwareApplication",
   "@id": "https://pratyek.com/#software",
   "name": "Pratyek",
-  "alternateName": ["Pratyek household jugaad system", "Pratyek family management app", "Pratyek WhatsApp household assistant"],
+  "alternateName": ["Pratyek household management system", "Pratyek family management app", "Pratyek WhatsApp household assistant"],
   "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household and family jugaad system",
+  "applicationSubCategory": "Household and family management system",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
   "image": "https://pratyek.com/og/default.svg",
   "screenshot": "https://pratyek.com/og/default.svg",
-  "description": "Pratyek is India's household jugaad system, built inside WhatsApp for every Indian home. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim - Pratyek extracts, files, and turns them into a searchable Memory dashboard.",
-  "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household jugaad system India",
+  "description": "Pratyek is India's household management system, built inside WhatsApp for every Indian home. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim - Pratyek extracts, files, and turns them into a searchable Memory dashboard.",
+  "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household management system India",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "audience": {
     "@type": "PeopleAudience",
@@ -189,10 +189,10 @@
                 </h1>
                 <h2 class="hero-second-heading">
                     Just chat with Pratyek on WhatsApp. It turns ghar ka chaos into a proper, sophisticated Memory dashboard.
-                    Promise, this jugaad is real.
+                    Promise, this actually works.
                 </h2>
                 <p class="hero-sub">
-                    A message goes into WhatsApp. Memory turns it into bills, tasks, reminders, assets, staff, family, and services.
+                    A message goes into WhatsApp. The Memory dashboard turns it into bills, tasks, reminders, assets, staff, family, and services.
                     Pratyek means every. Built for every Indian home, from messy to super-organised.
                 </p>
                 <div class="hero-actions">
@@ -351,7 +351,7 @@
 
         <div class="flow-cta">
             <a href="{{ route('product') }}" class="btn-link">
-                See the full Memory model
+                See the full Memory dashboard model
                 <x-icon name="arrow-right" />
             </a>
         </div>
@@ -370,14 +370,14 @@
             </h2>
             <div class="promise-body">
                 <p>
-                    Pratyek is paid for by the families who use it &mdash; not by advertisers, not by data brokers,
+                    Pratyek is paid for by the families who use it - not by advertisers, not by data brokers,
                     not by anyone hovering over your shoulder. We don't read your other WhatsApp groups.
                     We don't store Aadhaar, PAN, or passport scans. We don't train models on your messages.
                 </p>
                 <p>
                     Your data sits on servers in <strong>Bangalore, India</strong>, behind India's
                     <strong>DPDP Act</strong>. You can export everything, anytime. You can delete everything,
-                    and within 30 days it's gone &mdash; by law and by design.
+                    and within 30 days it's gone - by law and by design.
                 </p>
                 <p style="font-style: italic; color: var(--ink); margin-top: var(--space-5);">
                     We WhatsApp our own mothers on this product. Trust is the whole game.
@@ -411,7 +411,7 @@
                     </p>
                     <p>
                         For retrieval and exports, there's a simple web dashboard at <strong>memory.pratyek.com</strong>
-                        &mdash; one log-in for the whole household.
+                        - one log-in for the whole household.
                     </p>
                 </div></div></div>
             </div>
@@ -424,7 +424,7 @@
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
                     <p>
                         Pratyek does not read existing WhatsApp groups. WhatsApp doesn't allow that, and we wouldn't
-                        ask for it &mdash; group chats carry sensitive content that is none of our business.
+                        ask for it - group chats carry sensitive content that is none of our business.
                     </p>
                     <p>
                         Instead, you create a small one-on-one or two-on-one chat with Pratyek and use that as your
@@ -441,7 +441,7 @@
                 </button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
                     <p>
-                        English, Hindi, Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, and Punjabi &mdash;
+                        English, Hindi, Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, and Punjabi -
                         plus the Hinglish your family actually speaks. Voice notes can switch mid-sentence.
                         Pratyek is built for multilingual Indian households, not for translating to English first.
                     </p>
@@ -496,7 +496,7 @@
 
                 <figure class="live-cta-qr">
                     <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat with Pratyek">
-                        <img src="/qr/whatsapp.svg" alt="QR code &mdash; scan to open WhatsApp chat with Pratyek at +91 93720 23537" width="220" height="220">
+                        <img src="/qr/whatsapp.svg" alt="QR code - scan to open WhatsApp chat with Pratyek at +91 93720 23537" width="220" height="220">
                     </a>
                     <figcaption>Or scan with your phone's camera.</figcaption>
                 </figure>
@@ -506,3 +506,5 @@
 </section>
 
 </x-layouts.app>
+
+

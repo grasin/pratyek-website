@@ -38,3 +38,4 @@
         {!! $icons[$name] !!}
     </span>
 @endif
+

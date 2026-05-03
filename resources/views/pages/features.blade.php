@@ -24,13 +24,13 @@
   "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, family organizer India, family organiser India, WhatsApp household assistant, family dashboard, shared family tasks, bill reminder app India, warranty tracker India, staff salary tracker",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "featureList": [
-    "Pratyek Reminders — Today, Calendar, Rules, done and snooze",
-    "Pratyek Tasks — to-dos and shopping",
-    "Pratyek Bills — bills and renewals",
-    "Pratyek Assets — appliances, warranties, vehicles, property",
-    "Pratyek Services — recurring deliveries and visits",
-    "Pratyek Staff — monthly household help",
-    "Pratyek Family — members, documents, contacts, occasions, health"
+    "Pratyek Reminders - Today, Calendar, Rules, done and snooze",
+    "Pratyek Tasks - to-dos and shopping",
+    "Pratyek Bills - bills and renewals",
+    "Pratyek Assets - appliances, warranties, vehicles, property",
+    "Pratyek Services - recurring deliveries and visits",
+    "Pratyek Staff - monthly household help",
+    "Pratyek Family - members, documents, contacts, occasions, health"
   ],
   "offers": {
     "@type": "Offer",
@@ -52,7 +52,7 @@
         <p class="hero-eyebrow">Features</p>
         <h1>The family dashboard for <em>every Indian home.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek is built to become India's most useful household jugaad system: practical enough for messy homes,
+            Pratyek is built to become India's most useful household management system: practical enough for messy homes,
             structured enough for super-organised families, and simple enough to start from one WhatsApp message.
             Every feature below maps to the live Memory dashboard.
         </p>
@@ -70,11 +70,11 @@
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="clock" /></div>
-                <p class="cat-num">Memory surface 01</p>
+                <p class="cat-num">Memory dashboard surface 01</p>
                 <h2 class="cat-name">Pratyek Reminders</h2>
                 <p class="cat-intro">
                     Everything due across the household, collected into one place: today, calendar, rules, done,
-                    snooze. This is the bill reminder app, renewal tracker, and family calendar layer of the household jugaad system.
+                    snooze. This is the bill reminder app, renewal tracker, and family calendar layer of the household management system.
                 </p>
             </div>
             <ul class="cat-list">
@@ -90,7 +90,7 @@
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="check" /></div>
-                <p class="cat-num">Memory surface 02</p>
+                <p class="cat-num">Memory dashboard surface 02</p>
                 <h2 class="cat-name">Pratyek Tasks</h2>
                 <p class="cat-intro">
                     To-dos and shopping lists that begin in WhatsApp and stay visible on the dashboard.
@@ -110,7 +110,7 @@
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="bill" /></div>
-                <p class="cat-num">Memory surface 03</p>
+                <p class="cat-num">Memory dashboard surface 03</p>
                 <h2 class="cat-name">Pratyek Bills</h2>
                 <p class="cat-intro">
                     Bills and renewals live together because every Indian household experiences them the same way:
@@ -134,7 +134,7 @@
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="appliance" /></div>
-                <p class="cat-num">Memory surface 04</p>
+                <p class="cat-num">Memory dashboard surface 04</p>
                 <h2 class="cat-name">Pratyek Assets</h2>
                 <p class="cat-intro">
                     Things the household owns: appliances, warranties, vehicles, property. Pratyek works as a warranty tracker,
@@ -155,7 +155,7 @@
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="subscription" /></div>
-                <p class="cat-num">Memory surface 05</p>
+                <p class="cat-num">Memory dashboard surface 05</p>
                 <h2 class="cat-name">Pratyek Services</h2>
                 <p class="cat-intro">
                     Recurring deliveries and visits: milk, newspaper, ironing, water cans, therapist, car washer,
@@ -176,7 +176,7 @@
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="staff" /></div>
-                <p class="cat-num">Memory surface 06</p>
+                <p class="cat-num">Memory dashboard surface 06</p>
                 <h2 class="cat-name">Pratyek Staff</h2>
                 <p class="cat-intro">
                     Monthly household help: the people who make the home work. Pratyek is a staff salary tracker and maid salary tracker
@@ -197,7 +197,7 @@
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="heart" /></div>
-                <p class="cat-num">Memory surface 07</p>
+                <p class="cat-num">Memory dashboard surface 07</p>
                 <h2 class="cat-name">Pratyek Family</h2>
                 <p class="cat-intro">
                     People, documents, contacts, occasions, and health sit together because family management belongs around
@@ -261,3 +261,4 @@
 </section>
 
 </x-layouts.app>
+

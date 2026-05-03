@@ -1,5 +1,5 @@
 <x-layouts.app
-    title="Page not found — Pratyek"
+    title="Page not found - Pratyek"
     description="The page you were looking for doesn't exist. Try the home page, or start using Pratyek on WhatsApp."
     keywords="404, page not found, Pratyek"
     og-image="/og/default.svg"
@@ -10,10 +10,10 @@
     <div class="wrap-narrow" style="text-align: center;">
         <p class="hero-eyebrow" style="justify-content: center;">404 &middot; Not found</p>
         <h1 style="margin-bottom: var(--space-5);">
-            We couldn't find that page. <em>Don't worry &mdash; we remember everything else.</em>
+            We couldn't find that page. <em>Don't worry - we remember everything else.</em>
         </h1>
         <p class="lede" style="margin-inline: auto;">
-            The link may be old, or we may have moved the page. Pratyek lives just one tap away &mdash;
+            The link may be old, or we may have moved the page. Pratyek lives just one tap away -
             try one of these instead:
         </p>
     </div>
@@ -22,12 +22,12 @@
 <section class="section-tight">
     <div class="wrap-narrow">
         <ul class="trust-list" style="font-family: 'Inter', sans-serif; font-size: 16px;">
-            <li><a href="{{ route('home') }}"     style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Home</a> &mdash; what Pratyek is, in one paragraph</li>
-            <li><a href="{{ route('product') }}"  style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Product</a> &mdash; how it works, the two surfaces, the memory model</li>
-            <li><a href="{{ route('features') }}" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Features</a> &mdash; the twelve categories Pratyek tracks</li>
-            <li><a href="{{ route('trust') }}"    style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Trust &amp; Privacy</a> &mdash; DPDP, DigiLocker, Bangalore servers</li>
-            <li><a href="{{ route('faq') }}"      style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">FAQ</a> &mdash; common questions, answered</li>
-            <li><a href="{{ route('contact') }}"  style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Contact</a> &mdash; <span style="color: var(--ink-mute);">hello@pratyek.com</span></li>
+            <li><a href="{{ route('home') }}"     style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Home</a> - what Pratyek is, in one paragraph</li>
+            <li><a href="{{ route('product') }}"  style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Product</a> - how it works, the two surfaces, the memory model</li>
+            <li><a href="{{ route('features') }}" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Features</a> - the twelve categories Pratyek tracks</li>
+            <li><a href="{{ route('trust') }}"    style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Trust &amp; Privacy</a> - DPDP, DigiLocker, Bangalore servers</li>
+            <li><a href="{{ route('faq') }}"      style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">FAQ</a> - common questions, answered</li>
+            <li><a href="{{ route('contact') }}"  style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Contact</a> - <span style="color: var(--ink-mute);">hello@pratyek.com</span></li>
         </ul>
     </div>
 </section>
@@ -50,3 +50,4 @@
 </section>
 
 </x-layouts.app>
+

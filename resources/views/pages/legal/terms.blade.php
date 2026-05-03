@@ -1,5 +1,5 @@
 <x-layouts.app
-    title="Terms of Service — Pratyek"
+    title="Terms of Service - Pratyek"
     description="Terms governing your use of Pratyek, the WhatsApp-native household management service. Governed by the laws of India."
     keywords="terms of service India, Pratyek user agreement, governing law India, Mumbai jurisdiction"
     og-image="/og/default.svg"
@@ -46,7 +46,7 @@
             <h2>3. Account &amp; household setup</h2>
             <p>
                 Your "account" is the WhatsApp number you first message Pratyek from. Multiple WhatsApp numbers
-                can be linked to a single household account &mdash; e.g., you, your spouse, your parent &mdash;
+                can be linked to a single household account - e.g., you, your spouse, your parent -
                 so the household has one shared memory. You are responsible for who you authorise into your
                 household account.
             </p>
@@ -97,7 +97,7 @@
             <h2>9. Disclaimers</h2>
             <p>
                 Pratyek is provided "as is". We make our best effort to extract, store, and surface information
-                accurately, but the service is software working with messy real-world inputs &mdash; bills get
+                accurately, but the service is software working with messy real-world inputs - bills get
                 misread, voice notes mis-transcribed, dates extracted incorrectly. Always verify critical
                 deadlines (insurance renewals, tax dates, medical appointments) against the original document
                 or provider. Pratyek is a memory aid, not a replacement for your own judgement.
@@ -136,3 +136,4 @@
 </section>
 
 </x-layouts.app>
+

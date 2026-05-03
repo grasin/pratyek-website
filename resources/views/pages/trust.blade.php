@@ -1,5 +1,5 @@
 <x-layouts.app
-    title="Trust and Privacy - Household Jugaad System | Pratyek"
+    title="Trust and Privacy - Household Management System | Pratyek"
     description="Pratyek trust commitments: India-hosted, DPDP-aware, no Aadhaar/PAN/passport storage, no ads, no data sold."
     keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, family management app India, Bangalore servers"
     og-image="/og/default.svg"
@@ -18,8 +18,8 @@
         <p class="hero-eyebrow">Trust &amp; Privacy</p>
         <h1>Built for every family. <em>Quiet about each one.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            A household jugaad system only works if an Indian family can trust it with daily life. That's a
-            responsibility we take seriously, and the rest of this page is what we've decided about it &mdash;
+            A household management system only works if an Indian family can trust it with daily life. That's a
+            responsibility we take seriously, and the rest of this page is what we've decided about it -
             written plainly, not in legal grey type.
         </p>
     </div>
@@ -40,7 +40,7 @@
                 <p>
                     Pratyek is paid for by the families who use it. Not by advertisers, not by data brokers,
                     not by any third party. Your bills, your maid's salary, your children's vaccination dates,
-                    the dates of your parents' anniversaries &mdash; none of that becomes anyone else's product.
+                    the dates of your parents' anniversaries - none of that becomes anyone else's product.
                 </p>
                 <p>
                     We WhatsApp our own mothers on this product. <em>Trust is the whole game.</em>
@@ -67,7 +67,7 @@
                 <p>
                     Some data is too sensitive to live on a third-party server, however well encrypted.
                     Pratyek refuses these by design. If you forward a passport scan, Pratyek doesn't even
-                    keep the image &mdash; it asks for the expiry date and points you to DigiLocker.
+                    keep the image - it asks for the expiry date and points you to DigiLocker.
                 </p>
                 <ul class="never-list">
                     <li><x-icon name="lock" /> Aadhaar numbers, PAN images, passport scans</li>
@@ -86,7 +86,7 @@
             </div>
             <div class="trust-block-body">
                 <p>
-                    Every Indian adult is entitled to a free <strong>DigiLocker</strong> account &mdash;
+                    Every Indian adult is entitled to a free <strong>DigiLocker</strong> account -
                     a government-run vault that already holds your passport, driving licence, and vehicle RC.
                     When you forward a sensitive ID document, Pratyek refuses to store it and politely points
                     you to DigiLocker.
@@ -107,11 +107,11 @@
             <div class="trust-block-body">
                 <p>
                     The DPDP Act, 2023 is the law that governs how your personal data is handled in India.
-                    Pratyek is built around its principles &mdash; not retrofitted to comply.
+                    Pratyek is built around its principles - not retrofitted to comply.
                 </p>
                 <ul class="trust-list">
                     <li><strong>Affirmative consent.</strong> We don't enrol anyone by default. You add Pratyek to your contacts; that's the consent.</li>
-                    <li><strong>Purpose limitation.</strong> What you forward is used to file what you forwarded &mdash; nothing else.</li>
+                    <li><strong>Purpose limitation.</strong> What you forward is used to file what you forwarded - nothing else.</li>
                     <li><strong>Data minimisation.</strong> We extract metadata; we don't hoard the original.</li>
                     <li><strong>Exportable.</strong> Ask for everything we have on you, get it as JSON or CSV.</li>
                     <li><strong>Deletable within 30 days.</strong> Tell Pratyek "delete" in WhatsApp; everything's gone, by law and by design.</li>
@@ -136,7 +136,7 @@
                 <p>
                     The only outbound connections are to Meta (to deliver WhatsApp messages back to you) and to
                     our LLM partners (to extract structured data from your forwards). Each connection sends only
-                    the minimum information needed for that step &mdash; and only with a Data Processing Agreement
+                    the minimum information needed for that step - and only with a Data Processing Agreement
                     in place.
                 </p>
             </div>
@@ -144,25 +144,7 @@
 
         <div class="trust-block">
             <div class="trust-block-head">
-                <p class="trust-block-num">05 &middot; The models we use</p>
-                <h3 class="trust-block-name">Two LLMs, named openly. Neither trained on your data.</h3>
-            </div>
-            <div class="trust-block-body">
-                <p>
-                    <strong>Claude</strong> from Anthropic, for figuring out how a piece of forwarded data should be
-                    structured. <strong>Gemma</strong> from Google, for the day-to-day filing work. Both are accessed
-                    through OpenRouter under contracts that explicitly forbid training on our data.
-                </p>
-                <p>
-                    We don't use the word "AI" anywhere on the product surface, because what Pratyek does is
-                    concrete: it remembers, it files, it nudges. The models are infrastructure, not the product.
-                </p>
-            </div>
-        </div>
-
-        <div class="trust-block">
-            <div class="trust-block-head">
-                <p class="trust-block-num">06 &middot; Retention, in plain language</p>
+                <p class="trust-block-num">05 &middot; Retention, in plain language</p>
                 <h3 class="trust-block-name">How long things stay, and when they go.</h3>
             </div>
             <div class="trust-block-body">
@@ -187,7 +169,7 @@
      ============================================================ --}}
 <section class="cta-block">
     <div class="wrap">
-        <h2>If this is the household jugaad system you'd trust in your home&hellip;</h2>
+        <h2>If this is the household management system you'd trust in your home&hellip;</h2>
         <p>
             Pratyek is live. Send "Hi" on WhatsApp and start with the first thing your household needs organised.
         </p>
@@ -205,3 +187,4 @@
 </section>
 
 </x-layouts.app>
+

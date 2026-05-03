@@ -1,5 +1,5 @@
 <x-layouts.app
-    title="Privacy Policy — Pratyek"
+    title="Privacy Policy - Pratyek"
     description="What we collect, what we don't, where we store it, how to delete it. Plain-language privacy policy, DPDP-compliant. Last updated 30 April 2026."
     keywords="privacy policy India, DPDP compliance, household data protection, Pratyek privacy, Pratyek data retention, India data residency"
     og-image="/og/default.svg"
@@ -38,11 +38,11 @@
             <h2>2. What we collect</h2>
             <p>We collect only what we need to file what you ask us to file:</p>
             <ul>
-                <li><strong>Messages you send us on WhatsApp</strong> &mdash; text, voice notes, photos, documents you forward into your Pratyek chat thread.</li>
-                <li><strong>Derived metadata</strong> &mdash; the structured information we extract from those messages (e.g., bill amount, due date, account number).</li>
-                <li><strong>Account information</strong> &mdash; the WhatsApp number you message us from, an email if you supply one, and a household name if you set one.</li>
-                <li><strong>Web dashboard usage</strong> &mdash; basic logs (IP, browser, page visited) needed to operate the dashboard at memory.pratyek.com.</li>
-                <li><strong>Cookies</strong> &mdash; essential authentication cookies on the dashboard, and a small set of analytics cookies (Plausible, which is cookieless; and Google Analytics 4 with IP anonymisation) on the marketing site to measure aggregate usage. No advertising or behavioural-targeting cookies, ever.</li>
+                <li><strong>Messages you send us on WhatsApp</strong> - text, voice notes, photos, documents you forward into your Pratyek chat thread.</li>
+                <li><strong>Derived metadata</strong> - the structured information we extract from those messages (e.g., bill amount, due date, account number).</li>
+                <li><strong>Account information</strong> - the WhatsApp number you message us from, an email if you supply one, and a household name if you set one.</li>
+                <li><strong>Web dashboard usage</strong> - basic logs (IP, browser, page visited) needed to operate the dashboard at memory.pratyek.com.</li>
+                <li><strong>Cookies</strong> - essential authentication cookies on the dashboard, and a small set of analytics cookies (Plausible, which is cookieless; and Google Analytics 4 with IP anonymisation) on the marketing site to measure aggregate usage. No advertising or behavioural-targeting cookies, ever.</li>
             </ul>
 
             <h2>3. What we explicitly do not collect</h2>
@@ -52,7 +52,7 @@
             <ul>
                 <li>Aadhaar numbers, PAN images, passport scans, mediclaim card images, driving licence images.</li>
                 <li>Bank account numbers, credit card numbers, UPI PINs.</li>
-                <li>Anything in your existing WhatsApp groups &mdash; we cannot read those, and we don't ask to.</li>
+                <li>Anything in your existing WhatsApp groups - we cannot read those, and we don't ask to.</li>
             </ul>
             <p>
                 If you forward us one of the above, we will delete it on receipt and remind you to use
@@ -78,12 +78,12 @@
                 forbids further use:
             </p>
             <ul>
-                <li><strong>Meta Platforms</strong> &mdash; to deliver WhatsApp messages between you and Pratyek.</li>
-                <li><strong>OpenRouter</strong> &mdash; routing layer for LLM access (Claude from Anthropic, Gemma from Google).</li>
-                <li><strong>Sarvam</strong> &mdash; speech-to-text for voice notes in Indian languages.</li>
-                <li><strong>DigitalOcean</strong> &mdash; hosting and backup, India region only.</li>
-                <li><strong>Plausible Analytics</strong> &mdash; aggregate, cookieless website analytics (no personal identifiers).</li>
-                <li><strong>Google Analytics 4</strong> &mdash; aggregate website analytics with IP anonymisation enabled. Helps us understand which pages and features are used; not used to identify you.</li>
+                <li><strong>Meta Platforms</strong> - to deliver WhatsApp messages between you and Pratyek.</li>
+                <li><strong>OpenRouter</strong> - routing layer for LLM access (Claude from Anthropic, Gemma from Google).</li>
+                <li><strong>Sarvam</strong> - speech-to-text for voice notes in Indian languages.</li>
+                <li><strong>DigitalOcean</strong> - hosting and backup, India region only.</li>
+                <li><strong>Plausible Analytics</strong> - aggregate, cookieless website analytics (no personal identifiers).</li>
+                <li><strong>Google Analytics 4</strong> - aggregate website analytics with IP anonymisation enabled. Helps us understand which pages and features are used; not used to identify you.</li>
             </ul>
             <p>
                 None of these processors retain your data for their own purposes, train models on it, or sell
@@ -101,11 +101,11 @@
 
             <h2>8. Your rights under the DPDP Act</h2>
             <ul>
-                <li><strong>Right to access</strong> &mdash; ask us what we hold on you; we'll send you everything as JSON or CSV.</li>
-                <li><strong>Right to correction</strong> &mdash; tell Pratyek to correct an entry; we will.</li>
-                <li><strong>Right to erasure</strong> &mdash; ask us to delete the household's data; we will, within 30 days.</li>
-                <li><strong>Right to withdraw consent</strong> &mdash; stop using Pratyek and we will treat that as consent withdrawal; data is deleted within 30 days.</li>
-                <li><strong>Right to grievance redressal</strong> &mdash; contact our grievance officer (named on the <a href="{{ route('legal.dpdp') }}">DPDP page</a>) and, if unsatisfied, the Data Protection Board of India.</li>
+                <li><strong>Right to access</strong> - ask us what we hold on you; we'll send you everything as JSON or CSV.</li>
+                <li><strong>Right to correction</strong> - tell Pratyek to correct an entry; we will.</li>
+                <li><strong>Right to erasure</strong> - ask us to delete the household's data; we will, within 30 days.</li>
+                <li><strong>Right to withdraw consent</strong> - stop using Pratyek and we will treat that as consent withdrawal; data is deleted within 30 days.</li>
+                <li><strong>Right to grievance redressal</strong> - contact our grievance officer (named on the <a href="{{ route('legal.dpdp') }}">DPDP page</a>) and, if unsatisfied, the Data Protection Board of India.</li>
             </ul>
 
             <h2>9. Children</h2>
@@ -134,3 +134,4 @@
 </section>
 
 </x-layouts.app>
+

@@ -1,7 +1,7 @@
 @props([
     'title'       => 'Pratyek',
-    'description' => 'Pratyek is India\'s household jugaad system, built inside WhatsApp for every Indian home.',
-    'keywords'    => 'household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, household jugaad system India, Pratyek',
+    'description' => 'Pratyek is India\'s household management system, built inside WhatsApp for every Indian home.',
+    'keywords'    => 'household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, household management system India, Pratyek',
     'ogImage'     => '/og/default.svg',
     'ogType'      => 'website',
     'canonical'   => '',
@@ -60,3 +60,4 @@
     <script defer data-domain="pratyek.com" src="https://plausible.io/js/script.js"></script>
 </body>
 </html>
+

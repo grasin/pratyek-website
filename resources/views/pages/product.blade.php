@@ -1,7 +1,7 @@
 <x-layouts.app
     title="How Pratyek Works - WhatsApp to Memory Dashboard"
-    description="How India's household jugaad system works: capture in WhatsApp, retrieve bills, tasks, assets, services, staff, and family records in Memory."
-    keywords="how Pratyek works, WhatsApp household assistant, household management app India, family management app India, home management app India, Indian household productivity tool, family dashboard, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, household jugaad system India"
+    description="How India's household management system works: capture in WhatsApp, retrieve bills, tasks, assets, services, staff, and family records in the Memory dashboard."
+    keywords="how Pratyek works, WhatsApp household assistant, household management app India, family management app India, home management app India, Indian household productivity tool, family dashboard, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, household management system India"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -18,11 +18,11 @@
   "@id": "https://pratyek.com/#software",
   "name": "Pratyek",
   "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household and family jugaad system",
+  "applicationSubCategory": "Household and family management system",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
-  "description": "Two-surface household jugaad system: capture in WhatsApp (forward bills, voice notes, photos), retrieve at memory.pratyek.com (sortable, searchable, exportable).",
-  "keywords": "household management app India, family management app India, WhatsApp household assistant, family dashboard, shared family tasks, household jugaad system India",
+  "description": "Two-surface household management system: capture in WhatsApp (forward bills, voice notes, photos), retrieve at memory.pratyek.com (sortable, searchable, exportable).",
+  "keywords": "household management app India, family management app India, WhatsApp household assistant, family dashboard, shared family tasks, household management system India",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "offers": {
     "@type": "Offer",
@@ -42,9 +42,9 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">How it works</p>
-        <h1>WhatsApp captures. <em>Memory runs the household.</em></h1>
+        <h1>WhatsApp captures. <em>The Memory dashboard runs the household.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek is India's household jugaad system, built inside WhatsApp. The chat captures what every Indian family already sends.
+            Pratyek is India's household management system, built inside WhatsApp. The chat captures what every Indian family already sends.
             The web dashboard at <strong>memory.pratyek.com</strong> turns it into searchable home productivity: reminders, tasks, bills,
             assets, services, staff, and family records.
         </p>
@@ -62,15 +62,15 @@
             <p class="surface-label">Surface 1 &middot; WhatsApp</p>
             <h3 class="surface-name">Capture is friction-free, because it lives where the family already is.</h3>
             <p class="surface-caption">
-                Your family doesn't learn a new app. They just forward, send, or speak &mdash; in any of nine Indian
+                Your family doesn't learn a new app. They just forward, send, or speak - in any of nine Indian
                 languages, including Hinglish. Pratyek extracts what's useful, files it under the right category,
                 and confirms back in the same chat thread, in the same language. Messy home, super-organised home,
-                joint family, nuclear family &mdash; the input stays natural.
+                joint family, nuclear family - the input stays natural.
             </p>
             <ul class="trust-list" style="margin-top: var(--space-4);">
-                <li>Forward any document &mdash; PDF, photo, scan</li>
+                <li>Forward any document - PDF, photo, scan</li>
                 <li>Send voice notes (any length, any language)</li>
-                <li>Type Hinglish, English, Hindi, regional &mdash; Pratyek understands</li>
+                <li>Type Hinglish, English, Hindi, regional - Pratyek understands</li>
                 <li>Ask questions about your own household, get the answer in chat</li>
             </ul>
         </div>
@@ -85,7 +85,7 @@
             <p class="surface-label">Surface 2 &middot; memory.pratyek.com</p>
             <h3 class="surface-name">Retrieval is precise, sortable, and ready for the whole household.</h3>
             <p class="surface-caption">
-                Open the dashboard. Sidebar lists the same Memory surfaces the product uses every day:
+                Open the dashboard. Sidebar lists the same Memory dashboard surfaces the product uses every day:
                 Reminders, Tasks, Bills, Assets, Services, Staff, and Family. Each tab is a real product
                 surface, not a marketing screenshot. Filter by date, by family member, by status. Search
                 across everything. This is the family dashboard that makes Pratyek more than a reminder bot.
@@ -101,13 +101,13 @@
 </section>
 
 {{-- ============================================================
-     Memory model — what we keep / never keep
+     Memory dashboard model - what we keep / never keep
      ============================================================ --}}
 <section class="section">
     <div class="wrap">
         <div class="section-head">
-            <p class="kicker">The memory model</p>
-            <h2>A household jugaad system must know what to remember.</h2>
+            <p class="kicker">The Memory dashboard model</p>
+            <h2>A household management system must know what to remember.</h2>
             <p class="lede" style="margin-top: var(--space-3);">
                 A home management system should not become a hoarder. We keep what helps the household run; we refuse what would put the
                 household at risk. The line is bright, and we hold it.
@@ -127,7 +127,7 @@
                     (members, document references, contacts, occasions, health).
                 </p>
                 <p>
-                    Pratyek captures <strong>metadata</strong> &mdash; the structured facts the household needs to
+                    Pratyek captures <strong>metadata</strong> - the structured facts the household needs to
                     act on. The original document is referenced, not hoarded; the audio is transcribed, not stored.
                 </p>
             </div>
@@ -162,7 +162,7 @@
             </div>
             <div class="trust-block-body">
                 <p>
-                    Every Indian adult is entitled to a free <strong>DigiLocker</strong> account &mdash; a
+                    Every Indian adult is entitled to a free <strong>DigiLocker</strong> account - a
                     government-run vault that already holds your passport, driving licence, vehicle RC, and more.
                     Pratyek doesn't try to replicate it. Instead, when you ask "when does my passport expire?",
                     Pratyek answers from the date it remembers, and points you to DigiLocker for the document
@@ -184,7 +184,7 @@
     <div class="wrap-wide">
         <div class="section-head">
             <p class="kicker">Eight everyday beats</p>
-            <h2 style="max-width: 28ch;">Real scenes from real households &mdash; what the chat looks like.</h2>
+            <h2 style="max-width: 28ch;">Real scenes from real households - what the chat looks like.</h2>
         </div>
 
         <div class="scenes-grid" data-nosnippet>
@@ -252,7 +252,7 @@
                             <span style="font-size:13px;">heard: &ldquo;Kamala ko April salary de diya, 6 hazaar.&rdquo;</span>
                         </div>
                         <div class="wa-msg wa-msg--in">
-                            <span style="font-size:13.5px;">Logged under Staff &rsaquo; Kamala &rsaquo; April salary &mdash; &#8377;6,000.</span>
+                            <span style="font-size:13.5px;">Logged under Staff &rsaquo; Kamala &rsaquo; April salary - &#8377;6,000.</span>
                             <span class="wa-msg-meta">9:14 AM</span>
                         </div>
                     </div>
@@ -332,7 +332,7 @@
             <div class="scene">
                 <p class="scene-cap">
                     <strong>5 &middot; Renewal pings 21 days before the policy lapses.</strong>
-                    No notification, no email &mdash; in the chat where the family already lives.
+                    No notification, no email - in the chat where the family already lives.
                 </p>
                 <div class="wa-frame">
                     <div class="wa-header">
@@ -347,7 +347,7 @@
                                 <div class="wa-card-row"><span>Policy ends</span><strong>20 May 2026</strong></div>
                                 <div class="wa-card-row"><span>Last paid</span><strong>&#8377;14,860</strong></div>
                             </div>
-                            <span style="font-size:13.5px;">Heads up &mdash; car insurance up for renewal.</span>
+                            <span style="font-size:13.5px;">Heads up - car insurance up for renewal.</span>
                             <span class="wa-msg-meta">7:30 AM</span>
                         </div>
                         <div class="wa-msg wa-msg--out">
@@ -365,7 +365,7 @@
             {{-- 6. Passport / DigiLocker redirect --}}
             <div class="scene">
                 <p class="scene-cap">
-                    <strong>6 &middot; Passport scan &mdash; politely redirected.</strong>
+                    <strong>6 &middot; Passport scan - politely redirected.</strong>
                     Pratyek refuses to store the image, asks for the expiry date, points to DigiLocker.
                 </p>
                 <div class="wa-frame">
@@ -386,7 +386,7 @@
                         </div>
                         <div class="wa-msg wa-msg--in">
                             <span style="font-size:13.5px;">
-                                I don't store passport scans &mdash; that belongs in <strong>DigiLocker</strong>,
+                                I don't store passport scans - that belongs in <strong>DigiLocker</strong>,
                                 the government's own vault. I've forgotten this image.
                             </span>
                             <span class="wa-msg-meta">11:02 AM</span>
@@ -433,7 +433,7 @@
             <div class="scene">
                 <p class="scene-cap">
                     <strong>8 &middot; Ask anything, in any language.</strong>
-                    Across all entities, all dates, all family members &mdash; one chat thread.
+                    Across all entities, all dates, all family members - one chat thread.
                 </p>
                 <div class="wa-frame">
                     <div class="wa-header">
@@ -447,7 +447,7 @@
                         </div>
                         <div class="wa-msg wa-msg--in">
                             <span style="font-size:13.5px;">
-                                Haan, 2025 mein &#8377;3,000 &mdash; 30 Oct, Mummy ne envelope diya.
+                                Haan, 2025 mein &#8377;3,000 - 30 Oct, Mummy ne envelope diya.
                                 2024 mein bhi same amount. Is saal kab dena hai bata du?
                             </span>
                             <span class="wa-msg-meta">8:55 PM</span>
@@ -491,7 +491,7 @@
             </div>
             <div class="dash-grid">
                 <aside class="dash-sidebar">
-                    <div class="dash-sidebar-title">Memory</div>
+                    <div class="dash-sidebar-title">Memory Dashboard</div>
                     <div class="dash-nav-item"><x-icon name="clock" /> Reminders</div>
                     <div class="dash-nav-item"><x-icon name="check" /> Tasks</div>
                     <div class="dash-nav-item dash-nav-item--active"><x-icon name="bill" /> Bills</div>
@@ -595,3 +595,4 @@
 </section>
 
 </x-layouts.app>
+

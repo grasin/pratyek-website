@@ -1,5 +1,5 @@
 <x-layouts.app
-    title="DPDP Act 2023 Compliance — Pratyek"
+    title="DPDP Act 2023 Compliance - Pratyek"
     description="DPDP compliance for Pratyek: consent, retention, deletion, user rights, grievance redressal, and India's phased privacy law timeline."
     keywords="DPDP Act 2023, Digital Personal Data Protection Act compliance, India data fiduciary, grievance officer, Indian privacy law, Data Protection Board India"
     og-image="/og/default.svg"
@@ -28,7 +28,7 @@
                 obligations come into force eighteen months from that date.
             </p>
             <p>
-                <strong>Pratyek is being built around the DPDP Act &mdash; not retrofitted later.</strong>
+                <strong>Pratyek is being built around the DPDP Act - not retrofitted later.</strong>
                 We treat the notified requirements as product requirements now, even where the statutory
                 obligation has a later commencement date. The full Privacy Policy is at
                 <a href="{{ route('legal.privacy-policy') }}">/legal/privacy-policy</a>.
@@ -68,7 +68,7 @@
             <h2>3. Purpose limitation</h2>
             <p>
                 The personal data we process is used only for the purpose of providing the Pratyek service to
-                you &mdash; filing what you forward, surfacing what you ask for, nudging on the dates you'd want
+                you - filing what you forward, surfacing what you ask for, nudging on the dates you'd want
                 to be nudged on. We do not repurpose your data for advertising, profiling for third parties, or
                 model training.
             </p>
@@ -125,7 +125,7 @@
                 <li><strong>Erase</strong> the data, in whole or in part, on request.</li>
                 <li><strong>Withdraw consent</strong> for our processing.</li>
                 <li><strong>Nominate</strong> a person to exercise your rights in case of incapacity or death.</li>
-                <li><strong>Grievance redressal</strong> &mdash; through our grievance officer, then the Data Protection Board of India.</li>
+                <li><strong>Grievance redressal</strong> - through our grievance officer, then the Data Protection Board of India.</li>
             </ul>
             <p>
                 To exercise any of these, write to <a href="mailto:hello@pratyek.com">hello@pratyek.com</a> with
@@ -154,8 +154,8 @@
             <p>
                 Pratyek does not transfer personal data outside India for storage. Production data and backups
                 live on servers in Bangalore. The only outbound connections are to processors named in our
-                Privacy Policy &mdash; Meta (for WhatsApp delivery), OpenRouter (for LLM access), Sarvam
-                (for speech-to-text), Plausible and Google Analytics 4 (for aggregate website analytics) &mdash;
+                Privacy Policy - Meta (for WhatsApp delivery), OpenRouter (for LLM access), Sarvam
+                (for speech-to-text), Plausible and Google Analytics 4 (for aggregate website analytics) -
                 each under data processing agreements that limit retention and forbid further use.
             </p>
 
@@ -164,7 +164,7 @@
                 Per Section 9 of the DPDP Act, we do not knowingly process personal data of children under 18
                 except as authorised by a verifiable parent or guardian (i.e., the household adult who is using
                 Pratyek). We do not perform behavioural monitoring or targeted advertising directed at children
-                &mdash; we do not perform behavioural monitoring or targeted advertising of any kind, of anyone,
+                - we do not perform behavioural monitoring or targeted advertising of any kind, of anyone,
                 ever.
             </p>
 
@@ -180,3 +180,4 @@
 </section>
 
 </x-layouts.app>
+

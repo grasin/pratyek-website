@@ -16,7 +16,7 @@
   <text x="80" y="290" font-family="Georgia, 'Times New Roman', serif"
         font-size="72" font-weight="300" letter-spacing="-0.025em" fill="#10211F">India's household</text>
   <text x="80" y="380" font-family="Georgia, 'Times New Roman', serif"
-        font-size="72" font-weight="300" letter-spacing="-0.025em" font-style="italic" fill="#E23B22">jugaad system.</text>
+        font-size="72" font-weight="300" letter-spacing="-0.025em" font-style="italic" fill="#E23B22">management system.</text>
 
   <!-- Sub -->
   <text x="80" y="450" font-family="Helvetica, Arial, sans-serif"
@@ -29,3 +29,4 @@
   <text x="1120" y="585" font-family="Georgia, 'Times New Roman', serif"
         font-size="22" font-weight="400" fill="#E23B22" text-anchor="end">&#2346;&#2381;&#2352;&#2340;&#2381;&#2351;&#2375;&#2325;</text>
 </svg>
+
