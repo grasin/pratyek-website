@@ -2,9 +2,8 @@
     <div class="footer-inner wrap-wide">
         <div class="footer-col footer-col--brand">
             <a href="{{ route('home') }}" class="wordmark" aria-label="Pratyek home">
-                Pratyek<span class="wordmark-dot" aria-hidden="true">.</span>
+                <img src="/brand/pratyek-logo.png" alt="Pratyek logo" class="brand-logo brand-logo-footer" />
             </a>
-            <p class="devanagari-accent" aria-label="Pratyek in Devanagari">प्रत्येक</p>
             <p class="footer-company-line">
                 Pratyek is a product of Relynext Solutions.
             </p>
@@ -68,7 +67,6 @@
                 <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="mailto:hello@pratyek.com" data-track-location="footer">hello@pratyek.com</a>
                 <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer" data-track-location="footer">+91 93720 23537</a>
             </p>
-            <p class="footer-devanagari" aria-hidden="true">प्रत्येक</p>
         </div>
     </div>
 </footer>

@@ -12,7 +12,7 @@
 <header class="site-header" role="banner">
     <div class="header-inner wrap-wide">
         <a href="{{ route('home') }}" class="wordmark" aria-label="Pratyek home">
-            Pratyek<span class="wordmark-dot" aria-hidden="true">.</span>
+            <img src="/brand/pratyek-logo.png" alt="Pratyek logo" class="brand-logo" />
         </a>
 
         <nav class="main-nav" aria-label="Main navigation">
@@ -54,7 +54,7 @@
         <div class="mobile-menu-inner">
             <div class="mobile-menu-top">
                 <a href="{{ route('home') }}" class="wordmark" aria-label="Pratyek home">
-                    Pratyek<span class="wordmark-dot" aria-hidden="true">.</span>
+                    <img src="/brand/pratyek-logo.png" alt="Pratyek logo" class="brand-logo" />
                 </a>
                 <button
                     class="mobile-menu-close"

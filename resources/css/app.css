@@ -403,14 +403,20 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 }
 
 .wordmark {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: -0.012em;
-  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
   flex-shrink: 0;
 }
-.wordmark-dot { color: var(--red); }
+
+.brand-logo {
+  width: auto;
+  height: 36px;
+  object-fit: contain;
+}
+
+.brand-logo-footer {
+  height: 44px;
+}
 
 .main-nav { flex: 1; display: flex; justify-content: center; }
 .main-nav ul { display: flex; gap: var(--space-6); }
@@ -549,7 +555,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   gap: var(--space-8);
   padding-bottom: var(--space-8);
 }
-.footer-col--brand .wordmark { font-size: 20px; }
+.footer-col--brand .wordmark { margin-bottom: var(--space-1); }
 
 .devanagari-accent {
   font-family: 'Fraunces', Georgia, serif;
@@ -2870,7 +2876,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 
   /* Header gets less padding-bottom on mobile */
   .header-inner { height: 56px; gap: var(--space-3); }
-  .wordmark { font-size: 19px; }
+  .brand-logo { height: 30px; }
 
   /* Buttons need bigger tap area */
   .btn { min-height: 44px; }

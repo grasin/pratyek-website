@@ -67,11 +67,11 @@
   "url": "https://pratyek.com",
   "logo": {
     "@type": "ImageObject",
-    "url": "https://pratyek.com/favicon.svg",
-    "width": 512,
-    "height": 512
+    "url": "https://pratyek.com/brand/pratyek-logo.png",
+    "width": 2555,
+    "height": 571
   },
-  "image": "https://pratyek.com/og/default.svg",
+  "image": "https://pratyek.com/brand/pratyek-logo.png",
   "slogan": "For every Indian household and family, built inside WhatsApp.",
   "description": "Pratyek is India's household management system, built inside WhatsApp for every Indian household and family. DPDP-aware, India-hosted, no ads, no data sold.",
   "disambiguatingDescription": "Pratyek is a WhatsApp-native household and family management system for Indian families, distinct from any other entity sharing the name.",
