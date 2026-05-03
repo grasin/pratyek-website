@@ -6,17 +6,21 @@
             </a>
             <p class="devanagari-accent" aria-label="Pratyek in Devanagari">प्रत्येक</p>
             <p class="footer-company-line">
-                Pratyek is a product of Relynext Solutions Private Limited.
+                Pratyek is a product of Relynext Solutions, a partnership firm.
             </p>
-            <p class="footer-location">Registered address: [Registered address placeholder], Mumbai, Maharashtra, India.</p>
+            <p class="footer-location">Registered address: B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India.</p>
             <dl class="footer-entity-rows">
                 <div>
-                    <dt>CIN</dt>
-                    <dd>[CIN placeholder]</dd>
+                    <dt>Type</dt>
+                    <dd>Partnership firm</dd>
                 </div>
                 <div>
                     <dt>GST</dt>
-                    <dd>[GST placeholder]</dd>
+                    <dd>27AAZFR7341G1ZK</dd>
+                </div>
+                <div>
+                    <dt>PAN</dt>
+                    <dd>AAZFR7341G</dd>
                 </div>
                 <div>
                     <dt>Email</dt>
@@ -62,7 +66,9 @@
     <div class="footer-bottom">
         <div class="footer-bottom-inner wrap-wide">
             <p class="footer-legal-line">
-                &copy; 2026 Relynext Solutions Private Limited. All rights reserved.
+                &copy; 2026 Relynext Solutions. All rights reserved.
+                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span>GST 27AAZFR7341G1ZK
+                <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span>PAN AAZFR7341G
                 <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="mailto:hello@pratyek.com" data-track-location="footer">hello@pratyek.com</a>
                 <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer" data-track-location="footer">+91 93720 23537</a>
             </p>

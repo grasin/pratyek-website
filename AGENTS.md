@@ -30,23 +30,23 @@ You are building a new, multi-page marketing website for **Pratyek**, a househol
 
 **This section is the single most important compliance requirement on the site.** Read it twice.
 
-Meta has rejected our WhatsApp Business display name registration. The reason: **the parent company "Relynext Solutions Private Limited" is not visible anywhere on the current `pratyek.com` website.** Meta's reviewers expect a clear, unambiguous link from the consumer-facing brand (Pratyek) to the legal entity that signs the WhatsApp Business contract (Relynext Solutions Private Limited).
+Meta has rejected our WhatsApp Business display name registration. The reason: **the parent company "Relynext Solutions" is not visible anywhere on the current `pratyek.com` website.** Meta's reviewers expect a clear, unambiguous link from the consumer-facing brand (Pratyek) to the legal entity that signs the WhatsApp Business contract (Relynext Solutions).
 
 **What this means for every page on the new site:**
 
 1. **Every footer must prominently display the parent company relationship.** The exact line is:
 
-   > **Pratyek is a product of Relynext Solutions Private Limited.**
+   > **Pratyek is a product of Relynext Solutions, a partnership firm.**
 
-   This must appear on every page of the site, not just one. It must be readable (not buried in 8px grey text). The footer is also where the legal entity's full registered address, CIN, and contact email live (placeholders Nisarg will fill in).
+   This must appear on every page of the site, not just one. It must be readable (not buried in 8px grey text). The footer is also where the legal entity's full registered address, GSTIN, PAN, entity type, and contact email live.
 
 2. **The About page must lead with the parent company relationship.** When a Meta reviewer clicks "About" looking for the legal entity, they should find it within the first viewport, not buried halfway down the page.
 
-3. **The Privacy Policy and Terms of Service must name "Relynext Solutions Private Limited" as the data controller / contracting entity** — not "Pratyek". Pratyek is the product; Relynext is the legal name on the contract.
+3. **The Privacy Policy and Terms of Service must name "Relynext Solutions" as the data controller / contracting entity** — not "Pratyek". Pratyek is the product; Relynext is the legal name on the contract.
 
 4. **Page footer markup must include the legal name in machine-readable Schema.org JSON-LD** as the `Organization` (see §8). This helps automated reviewers as well as humans.
 
-5. **Do not use construction like "Pratyek by Relynext"** in display copy — that is too cute. Use **"Pratyek is a product of Relynext Solutions Private Limited"** or **"A Relynext Solutions product"** as the canonical phrasings.
+5. **Do not use construction like "Pratyek by Relynext"** in display copy — that is too cute. Use **"Pratyek is a product of Relynext Solutions"** or **"A Relynext Solutions product"** as the canonical phrasings.
 
 If a Meta reviewer lands on any page of the site and cannot, within 10 seconds, identify the legal entity behind Pratyek, the rebuild has failed its primary compliance objective.
 
@@ -402,29 +402,30 @@ The "Apply for beta" button is the **only primary CTA on the site** and must poi
 
 8. **Data retention, plain language.** Bills and warranties: kept as long as you keep the entity. Voice notes: deleted after transcription, 7 days max. Raw forwarded media: deleted after extraction, 30 days max. Tell Pratyek "delete" in WhatsApp and everything's gone in 30 days, by law and by design.
 
-9. **Who's behind Pratyek.** Pratyek is a product of **Relynext Solutions Private Limited**, registered in India. CIN, address, GST — link to `/about` for the full legal block.
+9. **Who's behind Pratyek.** Pratyek is a product of **Relynext Solutions**, a partnership firm registered in India. Address, GST, PAN — link to `/about` for the full legal block.
 
 10. **CTA + Footer.**
 
 ### 5.5 About (`/about`)
 
-**Purpose.** Establish the legal entity (Relynext Solutions Private Limited), the people behind it, and what they're trying to build. **This page is critical for Meta verification — it must lead with the company relationship.**
+**Purpose.** Establish the legal entity (Relynext Solutions), the people behind it, and what they're trying to build. **This page is critical for Meta verification — it must lead with the company relationship.**
 
 **Sections:**
 
-1. **Headline + lede.** *"Pratyek is a product of Relynext Solutions Private Limited."* Below, in editorial Fraunces, the mission paragraph: a short, plain-spoken statement of why this exists.
+1. **Headline + lede.** *"Pratyek is a product of Relynext Solutions, a partnership firm."* Below, in editorial Fraunces, the mission paragraph: a short, plain-spoken statement of why this exists.
 
-2. **The company.** A single-paragraph description of Relynext Solutions: what it is (an Indian product company), where it's registered, what it builds. Pratyek is its first product.
+2. **The company.** A single-paragraph description of Relynext Solutions: what it is (an Indian partnership firm), where it's registered, what it builds. Pratyek is its first product.
 
 3. **The team.** One or two founder bios — name, photo (or initials in a circle if no photo), short paragraph each. Keep it human. (Nisarg will provide actual content; use placeholder lorem with `[Nisarg's bio]` markers for now.)
 
 4. **Mission.** Why this product, in 4–6 sentences. The Indian household has an unrecognized labour: someone — usually one person, usually undervalued — keeps mental track of fifty things. Pratyek is the second mind for that person. We're building it patiently, family by family, in the language they already speak.
 
 5. **Legal entity block (this is the Meta-facing block).** A hairline-bordered card containing:
-   - Legal name: **Relynext Solutions Private Limited**
-   - Registered address: [placeholder]
-   - CIN: [placeholder]
-   - GST: [placeholder]
+   - Legal name: **Relynext Solutions**
+   - Entity type: Partnership firm
+   - Registered address: B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India
+   - GST: 27AAZFR7341G1ZK
+   - PAN: AAZFR7341G
    - Email: hello@pratyek.com (or whatever the chosen contact is)
    - Phone: [optional placeholder]
    This block must be visible in the first scroll on desktop, or at most one scroll-flick on mobile.
@@ -460,7 +461,7 @@ The "Apply for beta" button is the **only primary CTA on the site** and must poi
 - Can my maid / driver use it?
 
 **About the company**
-- Who builds Pratyek?  (Relynext Solutions Private Limited.)
+- Who builds Pratyek?  (Relynext Solutions.)
 - Who do I contact if something goes wrong?
 - How do I report a bug or request a feature?
 - Are you hiring?
@@ -481,7 +482,7 @@ Aim for ~25 questions total. Be specific in answers — no fluff.
    - **Left:** plain email and a short paragraph: "Email is the fastest. We read everything." Email displayed as `hello@pratyek.com` (link with `mailto:`). Below: a separate line for press, partnerships, support — same email but with appropriate prefixes if you want, or just `hello@`.
    - **Right:** a simple contact form (name, email, message, submit). Server-side validated via Laravel form request. On submit, route to a `ContactController@store` method that emails the message to a configured address (or stores it in a DB table — Nisarg's choice, default to mailto for v1).
 
-4. **Below:** the legal entity block (same as on /about) — Relynext Solutions Private Limited, registered address, CIN, GST.
+4. **Below:** the legal entity block (same as on /about) — Relynext Solutions, registered address, CIN, GST.
 
 5. **Footer.**
 
@@ -496,7 +497,7 @@ Aim for ~25 questions total. Be specific in answers — no fluff.
 - Footer
 
 **Privacy Policy must include:**
-- Who we are (Relynext Solutions Private Limited — full legal name and address)
+- Who we are (Relynext Solutions — full legal name and address)
 - What we collect and why (categorized: messages forwarded, voice notes, derived metadata, device info, cookies)
 - What we explicitly do NOT collect (Aadhaar, PAN, passport images, bank credentials, group chat content)
 - Where data is stored (DigitalOcean Bangalore BLR1, India)
@@ -506,7 +507,7 @@ Aim for ~25 questions total. Be specific in answers — no fluff.
 - Contact for grievance officer (placeholder)
 
 **Terms of Service must include:**
-- Service description (Pratyek, run by Relynext Solutions Private Limited)
+- Service description (Pratyek, run by Relynext Solutions)
 - Eligibility (must be 18+, must be the WhatsApp account holder)
 - Account and household setup
 - Acceptable use (no illegal use, no automated abuse, no impersonation)
@@ -551,7 +552,7 @@ This footer lives on every page. It's the single most important compliance eleme
 [Pratyek wordmark]
 प्रत्येक
 
-A product of Relynext Solutions Private Limited.
+A product of Relynext Solutions.
 
 Mumbai, India.
 ```
@@ -577,8 +578,8 @@ Mumbai, India.
 
 Left side, single line:
 ```
-© 2026 Relynext Solutions Private Limited. All rights reserved.
-CIN: [placeholder]    ·    GST: [placeholder]    ·    hello@pratyek.com
+© 2026 Relynext Solutions. All rights reserved.
+GST: 27AAZFR7341G1ZK    ·    PAN: AAZFR7341G    ·    hello@pratyek.com
 ```
 
 Right side: the small Devanagari mark `प्रत्येक` in red, decorative.
@@ -587,7 +588,7 @@ Right side: the small Devanagari mark `प्रत्येक` in red, decorat
 - Background: `var(--paper)`. Top border: `1px solid var(--rule-faint)`.
 - Padding: 60px top, 32px bottom on desktop; 48px / 24px on mobile.
 - Wordmark in column 1: same as header, 19px Fraunces.
-- "A product of Relynext Solutions Private Limited" line: Inter 500, 14px, `color: var(--ink-soft)`. NOT muted to oblivion — it must be readable to a Meta reviewer scanning the page.
+- "A product of Relynext Solutions" line: Inter 500, 14px, `color: var(--ink-soft)`. NOT muted to oblivion — it must be readable to a Meta reviewer scanning the page.
 - All link text: Inter 400, 13.5px, `color: var(--ink-mute)`. Hover: `color: var(--ink)`.
 - Bottom strip: 12.5px Inter 400, `color: var(--ink-mute)`.
 - Devanagari mark: 14px, `color: var(--red)`, opacity 0.8.
@@ -697,15 +698,15 @@ Every page renders `<x-seo>` with props. The component outputs:
 
 | Page | `<title>` | `<meta description>` |
 |---|---|---|
-| Home | Pratyek — Your family's WhatsApp, with memory | Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes — Pratyek remembers. A product of Relynext Solutions Pvt Ltd. |
+| Home | Pratyek — Your family's WhatsApp, with memory | Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes — Pratyek remembers. A product of Relynext Solutions. |
 | Product | How Pratyek works — WhatsApp writes, the dashboard reads | Pratyek captures from WhatsApp and surfaces back through pratyek.com/memory. Bills, warranties, renewals, staff, appliances — all sorted, all searchable. |
 | Features | Features — Everything Pratyek remembers for your household | Bills, renewals, documents, vehicles, staff, appliances, subscriptions, occasions, health, education, finance, coordination — all in one second mind. |
-| Trust | Trust & Privacy — DPDP-compliant by default, no ads, no data sold | Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. Full DPDP compliance. Built by Relynext Solutions Private Limited. |
-| About | About — Pratyek is a product of Relynext Solutions Private Limited | The company behind Pratyek. Mission, team, registered address, CIN. Building a second mind for the Indian household CFO. |
+| Trust | Trust & Privacy — DPDP-compliant by default, no ads, no data sold | Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. Full DPDP compliance. Built by Relynext Solutions. |
+| About | About — Pratyek is a product of Relynext Solutions | The company behind Pratyek. Mission, team, registered address, CIN. Building a second mind for the Indian household CFO. |
 | FAQ | FAQ — Pratyek answers | What it is, where data lives, what languages it speaks, what it costs. The questions every family asks before they invite Pratyek in. |
 | Contact | Contact Pratyek and Relynext Solutions | Email us. We read everything. Press, partnerships, support, feedback — hello@pratyek.com. Registered office: Mumbai, India. |
 | Privacy Policy | Privacy Policy — Pratyek and Relynext Solutions | Plain-language privacy policy. What we collect, what we don't, where we store it, how to delete it. DPDP-compliant. |
-| Terms | Terms of Service — Pratyek and Relynext Solutions | Terms governing your use of Pratyek, the WhatsApp-native household concierge by Relynext Solutions Private Limited. |
+| Terms | Terms of Service — Pratyek and Relynext Solutions | Terms governing your use of Pratyek, the WhatsApp-native household concierge by Relynext Solutions. |
 | DPDP | DPDP Act compliance — Pratyek | How Pratyek complies with India's Digital Personal Data Protection Act, 2023. Consent, retention, user rights, grievance officer. |
 
 ### 8.3 Schema.org JSON-LD
@@ -716,11 +717,11 @@ Inject one `<script type="application/ld+json">` block in the layout (every page
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Relynext Solutions Private Limited",
+  "name": "Relynext Solutions",
   "alternateName": "Pratyek",
   "url": "https://pratyek.com",
   "logo": "https://pratyek.com/og/logo.png",
-  "description": "Relynext Solutions Private Limited is the maker of Pratyek, a WhatsApp-native household concierge for Indian families.",
+  "description": "Relynext Solutions is the partnership firm behind Pratyek, a WhatsApp-native household concierge for Indian families.",
   "foundingLocation": {
     "@type": "Place",
     "address": {
@@ -732,10 +733,10 @@ Inject one `<script type="application/ld+json">` block in the layout (every page
   },
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "[placeholder]",
-    "addressLocality": "Mumbai",
+    "streetAddress": "B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST",
+    "addressLocality": "Mumbai Suburban",
     "addressRegion": "Maharashtra",
-    "postalCode": "[placeholder]",
+    "postalCode": "400077",
     "addressCountry": "IN"
   },
   "contactPoint": {
@@ -762,7 +763,7 @@ On the Home page, additionally inject a `WebSite` block with `SearchAction` (eve
   "url": "https://pratyek.com",
   "publisher": {
     "@type": "Organization",
-    "name": "Relynext Solutions Private Limited"
+    "name": "Relynext Solutions"
   }
 }
 ```
@@ -813,15 +814,15 @@ Repeating this section because it's the most important compliance element on the
 
 The footer must, on every single page:
 
-1. **State the parent company relationship clearly:** "Pratyek is a product of Relynext Solutions Private Limited." This text must be in the visible flow (not a tooltip, not behind a click), in at least 14px, in a color with sufficient contrast against the cream background (`var(--ink-soft)` or darker).
+1. **State the parent entity relationship clearly:** "Pratyek is a product of Relynext Solutions, a partnership firm." This text must be in the visible flow (not a tooltip, not behind a click), in at least 14px, in a color with sufficient contrast against the cream background (`var(--ink-soft)` or darker).
 
-2. **Display the legal company name in the copyright line:** "© 2026 Relynext Solutions Private Limited. All rights reserved."
+2. **Display the legal company name in the copyright line:** "© 2026 Relynext Solutions. All rights reserved."
 
-3. **Display CIN, GST, and contact email** in the bottom strip. Placeholders are acceptable in v1; Nisarg fills these in before launch.
+3. **Display GSTIN, PAN, and contact email** in the bottom strip. Use GSTIN `27AAZFR7341G1ZK` and PAN `AAZFR7341G`.
 
 4. **Include the company's Schema.org JSON-LD** as described in §8.3.
 
-5. **Use "Pratyek is a product of Relynext Solutions Private Limited"** rather than cute alternatives like "by Relynext" or just "Relynext". The full company suffix matters for entity matching.
+5. **Use "Pratyek is a product of Relynext Solutions"** rather than cute alternatives like "by Relynext" or just "Relynext". The full company suffix matters for entity matching.
 
 If a Meta reviewer disables JavaScript and inspects the rendered HTML, they should still find the parent-company text in clean DOM. Do not hydrate this text from JS. It is server-rendered, period.
 
@@ -951,9 +952,10 @@ These have come up in similar builds; do not repeat them.
 Maintain this list at the top of every commit message touching content, until each is closed:
 
 - [ ] Founder bio for Nisarg (and any co-founder) — name, role, 2–3 sentence bio, photo or initials
-- [ ] Registered office address for Relynext Solutions Private Limited
-- [ ] CIN (Corporate Identification Number)
-- [ ] GST registration number
+- [x] Registered office address for Relynext Solutions
+- [x] Entity type: partnership firm
+- [x] GST registration number: 27AAZFR7341G1ZK
+- [x] PAN: AAZFR7341G
 - [ ] Grievance officer name + email (DPDP requirement)
 - [ ] Final canonical email (`hello@pratyek.com` is the working assumption)
 - [ ] Social media handles (Twitter/X, LinkedIn) once they exist

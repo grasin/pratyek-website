@@ -26,7 +26,7 @@
     {"@type":"Question","name":"Will Pratyek auto-pay my bills?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek never handles payment credentials and never auto-pays anything. Pratyek's job is to remember and nudge — paying stays with you, on the platform you trust."}},
     {"@type":"Question","name":"Are you DPDP-compliant?","acceptedAnswer":{"@type":"Answer","text":"Pratyek is built around India's Digital Personal Data Protection Act 2023 as its provisions commence in phases: consent, purpose limitation, data minimisation, retention, user rights, and grievance redressal."}},
     {"@type":"Question","name":"Do you train AI models on my messages?","acceptedAnswer":{"@type":"Answer","text":"No. We use Claude (Anthropic) and Gemma (Google) via OpenRouter under contracts that explicitly forbid training on our data."}},
-    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Relynext Solutions Private Limited, an Indian product company. Pratyek is its current product."}}
+    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Relynext Solutions, an Indian partnership firm. Pratyek is its current product."}}
   ]
 }
 @endverbatim</script>
@@ -219,7 +219,7 @@
             <div class="faq">
                 <button class="faq-q">Who builds Pratyek? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p><strong>Relynext Solutions Private Limited</strong>, an Indian product company. Pratyek is its current product. See the <a href="{{ route('about') }}">About page</a> for the full legal entity block.</p>
+                    <p><strong>Relynext Solutions</strong>, an Indian partnership firm. Pratyek is its current product. See the <a href="{{ route('about') }}">About page</a> for the full legal entity block, GST, and PAN.</p>
                 </div></div></div>
             </div>
 

@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Pratyek - WhatsApp Household Concierge"
-    description="Pratyek is a product of Relynext Solutions Private Limited - a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes; Pratyek remembers."
-    keywords="Pratyek, Pratyek WhatsApp, Relynext Solutions Private Limited, household management app India, WhatsApp household concierge, family bill reminder app, track maid salary, Indian family productivity, Adani electricity bill reminder, BMC property tax tracker, Bajaj Allianz renewal alert, JioFiber bill tracker, Tata Play renewal, mediclaim renewal reminder, household CFO tool, DPDP aware family app, made in India productivity"
+    description="Pratyek is a product of Relynext Solutions, a partnership firm - a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes; Pratyek remembers."
+    keywords="Pratyek, Pratyek WhatsApp, Relynext Solutions, household management app India, WhatsApp household concierge, family bill reminder app, track maid salary, Indian family productivity, Adani electricity bill reminder, BMC property tax tracker, Bajaj Allianz renewal alert, JioFiber bill tracker, Tata Play renewal, mediclaim renewal reminder, household CFO tool, DPDP aware family app, made in India productivity"
     og-image="/og/default.svg"
     page-type="WebPage"
 >

@@ -22,7 +22,7 @@
   <!-- Footer line -->
   <rect x="80" y="540" width="1040" height="1" fill="rgba(18,17,16,0.12)"/>
   <text x="80" y="585" font-family="Helvetica, Arial, sans-serif"
-        font-size="18" font-weight="500" fill="#3C3A35">A product of Relynext Solutions.</text>
+        font-size="18" font-weight="500" fill="#3C3A35">A product of Relynext Solutions, a partnership firm.</text>
   <text x="1120" y="585" font-family="Georgia, 'Times New Roman', serif"
-        font-size="22" font-weight="400" fill="#B8321E" text-anchor="end">प्रत्येक</text>
+        font-size="22" font-weight="400" fill="#B8321E" text-anchor="end">&#2346;&#2381;&#2352;&#2340;&#2381;&#2351;&#2375;&#2325;</text>
 </svg>

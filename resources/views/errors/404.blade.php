@@ -14,7 +14,7 @@
         </h1>
         <p class="lede" style="margin-inline: auto;">
             The link may be old, or we may have moved the page. Pratyek is a product of
-            <strong>Relynext Solutions Private Limited</strong> and lives just one tap away &mdash; try one of these instead:
+            <strong>Relynext Solutions</strong> and lives just one tap away &mdash; try one of these instead:
         </p>
     </div>
 </section>

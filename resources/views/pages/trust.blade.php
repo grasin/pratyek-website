@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Trust &amp; Privacy — DPDP-Aware, India-Hosted | Pratyek"
-    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. DPDP-aware privacy commitments. Built by Relynext Solutions Private Limited."
-    keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Relynext Solutions Private Limited trust, Bangalore servers"
+    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. DPDP-aware privacy commitments. Built by Relynext Solutions, a partnership firm."
+    keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Relynext Solutions trust, Bangalore servers"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -182,11 +182,12 @@
         <div class="trust-block">
             <div class="trust-block-head">
                 <p class="trust-block-num">07 &middot; Who's behind this</p>
-                <h3 class="trust-block-name">Pratyek is a product of Relynext Solutions Private Limited.</h3>
+                <h3 class="trust-block-name">Pratyek is a product of Relynext Solutions, a partnership firm.</h3>
             </div>
             <div class="trust-block-body">
                 <p>
-                    Relynext Solutions Private Limited is an Indian product company, registered in India.
+                    Relynext Solutions is an Indian partnership firm, registered in India.
+                    GST: 27AAZFR7341G1ZK. PAN: AAZFR7341G.
                     Pratyek is its first and current product. We sign every contract &mdash; with WhatsApp,
                     with our LLM partners, with our hosting provider &mdash; under that name. There's no
                     holding-company shell game.

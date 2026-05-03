@@ -1,7 +1,7 @@
 <x-layouts.app
     title="How Pratyek Works — WhatsApp Memory"
-    description="How Pratyek, a product of Relynext Solutions Private Limited, works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, tasks, assets, services, staff, family records — all sorted, all searchable."
-    keywords="how Pratyek works, Relynext Solutions Private Limited, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker integration, household app two surfaces, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, family CFO dashboard"
+    description="How Pratyek, a product of Relynext Solutions, a partnership firm, works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, tasks, assets, services, staff, family records — all sorted, all searchable."
+    keywords="how Pratyek works, Relynext Solutions, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker integration, household app two surfaces, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, family CFO dashboard"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -43,7 +43,7 @@
         <p class="hero-eyebrow">A Relynext Solutions product &middot; How it works</p>
         <h1>WhatsApp <em>writes.</em> The dashboard <em>reads.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek &mdash; a product of <strong>Relynext Solutions Private Limited</strong> &mdash; runs on two
+            Pratyek &mdash; a product of <strong>Relynext Solutions</strong> &mdash; runs on two
             surfaces. The WhatsApp chat is where your family captures, effortlessly, in the language they already
             speak. The web dashboard at <strong>memory.pratyek.com</strong> is where you retrieve, sort, and export.
             One product, two doors.

@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Features — Aligned With Memory Dashboard | Pratyek"
-    description="Pratyek, a product of Relynext Solutions Private Limited, is organised around the same Memory dashboard surfaces the product uses: Reminders, Tasks, Bills, Assets, Services, Staff, and Family."
-    keywords="Pratyek features, Relynext Solutions Private Limited, Memory dashboard, household management features India, bill tracking app India, staff salary tracker, appliance warranty tracker, Indian family WhatsApp concierge"
+    description="Pratyek, a product of Relynext Solutions, a partnership firm, is organised around the same Memory dashboard surfaces the product uses: Reminders, Tasks, Bills, Assets, Services, Staff, and Family."
+    keywords="Pratyek features, Relynext Solutions, Memory dashboard, household management features India, bill tracking app India, staff salary tracker, appliance warranty tracker, Indian family WhatsApp concierge"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -51,7 +51,7 @@
         <p class="hero-eyebrow">A Relynext Solutions product &middot; Features</p>
         <h1>Every feature maps to the <em>Memory dashboard.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek is a product of <strong>Relynext Solutions Private Limited</strong>. The feature list below is
+            Pratyek is a product of <strong>Relynext Solutions</strong>. The feature list below is
             organised exactly like the product: seven Memory surfaces, each with its own dashboard page and WhatsApp
             examples. The old long taxonomy still lives inside these surfaces; it no longer appears as a separate,
             conflicting navigation model.

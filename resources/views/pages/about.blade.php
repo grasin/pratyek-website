@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="About — Relynext Solutions Private Limited | Pratyek"
-    description="Pratyek is a product of Relynext Solutions Private Limited, an Indian product company building a WhatsApp-native household concierge."
-    keywords="Relynext Solutions Private Limited, Pratyek legal entity, about Pratyek, household concierge mission, Indian product company, Mumbai product company"
+    title="About — Relynext Solutions | Pratyek"
+    description="Pratyek is a product of Relynext Solutions, an Indian partnership firm building a WhatsApp-native household concierge."
+    keywords="Relynext Solutions, Pratyek legal entity, about Pratyek, household concierge mission, Indian partnership firm, Mumbai product firm"
     og-image="/og/default.svg"
     page-type="AboutPage"
     :breadcrumbs="[
@@ -16,9 +16,9 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">Company</p>
-        <h1>Pratyek is a product of <em>Relynext Solutions Private Limited.</em></h1>
+        <h1>Pratyek is a product of <em>Relynext Solutions, a partnership firm.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Relynext Solutions Private Limited is an Indian product company. Pratyek is its first product:
+            Relynext Solutions is an Indian partnership firm. Pratyek is its first product:
             a WhatsApp-native household concierge that helps Indian families remember bills, renewals,
             staff payments, appliance warranties, documents, contacts, and the everyday details that
             usually live in one person's head.
@@ -30,19 +30,22 @@
     <div class="wrap">
         <div class="legal-entity">
             <p class="legal-entity-title">Legal entity</p>
-            <h2 class="legal-entity-name">Pratyek is a product of Relynext Solutions Private Limited.</h2>
+            <h2 class="legal-entity-name">Pratyek is a product of Relynext Solutions, a partnership firm.</h2>
             <dl class="legal-entity-rows">
                 <dt>Legal name</dt>
-                <dd>Relynext Solutions Private Limited</dd>
+                <dd>Relynext Solutions</dd>
+
+                <dt>Entity type</dt>
+                <dd>Partnership firm</dd>
 
                 <dt>Registered address</dt>
-                <dd>[Registered address placeholder], Mumbai, Maharashtra, India</dd>
-
-                <dt>CIN</dt>
-                <dd>[CIN placeholder]</dd>
+                <dd>B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India</dd>
 
                 <dt>GST</dt>
-                <dd>[GST placeholder]</dd>
+                <dd>27AAZFR7341G1ZK</dd>
+
+                <dt>PAN</dt>
+                <dd>AAZFR7341G</dd>
 
                 <dt>Email</dt>
                 <dd><a href="mailto:hello@pratyek.com">hello@pratyek.com</a></dd>
@@ -62,10 +65,10 @@
 <section class="editorial">
     <div class="wrap-narrow">
         <p class="editorial-kicker">The company</p>
-        <h2>An Indian product company, building one careful household product first.</h2>
+        <h2>An Indian partnership firm, building one careful household product first.</h2>
         <div class="editorial-body" style="margin-top: var(--space-6);">
             <p>
-                Relynext Solutions Private Limited builds software for Indian families and the real operating
+                Relynext Solutions builds software for Indian families and the real operating
                 systems they already use: WhatsApp, shared calendars, forwarded PDFs, voice notes, and the
                 memory of the person who quietly keeps track of everything.
             </p>
