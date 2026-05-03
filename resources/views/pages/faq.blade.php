@@ -1,6 +1,6 @@
 <x-layouts.app
     title="FAQ - Household Management App for Indian Families"
-    description="Answers about Pratyek, India's household management operating system: WhatsApp setup, family dashboard, data privacy, pricing, languages, and support."
+    description="Answers about Pratyek, India's household jugaad system: WhatsApp setup, family dashboard, data privacy, pricing, languages, and support."
     keywords="Pratyek FAQ, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family dashboard, Pratyek pricing, DPDP family service, Indian languages WhatsApp"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -18,7 +18,7 @@
   "@id": "https://pratyek.com/faq#faqpage",
   "mainEntity": [
     {"@type":"Question","name":"Is Pratyek an app I have to install?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact. There is nothing to install. The dashboard at memory.pratyek.com is web-only."}},
-    {"@type":"Question","name":"Is Pratyek a productivity app?","acceptedAnswer":{"@type":"Answer","text":"Yes, but for household work instead of office work. Pratyek is India's household management operating system: a WhatsApp assistant plus Memory dashboard for bills, tasks, reminders, assets, services, staff, and family records."}},
+    {"@type":"Question","name":"Is Pratyek a productivity app?","acceptedAnswer":{"@type":"Answer","text":"Yes, but for household work instead of office work. Pratyek is India's household jugaad system: a WhatsApp assistant plus Memory dashboard for bills, tasks, reminders, assets, services, staff, and family records."}},
     {"@type":"Question","name":"Who is Pratyek for?","acceptedAnswer":{"@type":"Answer","text":"Every Indian home that runs on WhatsApp: nuclear families, joint families, messy households, and highly organised families that want one shared dashboard for household work."}},
     {"@type":"Question","name":"Can Pratyek join my existing family WhatsApp group?","acceptedAnswer":{"@type":"Answer","text":"No, and we wouldn't ask for that. You create a separate small chat with Pratyek and use it as your household's filing thread. Your existing family group stays untouched."}},
     {"@type":"Question","name":"What languages does Pratyek understand?","acceptedAnswer":{"@type":"Answer","text":"English, Hindi, Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, Punjabi, plus the Hinglish your family actually speaks. Voice notes can switch mid-sentence."}},
@@ -45,7 +45,7 @@
         <p class="hero-eyebrow">FAQ</p>
         <h1>The questions Indian families ask before they <em>invite Pratyek in</em>.</h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek is a household management operating system inside WhatsApp, so the questions are practical:
+            Pratyek is a household jugaad system inside WhatsApp, so the questions are practical:
             setup, privacy, family use, pricing, and what happens after the first message. If your question isn't here, write to us at
             <a href="mailto:hello@pratyek.com" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">hello@pratyek.com</a>
             and we'll add it.
@@ -73,7 +73,7 @@
             <div class="faq">
                 <button class="faq-q">Is Pratyek a productivity app? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p>Yes, but for household work instead of office work. Think of Pratyek as India's household management operating system: a WhatsApp assistant plus a Memory dashboard for bills, reminders, shared family tasks, assets, services, staff, and family records.</p>
+                    <p>Yes, but for household work instead of office work. Think of Pratyek as India's household jugaad system: a WhatsApp assistant plus a Memory dashboard for bills, reminders, shared family tasks, assets, services, staff, and family records.</p>
                 </div></div></div>
             </div>
 

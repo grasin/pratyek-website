@@ -1,7 +1,7 @@
 <x-layouts.app
     title="How Pratyek Works - WhatsApp to Memory Dashboard"
-    description="How India's household management operating system works: capture in WhatsApp, retrieve bills, tasks, assets, services, staff, and family records in Memory."
-    keywords="how Pratyek works, WhatsApp household assistant, household management app India, family management app India, home management app India, Indian household productivity tool, family dashboard, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, home operating system India"
+    description="How India's household jugaad system works: capture in WhatsApp, retrieve bills, tasks, assets, services, staff, and family records in Memory."
+    keywords="how Pratyek works, WhatsApp household assistant, household management app India, family management app India, home management app India, Indian household productivity tool, family dashboard, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, household jugaad system India"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -18,11 +18,11 @@
   "@id": "https://pratyek.com/#software",
   "name": "Pratyek",
   "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household and family management operating system",
+  "applicationSubCategory": "Household and family jugaad system",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
-  "description": "Two-surface household management operating system: capture in WhatsApp (forward bills, voice notes, photos), retrieve at memory.pratyek.com (sortable, searchable, exportable).",
-  "keywords": "household management app India, family management app India, WhatsApp household assistant, family dashboard, shared family tasks, home operating system India",
+  "description": "Two-surface household jugaad system: capture in WhatsApp (forward bills, voice notes, photos), retrieve at memory.pratyek.com (sortable, searchable, exportable).",
+  "keywords": "household management app India, family management app India, WhatsApp household assistant, family dashboard, shared family tasks, household jugaad system India",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "offers": {
     "@type": "Offer",
@@ -44,7 +44,7 @@
         <p class="hero-eyebrow">How it works</p>
         <h1>WhatsApp captures. <em>Memory runs the household.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek is India's household management operating system, built inside WhatsApp. The chat captures what every Indian family already sends.
+            Pratyek is India's household jugaad system, built inside WhatsApp. The chat captures what every Indian family already sends.
             The web dashboard at <strong>memory.pratyek.com</strong> turns it into searchable home productivity: reminders, tasks, bills,
             assets, services, staff, and family records.
         </p>
@@ -107,7 +107,7 @@
     <div class="wrap">
         <div class="section-head">
             <p class="kicker">The memory model</p>
-            <h2>A household operating system must know what to remember.</h2>
+            <h2>A household jugaad system must know what to remember.</h2>
             <p class="lede" style="margin-top: var(--space-3);">
                 A home management system should not become a hoarder. We keep what helps the household run; we refuse what would put the
                 household at risk. The line is bright, and we hold it.

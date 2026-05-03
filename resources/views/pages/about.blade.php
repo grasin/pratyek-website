@@ -1,7 +1,7 @@
 <x-layouts.app
     title="About Pratyek - Built for Every Indian Home"
-    description="Why Pratyek exists: India's household management operating system, built inside WhatsApp for every Indian family."
-    keywords="about Pratyek, Indian household productivity tool, household management app India, family management app India, home operating system India, WhatsApp household assistant, Mumbai product team"
+    description="Why Pratyek exists: India's household jugaad system, built inside WhatsApp for every Indian family."
+    keywords="about Pratyek, Indian household productivity tool, household management app India, family management app India, household jugaad system India, WhatsApp household assistant, Mumbai product team"
     og-image="/og/default.svg"
     page-type="AboutPage"
     :breadcrumbs="[
@@ -16,7 +16,7 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">About</p>
-        <h1>Every Indian home deserves a <em>household operating system.</em></h1>
+        <h1>Every Indian home deserves a <em>household jugaad system.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
             Pratyek means every. It exists for every Indian family, and especially for the person who quietly keeps track of everything at home:
             bills, renewals, staff payments, appliance warranties, documents, contacts,
@@ -34,7 +34,7 @@
 <section class="editorial">
     <div class="wrap-narrow">
         <p class="editorial-kicker">What we build</p>
-        <h2>WhatsApp for capture. Memory as the household OS.</h2>
+        <h2>WhatsApp for capture. Memory as the household jugaad system.</h2>
         <div class="editorial-body" style="margin-top: var(--space-6);">
             <p>
                 Indian households already run on WhatsApp, forwarded PDFs, voice notes, shared calendars,
@@ -90,7 +90,7 @@
                 wedding next month and what we got the last cousin for theirs.
             </p>
             <p>
-                Pratyek is being built to become India's most useful household operating system for that work.
+                Pratyek is being built to become India's most useful household jugaad system for that work.
                 Patient, multilingual, written in the chat the family already lives in, and sortable in a clean dashboard when the household needs to retrieve.
                 We do not promise to replace anyone. We promise to lighten the cognitive load.
             </p>

@@ -1,7 +1,7 @@
 @props([
     'title'       => 'Pratyek',
-    'description' => 'Pratyek is India\'s household management operating system, built inside WhatsApp for every Indian home.',
-    'keywords'    => 'household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, home operating system India, Pratyek',
+    'description' => 'Pratyek is India\'s household jugaad system, built inside WhatsApp for every Indian home.',
+    'keywords'    => 'household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, household jugaad system India, Pratyek',
     'ogImage'     => '/og/default.svg',
     'ogType'      => 'website',
     'canonical'   => '',
@@ -36,7 +36,7 @@
 <meta property="og:image" content="{{ $absoluteOg }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Pratyek &mdash; India&apos;s household management operating system">
+<meta property="og:image:alt" content="Pratyek &mdash; India&apos;s household jugaad system">
 <meta property="og:url" content="{{ $canonicalUrl }}">
 <meta property="og:type" content="{{ $ogType }}">
 <meta property="og:site_name" content="Pratyek">
@@ -47,7 +47,7 @@
 <meta name="twitter:title" content="{{ $fullTitle }}">
 <meta name="twitter:description" content="{{ $description }}">
 <meta name="twitter:image" content="{{ $absoluteOg }}">
-<meta name="twitter:image:alt" content="Pratyek &mdash; India&apos;s household management operating system">
+<meta name="twitter:image:alt" content="Pratyek &mdash; India&apos;s household jugaad system">
 
 {{-- Favicon --}}
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -63,7 +63,7 @@
   "@type": "Organization",
   "@id": "https://pratyek.com/#organization",
   "name": "Pratyek",
-  "alternateName": ["\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915", "Pratyek household OS", "Pratyek family management app"],
+  "alternateName": ["\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915", "Pratyek household jugaad system", "Pratyek family management app"],
   "url": "https://pratyek.com",
   "logo": {
     "@type": "ImageObject",
@@ -72,8 +72,8 @@
     "height": 512
   },
   "image": "https://pratyek.com/og/default.svg",
-  "slogan": "India's household management operating system, built inside WhatsApp.",
-  "description": "Pratyek is India's household management operating system, built inside WhatsApp for every Indian home. DPDP-aware, India-hosted, no ads, no data sold.",
+  "slogan": "India's household jugaad system, built inside WhatsApp.",
+  "description": "Pratyek is India's household jugaad system, built inside WhatsApp for every Indian home. DPDP-aware, India-hosted, no ads, no data sold.",
   "disambiguatingDescription": "Pratyek is a WhatsApp-native household and family management system for Indian families, distinct from any other entity sharing the name.",
   "foundingDate": "2026",
   "foundingLocation": {
@@ -104,7 +104,7 @@
     "household management app India",
     "family management app India",
     "home management app India",
-    "home operating system India",
+    "household jugaad system India",
     "WhatsApp household assistant",
     "family organizer India",
     "family organiser India",

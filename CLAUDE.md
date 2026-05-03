@@ -17,13 +17,13 @@ Meta has approved use of the Pratyek display name. The site should now be Pratye
 
 ## Product Positioning
 
-Pratyek is India's household management operating system, built inside WhatsApp for every Indian home. WhatsApp is the capture surface; the Memory dashboard is the retrieval and coordination surface. The website should quickly show how a WhatsApp message, bill, voice note, or document turns into a structured dashboard record for reminders, tasks, bills, assets, services, staff, and family.
+Pratyek is India's household jugaad system, built inside WhatsApp for every Indian home. WhatsApp is the capture surface; the Memory dashboard is the retrieval and coordination surface. The website should quickly show how a WhatsApp message, bill, voice note, or document turns into a structured dashboard record for reminders, tasks, bills, assets, services, staff, and family.
 
 Use this positioning consistently:
 
-- Canonical line: "India's household management operating system, built inside WhatsApp."
+- Canonical line: "India's household jugaad system, built inside WhatsApp."
 - Meaning cue: "Pratyek means every. Built for every Indian home."
-- SEO language to weave in naturally: household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family dashboard, shared family tasks, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, home operating system India.
+- SEO language to weave in naturally: household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family dashboard, shared family tasks, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, household jugaad system India.
 - Tone: confident, useful, Indian-English, never keyword-stuffed.
 
 ## Pages

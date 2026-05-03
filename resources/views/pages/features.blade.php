@@ -52,7 +52,7 @@
         <p class="hero-eyebrow">Features</p>
         <h1>The family dashboard for <em>every Indian home.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek is built to become India's most useful household operating system: practical enough for messy homes,
+            Pratyek is built to become India's most useful household jugaad system: practical enough for messy homes,
             structured enough for super-organised families, and simple enough to start from one WhatsApp message.
             Every feature below maps to the live Memory dashboard.
         </p>
@@ -74,7 +74,7 @@
                 <h2 class="cat-name">Pratyek Reminders</h2>
                 <p class="cat-intro">
                     Everything due across the household, collected into one place: today, calendar, rules, done,
-                    snooze. This is the bill reminder app, renewal tracker, and family calendar layer of the household OS.
+                    snooze. This is the bill reminder app, renewal tracker, and family calendar layer of the household jugaad system.
                 </p>
             </div>
             <ul class="cat-list">

@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Pratyek - India's Household Management OS"
-    description="India's household management operating system, built inside WhatsApp. Turn family messages into bills, tasks, reminders, assets, staff, and services."
-    keywords="Pratyek, Pratyek WhatsApp, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family organizer India, family organiser India, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, home operating system India"
+    title="Pratyek - India's Household Jugaad System"
+    description="India's household jugaad system, built inside WhatsApp. Turn family messages into bills, tasks, reminders, assets, staff, and services."
+    keywords="Pratyek, Pratyek WhatsApp, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family organizer India, family organiser India, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household jugaad system India"
     og-image="/og/default.svg"
     page-type="WebPage"
 >
@@ -16,7 +16,7 @@
   "url": "https://pratyek.com",
   "name": "Pratyek",
   "alternateName": "\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915",
-  "description": "India's household management operating system, built inside WhatsApp.",
+  "description": "India's household jugaad system, built inside WhatsApp.",
   "inLanguage": "en-IN",
   "publisher": { "@id": "https://pratyek.com/#organization" },
   "potentialAction": [
@@ -39,15 +39,15 @@
   "@type": "SoftwareApplication",
   "@id": "https://pratyek.com/#software",
   "name": "Pratyek",
-  "alternateName": ["Pratyek household OS", "Pratyek family management app", "Pratyek WhatsApp household assistant"],
+  "alternateName": ["Pratyek household jugaad system", "Pratyek family management app", "Pratyek WhatsApp household assistant"],
   "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household and family management operating system",
+  "applicationSubCategory": "Household and family jugaad system",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
   "image": "https://pratyek.com/og/default.svg",
   "screenshot": "https://pratyek.com/og/default.svg",
-  "description": "Pratyek is India's household management operating system, built inside WhatsApp for every Indian home. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim - Pratyek extracts, files, and turns them into a searchable Memory dashboard.",
-  "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, home operating system India",
+  "description": "Pratyek is India's household jugaad system, built inside WhatsApp for every Indian home. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim - Pratyek extracts, files, and turns them into a searchable Memory dashboard.",
+  "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household jugaad system India",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "audience": {
     "@type": "PeopleAudience",
@@ -184,7 +184,7 @@
             <div class="hero-product-copy">
                 <p class="hero-eyebrow">Live on WhatsApp</p>
                 <h1>
-                    India's household management OS.
+                    India's household jugaad system.
                     <em>Built inside WhatsApp.</em>
                 </h1>
                 <p class="hero-sub">
