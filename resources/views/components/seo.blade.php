@@ -21,7 +21,7 @@
 <meta name="description" content="{{ $description }}">
 <meta name="keywords" content="{{ $keywords }}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:160, max-video-preview:-1">
-<meta name="theme-color" content="#F8F1E4">
+<meta name="theme-color" content="#FFF9EF">
 <meta name="format-detection" content="telephone=no">
 <meta name="author" content="Pratyek">
 <meta name="publisher" content="Pratyek">

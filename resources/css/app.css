@@ -37,10 +37,10 @@
    1. Tokens
    ----------------------------------------------------------- */
 :root {
-  --paper:      #F8F1E4;
-  --paper-warm: #EFE1C8;
-  --paper-soft: #F5E9D6;
-  --surface:    #FFFDF7;
+  --paper:      #FFF9EF;
+  --paper-warm: #F6EBD8;
+  --paper-soft: #FAF1E4;
+  --surface:    #FFFFFF;
   --surface-pop:#FFFFFF;
   --ink:        #10211F;
   --ink-soft:   #31413C;
@@ -106,7 +106,7 @@
 html { font-size: 16px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body {
   background:
-    linear-gradient(180deg, var(--paper) 0%, #F3E8D6 58%, var(--paper) 100%);
+    linear-gradient(180deg, var(--paper) 0%, #FBF4EA 58%, var(--paper) 100%);
   color: var(--ink);
   font-family: 'Inter', system-ui, sans-serif;
   font-weight: 400;
@@ -390,7 +390,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: rgba(248, 241, 228, 0.92);
+  background-color: rgba(255, 249, 239, 0.92);
   border-bottom: 1px solid var(--rule-faint);
   backdrop-filter: saturate(140%) blur(6px);
 }
@@ -679,6 +679,17 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 }
 
 .hero h1 { margin-bottom: var(--space-5); }
+
+.hero-second-heading {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.22;
+  color: var(--ink);
+  max-width: 32ch;
+  margin-bottom: var(--space-4);
+  text-wrap: balance;
+}
 
 .hero-sub {
   font-family: 'Fraunces', Georgia, serif;
@@ -2791,6 +2802,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   /* Tighter h1 on phone, easier to read */
   h1 { font-size: clamp(28px, 8vw, 36px); line-height: 1.06; }
   h2 { font-size: clamp(24px, 6.5vw, 32px); }
+  .hero-second-heading { font-size: 22px; line-height: 1.25; }
 
   /* Hero actions stack full-width on mobile */
   .hero-actions {

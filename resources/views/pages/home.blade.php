@@ -187,6 +187,10 @@
                     India's household jugaad system.
                     <em>Built inside WhatsApp.</em>
                 </h1>
+                <h2 class="hero-second-heading">
+                    Just chat with Pratyek on WhatsApp. It turns ghar ka chaos into a proper, sophisticated Memory dashboard.
+                    Promise, this jugaad is real.
+                </h2>
                 <p class="hero-sub">
                     A message goes into WhatsApp. Memory turns it into bills, tasks, reminders, assets, staff, family, and services.
                     Pratyek means every. Built for every Indian home, from messy to super-organised.
