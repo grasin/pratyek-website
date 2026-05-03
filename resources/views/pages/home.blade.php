@@ -1,6 +1,6 @@
 <x-layouts.app
-    title="Pratyek - India's Household Management System"
-    description="India's household management system, built inside WhatsApp. Turn family messages into bills, tasks, reminders, assets, staff, and services."
+    title="Pratyek | Household Management App for Every Indian Household and Family"
+    description="Pratyek is India's household management system, built inside WhatsApp for every Indian household and family. Turn family messages into bills, tasks, reminders, assets, staff, and services."
     keywords="Pratyek, Pratyek WhatsApp, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family organizer India, family organiser India, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household management system India"
     og-image="/og/default.svg"
     page-type="WebPage"
