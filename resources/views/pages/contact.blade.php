@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Contact — +91 93720 23537 | Pratyek"
-    description="WhatsApp +91 93720 23537 or email hello@pratyek.com. We read every message. A real person replies, usually within a working day."
-    keywords="contact Pratyek, WhatsApp 9372023537, hello@pratyek.com, Pratyek support, household concierge support"
+    title="Contact - Pratyek Household Management Support"
+    description="WhatsApp +91 93720 23537 or email hello@pratyek.com for Pratyek, India's household management operating system for every Indian home."
+    keywords="contact Pratyek, WhatsApp 9372023537, hello@pratyek.com, Pratyek support, household management app India, family management app India, WhatsApp household assistant"
     og-image="/og/default.svg"
     page-type="ContactPage"
     :breadcrumbs="[
@@ -18,8 +18,8 @@
         <p class="hero-eyebrow">Contact</p>
         <h1>Tell us anything.</h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            WhatsApp is the fastest. Email works too. We read everything &mdash; press, partnerships, support,
-            feedback &mdash; and a real person replies, usually within a working day.
+            WhatsApp is the fastest. Email works too. We read everything &mdash; support, feedback, press,
+            partnerships, and household management ideas from Indian families &mdash; and a real person replies, usually within a working day.
         </p>
     </div>
 </section>
@@ -47,7 +47,7 @@
                     </p>
                     <p class="live-cta-sub">
                         Add the number to your contacts, send a message, and Pratyek replies in your language.
-                        Same number for support, feedback, and onboarding.
+                        Same number for support, feedback, onboarding, and the first home workflow you want organised.
                     </p>
                     <div class="live-cta-actions">
                         <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

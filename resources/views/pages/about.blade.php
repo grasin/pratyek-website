@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="About Pratyek"
-    description="Why Pratyek exists: a WhatsApp-native household memory for Indian families."
-    keywords="about Pratyek, household concierge mission, WhatsApp household memory, Indian family productivity, Mumbai product team"
+    title="About Pratyek - Built for Every Indian Home"
+    description="Why Pratyek exists: India's household management operating system, built inside WhatsApp for every Indian family."
+    keywords="about Pratyek, Indian household productivity tool, household management app India, family management app India, home operating system India, WhatsApp household assistant, Mumbai product team"
     og-image="/og/default.svg"
     page-type="AboutPage"
     :breadcrumbs="[
@@ -16,9 +16,9 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">About</p>
-        <h1>A second mind for the <em>Indian household.</em></h1>
+        <h1>Every Indian home deserves a <em>household operating system.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek exists for the person who quietly keeps track of everything at home:
+            Pratyek means every. It exists for every Indian family, and especially for the person who quietly keeps track of everything at home:
             bills, renewals, staff payments, appliance warranties, documents, contacts,
             medicine refills, school fees, and the hundred small details that usually live
             in one person's head.
@@ -34,7 +34,7 @@
 <section class="editorial">
     <div class="wrap-narrow">
         <p class="editorial-kicker">What we build</p>
-        <h2>WhatsApp for capture. Memory for retrieval.</h2>
+        <h2>WhatsApp for capture. Memory as the household OS.</h2>
         <div class="editorial-body" style="margin-top: var(--space-6);">
             <p>
                 Indian households already run on WhatsApp, forwarded PDFs, voice notes, shared calendars,
@@ -44,6 +44,8 @@
             <p>
                 Send a bill, a voice note, a photo, or a question. Pratyek extracts the useful detail, files it
                 into the right Memory surface, and keeps it searchable when the household needs it later.
+                That is the practical meaning of a home management app for India: the family keeps using WhatsApp,
+                while the dashboard quietly becomes the source of truth.
             </p>
         </div>
     </div>
@@ -61,12 +63,12 @@
         <div class="editorial-body" style="margin-top: var(--space-6);">
             <p>
                 <strong>Nisarg</strong> leads product and engineering for Pratyek from Mumbai, shaped by the same
-                household memory problem the product is built to solve: bills, renewals, staff payments,
+                household productivity problem the product is built to solve: bills, renewals, staff payments,
                 documents, and a hundred small responsibilities living in one person's head.
             </p>
             <p>
                 The wider team is intentionally small for now, focused on reliability, privacy, and the craft
-                of making WhatsApp feel like useful household memory instead of another app to manage.
+                of making WhatsApp feel like a useful family management system instead of another app to manage.
             </p>
         </div>
     </div>
@@ -88,12 +90,12 @@
                 wedding next month and what we got the last cousin for theirs.
             </p>
             <p>
-                Pratyek is a second mind for that work. Patient, multilingual, written in the chat the family
-                already lives in, and sortable in a clean dashboard when the household needs to retrieve.
+                Pratyek is being built to become India's most useful household operating system for that work.
+                Patient, multilingual, written in the chat the family already lives in, and sortable in a clean dashboard when the household needs to retrieve.
                 We do not promise to replace anyone. We promise to lighten the cognitive load.
             </p>
             <p>
-                We are building it family by family, in the language Indian households already speak, with
+                We are building it family by family, for messy homes and super-organised homes alike, in the language Indian households already speak, with
                 the trust standards required for a product that sits this close to daily life.
             </p>
         </div>
@@ -107,7 +109,7 @@
     <div class="wrap">
         <h2>Pratyek is live.</h2>
         <p>
-            Send "Hi" on WhatsApp and start with the household detail you want Pratyek to remember.
+            Send "Hi" on WhatsApp and start with the household detail you want Pratyek to organise.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

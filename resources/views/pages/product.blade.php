@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="How Pratyek Works — WhatsApp Memory"
-    description="How Pratyek works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, tasks, assets, services, staff, family records — all sorted, all searchable."
-    keywords="how Pratyek works, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker integration, household app two surfaces, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, family CFO dashboard"
+    title="How Pratyek Works - WhatsApp to Memory Dashboard"
+    description="How India's household management operating system works: capture in WhatsApp, retrieve bills, tasks, assets, services, staff, and family records in Memory."
+    keywords="how Pratyek works, WhatsApp household assistant, household management app India, family management app India, home management app India, Indian household productivity tool, family dashboard, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, home operating system India"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -18,10 +18,11 @@
   "@id": "https://pratyek.com/#software",
   "name": "Pratyek",
   "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household management concierge",
+  "applicationSubCategory": "Household and family management operating system",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
-  "description": "Two-surface household concierge: capture in WhatsApp (forward bills, voice notes, photos), retrieve at memory.pratyek.com (sortable, searchable, exportable).",
+  "description": "Two-surface household management operating system: capture in WhatsApp (forward bills, voice notes, photos), retrieve at memory.pratyek.com (sortable, searchable, exportable).",
+  "keywords": "household management app India, family management app India, WhatsApp household assistant, family dashboard, shared family tasks, home operating system India",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "offers": {
     "@type": "Offer",
@@ -41,11 +42,11 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">How it works</p>
-        <h1>WhatsApp <em>writes.</em> The dashboard <em>reads.</em></h1>
+        <h1>WhatsApp captures. <em>Memory runs the household.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek runs on two surfaces. The WhatsApp chat is where your family captures, effortlessly, in the language they already
-            speak. The web dashboard at <strong>memory.pratyek.com</strong> is where you retrieve, sort, and export.
-            One product, two doors.
+            Pratyek is India's household management operating system, built inside WhatsApp. The chat captures what every Indian family already sends.
+            The web dashboard at <strong>memory.pratyek.com</strong> turns it into searchable home productivity: reminders, tasks, bills,
+            assets, services, staff, and family records.
         </p>
     </div>
 </section>
@@ -59,11 +60,12 @@
     <div class="surfaces-grid">
         <div class="surface">
             <p class="surface-label">Surface 1 &middot; WhatsApp</p>
-            <h3 class="surface-name">Capture is free, friction-free, and lives where you already are.</h3>
+            <h3 class="surface-name">Capture is friction-free, because it lives where the family already is.</h3>
             <p class="surface-caption">
                 Your family doesn't learn a new app. They just forward, send, or speak &mdash; in any of nine Indian
                 languages, including Hinglish. Pratyek extracts what's useful, files it under the right category,
-                and confirms back in the same chat thread, in the same language.
+                and confirms back in the same chat thread, in the same language. Messy home, super-organised home,
+                joint family, nuclear family &mdash; the input stays natural.
             </p>
             <ul class="trust-list" style="margin-top: var(--space-4);">
                 <li>Forward any document &mdash; PDF, photo, scan</li>
@@ -81,12 +83,12 @@
 
         <div class="surface">
             <p class="surface-label">Surface 2 &middot; memory.pratyek.com</p>
-            <h3 class="surface-name">Retrieval is precise, sortable, and exportable on demand.</h3>
+            <h3 class="surface-name">Retrieval is precise, sortable, and ready for the whole household.</h3>
             <p class="surface-caption">
                 Open the dashboard. Sidebar lists the same Memory surfaces the product uses every day:
                 Reminders, Tasks, Bills, Assets, Services, Staff, and Family. Each tab is a real product
                 surface, not a marketing screenshot. Filter by date, by family member, by status. Search
-                across everything.
+                across everything. This is the family dashboard that makes Pratyek more than a reminder bot.
             </p>
             <ul class="trust-list" style="margin-top: var(--space-4);">
                 <li>One log-in for the entire household</li>
@@ -105,9 +107,9 @@
     <div class="wrap">
         <div class="section-head">
             <p class="kicker">The memory model</p>
-            <h2>Pratyek is opinionated about what it remembers.</h2>
+            <h2>A household operating system must know what to remember.</h2>
             <p class="lede" style="margin-top: var(--space-3);">
-                A second mind isn't a hoarder. We keep what helps the household run; we refuse what would put the
+                A home management system should not become a hoarder. We keep what helps the household run; we refuse what would put the
                 household at risk. The line is bright, and we hold it.
             </p>
         </div>
@@ -475,7 +477,7 @@
     <div class="wrap-wide">
         <div class="section-head section-head--center">
             <p class="kicker">The dashboard</p>
-            <h2 style="max-width: 26ch;">Same household. Different surface.</h2>
+            <h2 style="max-width: 26ch;">The operating system behind every household message.</h2>
             <p class="lede" style="margin-top: var(--space-3); max-width: 56ch;">
                 Every household has its own private dashboard. Sidebar lists every category. Tabs filter status.
                 Tables show the actual receipts. Search is across every entity Pratyek has ever filed for you.
@@ -565,7 +567,7 @@
         </div>
 
         <p style="text-align: center; margin-top: var(--space-6); font-family: 'Inter', sans-serif; font-size: 13.5px; color: var(--ink-mute);">
-            Every household sees their own dashboard. The chrome is a real product, not a marketing screenshot.
+            Every Indian household sees its own family dashboard. The chrome is a real product, not a marketing screenshot.
         </p>
     </div>
 </section>
@@ -575,9 +577,9 @@
      ============================================================ --}}
 <section class="cta-block">
     <div class="wrap">
-        <h2>Ready to invite Pratyek into your household?</h2>
+        <h2>Ready to give your household its own operating system?</h2>
         <p>
-            Send "Hi" on WhatsApp and start with the first thing your household needs Pratyek to remember.
+            Send "Hi" on WhatsApp and start with the first thing your home needs organised.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

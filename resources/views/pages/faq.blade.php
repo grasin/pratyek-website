@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="FAQ — How Pratyek Works for Indian Families"
-    description="What it is, where data lives, what languages it speaks, what it costs. The questions every family asks before they invite Pratyek in."
-    keywords="Pratyek FAQ, WhatsApp household concierge questions, Pratyek pricing, DPDP family service, Indian languages WhatsApp, Aadhaar PAN passport storage"
+    title="FAQ - Household Management App for Indian Families"
+    description="Answers about Pratyek, India's household management operating system: WhatsApp setup, family dashboard, data privacy, pricing, languages, and support."
+    keywords="Pratyek FAQ, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family dashboard, Pratyek pricing, DPDP family service, Indian languages WhatsApp"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -18,15 +18,19 @@
   "@id": "https://pratyek.com/faq#faqpage",
   "mainEntity": [
     {"@type":"Question","name":"Is Pratyek an app I have to install?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact. There is nothing to install. The dashboard at memory.pratyek.com is web-only."}},
+    {"@type":"Question","name":"Is Pratyek a productivity app?","acceptedAnswer":{"@type":"Answer","text":"Yes, but for household work instead of office work. Pratyek is India's household management operating system: a WhatsApp assistant plus Memory dashboard for bills, tasks, reminders, assets, services, staff, and family records."}},
+    {"@type":"Question","name":"Who is Pratyek for?","acceptedAnswer":{"@type":"Answer","text":"Every Indian home that runs on WhatsApp: nuclear families, joint families, messy households, and highly organised families that want one shared dashboard for household work."}},
     {"@type":"Question","name":"Can Pratyek join my existing family WhatsApp group?","acceptedAnswer":{"@type":"Answer","text":"No, and we wouldn't ask for that. You create a separate small chat with Pratyek and use it as your household's filing thread. Your existing family group stays untouched."}},
     {"@type":"Question","name":"What languages does Pratyek understand?","acceptedAnswer":{"@type":"Answer","text":"English, Hindi, Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, Punjabi, plus the Hinglish your family actually speaks. Voice notes can switch mid-sentence."}},
     {"@type":"Question","name":"Where is my data stored?","acceptedAnswer":{"@type":"Answer","text":"On servers in Bangalore, India (DigitalOcean BLR1). Backups also in India. No replication outside the country."}},
     {"@type":"Question","name":"Do you store my Aadhaar / PAN / passport?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek refuses to store these and points you to DigiLocker, the government's official document vault. We keep only expiry dates."}},
     {"@type":"Question","name":"What does Pratyek cost?","acceptedAnswer":{"@type":"Answer","text":"Free to use right now. Paid plans will arrive when the product is mature; we will publish prices in advance with notice. There will never be an advertising tier or a data-sale tier."}},
+    {"@type":"Question","name":"Is it only for organised families?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek is designed for messy real households as much as super-organised ones. One forwarded bill or voice note is enough to start; structure appears in Memory after the message is sent."}},
     {"@type":"Question","name":"Will Pratyek auto-pay my bills?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek never handles payment credentials and never auto-pays anything. Pratyek's job is to remember and nudge — paying stays with you, on the platform you trust."}},
     {"@type":"Question","name":"Are you DPDP-compliant?","acceptedAnswer":{"@type":"Answer","text":"Pratyek is built around India's Digital Personal Data Protection Act 2023 as its provisions commence in phases: consent, purpose limitation, data minimisation, retention, user rights, and grievance redressal."}},
     {"@type":"Question","name":"Do you train models on my messages?","acceptedAnswer":{"@type":"Answer","text":"No. We use Claude (Anthropic) and Gemma (Google) via OpenRouter under contracts that explicitly forbid training on our data."}},
-    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Pratyek is built by a small Mumbai-based product team focused on household memory, privacy, and WhatsApp-native workflows."}}
+    {"@type":"Question","name":"What does Pratyek mean?","acceptedAnswer":{"@type":"Answer","text":"Pratyek means every. The name fits the product: every bill, every task, every staff payment, every renewal, every family reminder, and every Indian household on its own terms."}},
+    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Pratyek is built by a small Mumbai-based product team focused on household management, privacy, and WhatsApp-native workflows."}}
   ]
 }
 @endverbatim</script>
@@ -39,9 +43,10 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">FAQ</p>
-        <h1>The questions families ask before they <em>invite Pratyek in</em>.</h1>
+        <h1>The questions Indian families ask before they <em>invite Pratyek in</em>.</h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            We update this page as we learn what's unclear. If your question isn't here, write to us at
+            Pratyek is a household management operating system inside WhatsApp, so the questions are practical:
+            setup, privacy, family use, pricing, and what happens after the first message. If your question isn't here, write to us at
             <a href="mailto:hello@pratyek.com" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">hello@pratyek.com</a>
             and we'll add it.
         </p>
@@ -62,6 +67,20 @@
                 <button class="faq-q">Is Pratyek an app I have to install? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
                     <p>No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact &mdash; forward bills, send voice notes, ask questions. There's nothing to install, nothing to learn. For retrieval and exports, there's a simple web dashboard at <strong>memory.pratyek.com</strong>, with one log-in for the whole household.</p>
+                </div></div></div>
+            </div>
+
+            <div class="faq">
+                <button class="faq-q">Is Pratyek a productivity app? <span class="faq-mark"><x-icon name="plus" /></span></button>
+                <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
+                    <p>Yes, but for household work instead of office work. Think of Pratyek as India's household management operating system: a WhatsApp assistant plus a Memory dashboard for bills, reminders, shared family tasks, assets, services, staff, and family records.</p>
+                </div></div></div>
+            </div>
+
+            <div class="faq">
+                <button class="faq-q">Who is Pratyek for? <span class="faq-mark"><x-icon name="plus" /></span></button>
+                <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
+                    <p>Every Indian home that runs on WhatsApp. Nuclear families, joint families, parents managing two school calendars, adult children helping elders, households with staff and services, and super-organised families who still want one shared dashboard instead of scattered chats.</p>
                 </div></div></div>
             </div>
 
@@ -97,6 +116,13 @@
                 <button class="faq-q">Will Pratyek auto-pay my bills? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
                     <p>No. Pratyek <strong>never</strong> handles payment credentials and never auto-pays anything &mdash; this is a deliberate, permanent choice. Pratyek's job is to <em>remember</em> and <em>nudge</em>. The act of paying stays with you, on the platform you trust (UPI, net banking, etc.). Auto-pay is a class of bug we refuse to ship.</p>
+                </div></div></div>
+            </div>
+
+            <div class="faq">
+                <button class="faq-q">Is it only for organised families? <span class="faq-mark"><x-icon name="plus" /></span></button>
+                <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
+                    <p>No. Pratyek is designed for messy real households as much as super-organised ones. One forwarded Adani bill, one note saying "Kamala salary paid", or one reminder for school fees is enough to start. The structure appears in Memory after the WhatsApp message is sent.</p>
                 </div></div></div>
             </div>
 
@@ -219,7 +245,7 @@
             <div class="faq">
                 <button class="faq-q">Who builds Pratyek? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p>Pratyek is built by a small Mumbai-based product team focused on household memory, privacy, and WhatsApp-native workflows. The <a href="{{ route('about') }}">About page</a> has the product story and mission.</p>
+                    <p>Pratyek is built by a small Mumbai-based product team focused on household management, privacy, and WhatsApp-native workflows. The <a href="{{ route('about') }}">About page</a> has the product story and mission.</p>
                 </div></div></div>
             </div>
 
@@ -252,9 +278,9 @@
             </div>
 
             <div class="faq">
-                <button class="faq-q">Why "Pratyek"? <span class="faq-mark"><x-icon name="plus" /></span></button>
+                <button class="faq-q">What does Pratyek mean? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
-                    <p>Pratyek (<span class="devanagari">प्रत्येक</span>) is the Sanskrit and Hindi word for "every", "each one". It's the right word for what the product does &mdash; it cares about every bill, every salary, every renewal, every birthday &mdash; and for who it serves: every household, one at a time, on its own terms.</p>
+                    <p>Pratyek (<span class="devanagari">प्रत्येक</span>) means "every", "each one". It's the right word for what the product does &mdash; every bill, every salary, every renewal, every birthday, every shared family task &mdash; and for who it serves: every Indian household, one at a time, on its own terms.</p>
                 </div></div></div>
             </div>
 

@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Pratyek - WhatsApp Household Concierge"
-    description="Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes; Pratyek remembers."
-    keywords="Pratyek, Pratyek WhatsApp, household management app India, WhatsApp household concierge, family bill reminder app, track maid salary, Indian family productivity, Adani electricity bill reminder, BMC property tax tracker, Bajaj Allianz renewal alert, JioFiber bill tracker, Tata Play renewal, mediclaim renewal reminder, household CFO tool, DPDP aware family app, made in India productivity"
+    title="Pratyek - India's Household Management OS"
+    description="India's household management operating system, built inside WhatsApp. Turn family messages into bills, tasks, reminders, assets, staff, and services."
+    keywords="Pratyek, Pratyek WhatsApp, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family organizer India, family organiser India, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, home operating system India"
     og-image="/og/default.svg"
     page-type="WebPage"
 >
@@ -16,7 +16,7 @@
   "url": "https://pratyek.com",
   "name": "Pratyek",
   "alternateName": "\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915",
-  "description": "WhatsApp-native household concierge for Indian families.",
+  "description": "India's household management operating system, built inside WhatsApp.",
   "inLanguage": "en-IN",
   "publisher": { "@id": "https://pratyek.com/#organization" },
   "potentialAction": [
@@ -39,14 +39,15 @@
   "@type": "SoftwareApplication",
   "@id": "https://pratyek.com/#software",
   "name": "Pratyek",
-  "alternateName": ["Pratyek WhatsApp household concierge"],
+  "alternateName": ["Pratyek household OS", "Pratyek family management app", "Pratyek WhatsApp household assistant"],
   "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household management concierge",
+  "applicationSubCategory": "Household and family management operating system",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
   "image": "https://pratyek.com/og/default.svg",
   "screenshot": "https://pratyek.com/og/default.svg",
-  "description": "Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim - Pratyek extracts, files, and remembers.",
+  "description": "Pratyek is India's household management operating system, built inside WhatsApp for every Indian home. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim - Pratyek extracts, files, and turns them into a searchable Memory dashboard.",
+  "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, home operating system India",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "audience": {
     "@type": "PeopleAudience",
@@ -181,14 +182,14 @@
     <div class="wrap-wide">
         <div class="hero-product-grid">
             <div class="hero-product-copy">
-        <p class="hero-eyebrow">Live on WhatsApp</p>
+                <p class="hero-eyebrow">Live on WhatsApp</p>
                 <h1>
-                    Send a household message.
-                    <em>Get a managed dashboard record.</em>
+                    India's household management OS.
+                    <em>Built inside WhatsApp.</em>
                 </h1>
                 <p class="hero-sub">
-                    Pratyek turns bills, tasks, services, staff notes, assets, and family details from WhatsApp into a clean Memory dashboard.
-                    No app to install. No new habit to teach the family.
+                    A message goes into WhatsApp. Memory turns it into bills, tasks, reminders, assets, staff, family, and services.
+                    Pratyek means every. Built for every Indian home, from messy to super-organised.
                 </p>
                 <div class="hero-actions">
                     <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-track-location="hero_home">
@@ -201,7 +202,7 @@
                     </a>
                 </div>
                 <p class="hero-fineprint">
-                    Live now &middot; <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> &middot; works inside WhatsApp
+                    Live now &middot; <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> &middot; no app to install
                 </p>
             </div>
 
@@ -268,8 +269,8 @@
             </article>
             <article class="process-step">
                 <span class="process-num">03</span>
-                <h2>Memory stays managed.</h2>
-                <p>Every record lands in the right dashboard surface, searchable and exportable.</p>
+                <h2>Your home gets organised.</h2>
+                <p>Every record lands in the right dashboard surface, searchable, exportable, and ready for the family.</p>
             </article>
         </div>
     </div>
@@ -282,9 +283,9 @@
     <div class="wrap-wide">
         <div class="section-head section-head--center">
             <p class="kicker">Major categories</p>
-            <h2 style="max-width: 24ch;">One pattern, every household surface.</h2>
+            <h2 style="max-width: 24ch;">One pattern, every Indian household surface.</h2>
             <p class="lede" style="margin-top: var(--space-3); max-width: 62ch; margin-inline: auto;">
-                The public site now follows the live Memory dashboard: Reminders, Tasks, Bills, Assets, Services, Staff, and Family.
+                The live Memory dashboard is the family dashboard behind Pratyek: Reminders, Tasks, Bills, Assets, Services, Staff, and Family.
             </p>
         </div>
 
@@ -400,7 +401,7 @@
                 </button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
                     <p>
-                        No. Pratyek lives at a WhatsApp number. You add it to your contacts, message it like any
+                        No. Pratyek is a household management system that lives at a WhatsApp number. You add it to your contacts, message it like any
                         other contact, and forward bills or send voice notes to it. There's nothing to install,
                         nothing to learn. Anyone in the family who already uses WhatsApp can use Pratyek.
                     </p>
@@ -474,8 +475,8 @@
                     </p>
                     <p class="live-cta-sub">
                         No app to install. No form to fill. No waitlist.
-                        Just the WhatsApp number your household will message
-                        for everything from now on.
+                        Just the WhatsApp number your Indian household will message
+                        for everything the home needs to remember.
                     </p>
                     <div class="live-cta-actions">
                         <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

@@ -26,7 +26,7 @@
 
             <h2>1. Who we are</h2>
             <p>
-                Pratyek is a WhatsApp-native household concierge for Indian families. We are the
+                Pratyek is a WhatsApp-native household management service for Indian families. We are the
                 <em>data fiduciary</em> for the personal data Pratyek processes, in the sense of the
                 Digital Personal Data Protection Act, 2023 ("DPDP Act").
             </p>

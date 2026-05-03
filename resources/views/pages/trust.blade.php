@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Trust &amp; Privacy — DPDP-Aware, India-Hosted | Pratyek"
-    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. DPDP-aware privacy commitments."
-    keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Bangalore servers"
+    title="Trust and Privacy - India-Hosted Household OS | Pratyek"
+    description="Pratyek trust commitments: India-hosted, DPDP-aware, no Aadhaar/PAN/passport storage, no ads, no data sold."
+    keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, family management app India, Bangalore servers"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -16,9 +16,9 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">Trust &amp; Privacy</p>
-        <h1>Built for one family at a time. <em>Quiet about the rest.</em></h1>
+        <h1>Built for every family. <em>Quiet about each one.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            For Pratyek to be useful, we have to be invited deep into your family's daily life. That's a
+            A household operating system only works if an Indian family can trust it with daily life. That's a
             responsibility we take seriously, and the rest of this page is what we've decided about it &mdash;
             written plainly, not in legal grey type.
         </p>
@@ -187,9 +187,9 @@
      ============================================================ --}}
 <section class="cta-block">
     <div class="wrap">
-        <h2>If this is the product you'd want handling your household's memory&hellip;</h2>
+        <h2>If this is the household OS you'd trust in your home&hellip;</h2>
         <p>
-            Pratyek is live. Send "Hi" on WhatsApp and start with the first thing your household needs remembered.
+            Pratyek is live. Send "Hi" on WhatsApp and start with the first thing your household needs organised.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

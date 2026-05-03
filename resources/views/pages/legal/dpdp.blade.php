@@ -1,6 +1,6 @@
 <x-layouts.app
     title="DPDP Act 2023 Compliance — Pratyek"
-    description="How Pratyek is built around India's Digital Personal Data Protection Act, 2023 as its provisions commence in phases. Consent, retention, user rights, and grievance redressal."
+    description="DPDP compliance for Pratyek: consent, retention, deletion, user rights, grievance redressal, and India's phased privacy law timeline."
     keywords="DPDP Act 2023, Digital Personal Data Protection Act compliance, India data fiduciary, grievance officer, Indian privacy law, Data Protection Board India"
     og-image="/og/default.svg"
     page-type="WebPage"

@@ -17,7 +17,14 @@ Meta has approved use of the Pratyek display name. The site should now be Pratye
 
 ## Product Positioning
 
-Pratyek is a WhatsApp-native household concierge for Indian families. WhatsApp is the capture surface; the Memory dashboard is the retrieval surface. The website should quickly show how a WhatsApp message, bill, voice note, or document turns into a structured dashboard record.
+Pratyek is India's household management operating system, built inside WhatsApp for every Indian home. WhatsApp is the capture surface; the Memory dashboard is the retrieval and coordination surface. The website should quickly show how a WhatsApp message, bill, voice note, or document turns into a structured dashboard record for reminders, tasks, bills, assets, services, staff, and family.
+
+Use this positioning consistently:
+
+- Canonical line: "India's household management operating system, built inside WhatsApp."
+- Meaning cue: "Pratyek means every. Built for every Indian home."
+- SEO language to weave in naturally: household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family dashboard, shared family tasks, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, home operating system India.
+- Tone: confident, useful, Indian-English, never keyword-stuffed.
 
 ## Pages
 
@@ -46,7 +53,7 @@ Pratyek is a WhatsApp-native household concierge for Indian families. WhatsApp i
 - Keep the copy concise, specific, and Indian-English.
 - Use real household examples: Adani Electricity, BMC, JioFiber, Tata Play, staff salary, insurance renewals, school fees.
 - No emojis in site UI. WhatsApp chat illustrations may use real chat-like emoji only if needed.
-- Keep the bright current palette: warm haldi paper, vermilion CTA, peacock green product surfaces, marigold recall accents.
+- Keep the current bright-but-soft palette: warm ivory background, memorable green WhatsApp CTA, peacock green product surfaces, marigold recall accents.
 - Prefer illustrations that show transformation: WhatsApp input -> extraction -> Memory dashboard record.
 
 ## Footer Rule

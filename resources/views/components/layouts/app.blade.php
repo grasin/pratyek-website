@@ -1,7 +1,7 @@
 @props([
     'title'       => 'Pratyek',
-    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families.',
-    'keywords'    => 'WhatsApp household concierge India, Indian family bill reminder, DPDP compliant family assistant, household management WhatsApp, Pratyek',
+    'description' => 'Pratyek is India\'s household management operating system, built inside WhatsApp for every Indian home.',
+    'keywords'    => 'household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, home operating system India, Pratyek',
     'ogImage'     => '/og/default.svg',
     'ogType'      => 'website',
     'canonical'   => '',

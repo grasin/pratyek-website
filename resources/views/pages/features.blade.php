@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Features — Aligned With Memory Dashboard | Pratyek"
-    description="Pratyek is organised around the same Memory dashboard surfaces the product uses: Reminders, Tasks, Bills, Assets, Services, Staff, and Family."
-    keywords="Pratyek features, Memory dashboard, household management features India, bill tracking app India, staff salary tracker, appliance warranty tracker, Indian family WhatsApp concierge"
+    title="Features - Household Management App for India | Pratyek"
+    description="Explore Pratyek's family dashboard for Indian homes: reminders, tasks, bills, assets, services, staff, and family management inside WhatsApp."
+    keywords="Pratyek features, household management app India, family management app India, home management app India, Indian household productivity tool, family dashboard, shared family tasks, bill reminder app India, staff salary tracker, maid salary tracker, appliance warranty tracker, warranty tracker India, WhatsApp household assistant"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -20,7 +20,8 @@
   "applicationCategory": "LifestyleApplication",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com/features",
-  "description": "Pratyek's public features mirror its Memory dashboard: Reminders, Tasks, Bills, Assets, Services, Staff, and Family.",
+  "description": "Pratyek's public features mirror its Memory dashboard: Reminders, Tasks, Bills, Assets, Services, Staff, and Family for every Indian household.",
+  "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, family organizer India, family organiser India, WhatsApp household assistant, family dashboard, shared family tasks, bill reminder app India, warranty tracker India, staff salary tracker",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "featureList": [
     "Pratyek Reminders — Today, Calendar, Rules, done and snooze",
@@ -49,12 +50,11 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">Features</p>
-        <h1>Every feature maps to the <em>Memory dashboard.</em></h1>
+        <h1>The family dashboard for <em>every Indian home.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            The feature list below is organised exactly like the product: seven Memory surfaces,
-            each with its own dashboard page and WhatsApp
-            examples. The old long taxonomy still lives inside these surfaces; it no longer appears as a separate,
-            conflicting navigation model.
+            Pratyek is built to become India's most useful household operating system: practical enough for messy homes,
+            structured enough for super-organised families, and simple enough to start from one WhatsApp message.
+            Every feature below maps to the live Memory dashboard.
         </p>
     </div>
 </section>
@@ -74,7 +74,7 @@
                 <h2 class="cat-name">Pratyek Reminders</h2>
                 <p class="cat-intro">
                     Everything due across the household, collected into one place: today, calendar, rules, done,
-                    snooze. This is where dates become action.
+                    snooze. This is the bill reminder app, renewal tracker, and family calendar layer of the household OS.
                 </p>
             </div>
             <ul class="cat-list">
@@ -94,7 +94,7 @@
                 <h2 class="cat-name">Pratyek Tasks</h2>
                 <p class="cat-intro">
                     To-dos and shopping lists that begin in WhatsApp and stay visible on the dashboard.
-                    Nothing elaborate; just the shared household work that needs remembering.
+                    Nothing elaborate; just shared family tasks and home productivity that everyone can see.
                 </p>
             </div>
             <ul class="cat-list">
@@ -113,7 +113,7 @@
                 <p class="cat-num">Memory surface 03</p>
                 <h2 class="cat-name">Pratyek Bills</h2>
                 <p class="cat-intro">
-                    Bills and renewals live together because the household experiences them the same way:
+                    Bills and renewals live together because every Indian household experiences them the same way:
                     something is due, and forgetting is expensive.
                 </p>
             </div>
@@ -137,8 +137,8 @@
                 <p class="cat-num">Memory surface 04</p>
                 <h2 class="cat-name">Pratyek Assets</h2>
                 <p class="cat-intro">
-                    Things the household owns: appliances, warranties, vehicles, property. Pratyek remembers
-                    what was bought, when, where from, and what comes due next.
+                    Things the household owns: appliances, warranties, vehicles, property. Pratyek works as a warranty tracker,
+                    asset register, and home management app for what was bought, when, where from, and what comes due next.
                 </p>
             </div>
             <ul class="cat-list">
@@ -159,7 +159,7 @@
                 <h2 class="cat-name">Pratyek Services</h2>
                 <p class="cat-intro">
                     Recurring deliveries and visits: milk, newspaper, ironing, water cans, therapist, car washer,
-                    tutor. Services are tracked by the rhythm of visits, not by monthly salary.
+                    tutor. Services are tracked by the rhythm of visits, so daily household productivity does not depend on memory.
                 </p>
             </div>
             <ul class="cat-list">
@@ -179,8 +179,8 @@
                 <p class="cat-num">Memory surface 06</p>
                 <h2 class="cat-name">Pratyek Staff</h2>
                 <p class="cat-intro">
-                    Monthly household help: the people who make the home work. Pratyek keeps salary, attendance,
-                    leave, bonus, and role records without turning the relationship into HR software.
+                    Monthly household help: the people who make the home work. Pratyek is a staff salary tracker and maid salary tracker
+                    that keeps attendance, leave, bonus, and role records without turning the relationship into HR software.
                 </p>
             </div>
             <ul class="cat-list">
@@ -200,8 +200,8 @@
                 <p class="cat-num">Memory surface 07</p>
                 <h2 class="cat-name">Pratyek Family</h2>
                 <p class="cat-intro">
-                    People, documents, contacts, occasions, and health sit together because they belong to family
-                    members, not to abstract categories.
+                    People, documents, contacts, occasions, and health sit together because family management belongs around
+                    family members, not abstract categories.
                 </p>
             </div>
             <ul class="cat-list">
@@ -225,9 +225,9 @@
      ============================================================ --}}
 <section class="section-tight">
     <div class="wrap-narrow" style="text-align: center;">
-        <h3 style="margin-bottom: var(--space-3);">Don't see what you'd track?</h3>
+        <h3 style="margin-bottom: var(--space-3);">Don't see what your home would track?</h3>
         <p class="lede" style="max-width: 56ch; margin-inline: auto;">
-            Tell us. We capture every request and reply with a status.
+            Tell us. Pratyek means every, and we capture every request with a status.
             See the <strong>My Requests</strong> dashboard inside the product.
         </p>
         <a href="{{ route('contact') }}" class="btn-link" style="margin-top: var(--space-5); display: inline-flex;">
@@ -244,8 +244,8 @@
     <div class="wrap">
         <h2>Pratyek is live on WhatsApp.</h2>
         <p>
-            The public feature list now matches the Memory dashboard that households actually see.
-            Start with any bill, staff note, service visit, or reminder.
+            The feature list matches the Memory dashboard that Indian households actually see.
+            Start with any bill, staff note, service visit, or family reminder.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
