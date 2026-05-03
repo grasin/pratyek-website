@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Trust &amp; Privacy — DPDP-Compliant, India-Hosted | Pratyek"
-    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. Full DPDP-compliance. Built by Relynext Solutions."
-    keywords="DPDP compliant, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Relynext Solutions trust, Bangalore servers"
+    title="Trust &amp; Privacy — DPDP-Aware, India-Hosted | Pratyek"
+    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. DPDP-aware privacy commitments. Built by Relynext Solutions Private Limited."
+    keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Relynext Solutions Private Limited trust, Bangalore servers"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -182,11 +182,11 @@
         <div class="trust-block">
             <div class="trust-block-head">
                 <p class="trust-block-num">07 &middot; Who's behind this</p>
-                <h3 class="trust-block-name">Pratyek is a product of Relynext Solutions.</h3>
+                <h3 class="trust-block-name">Pratyek is a product of Relynext Solutions Private Limited.</h3>
             </div>
             <div class="trust-block-body">
                 <p>
-                    Relynext Solutions is an Indian product company, registered in Mumbai.
+                    Relynext Solutions Private Limited is an Indian product company, registered in India.
                     Pratyek is its first and current product. We sign every contract &mdash; with WhatsApp,
                     with our LLM partners, with our hosting provider &mdash; under that name. There's no
                     holding-company shell game.
@@ -207,7 +207,7 @@
     <div class="wrap">
         <h2>If this is the company you'd want handling your household's memory&hellip;</h2>
         <p>
-            Pratyek is live. Send <em>"Hi"</em> to <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> on WhatsApp.
+            Pratyek is live. Send "Hi" on WhatsApp and start with the first thing your household needs remembered.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

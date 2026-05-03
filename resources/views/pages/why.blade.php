@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Why Pratyek by Relynext Solutions — Made in India"
-    description="A manifesto from Relynext Solutions, Mumbai. India deserves products built from the inside out — not Western tools dressed in a kurta. Why we built Pratyek."
-    keywords="why Pratyek, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, made in India productivity, Indian product company, productivity tools India, swadeshi software, products for India not Western, Indian household management, Notion alternative India, Trello alternative India, Indian-built productivity, Hindi productivity app, Hinglish productivity"
+    title="Why Pratyek — Made in India"
+    description="A manifesto from Relynext Solutions Private Limited. India deserves products built from the inside out — not Western tools dressed in a kurta. Why we built Pratyek."
+    keywords="why Pratyek, Relynext Solutions Private Limited, made in India productivity, Indian product company, productivity tools India, swadeshi software, products for India not Western, Indian household management, Notion alternative India, Trello alternative India, Indian-built productivity, Hindi productivity app, Hinglish productivity"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -21,7 +21,7 @@
             was built for any of them.
         </h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            A manifesto from <strong>Relynext Solutions</strong>, Mumbai, plainly stated. India does not need
+            A manifesto from <strong>Relynext Solutions Private Limited</strong>, plainly stated. India does not need
             another translated app. India needs <em>its own products</em> &mdash; built from the inside out, for
             the way Indian families actually live. Pratyek is the first one we're building.
         </p>
@@ -248,7 +248,7 @@
         </div>
 
         <p class="signoff" style="margin-top: var(--space-7);">
-            &mdash; <strong>the makers of Pratyek</strong>, at <strong>Relynext Solutions</strong> &middot; Mumbai
+            &mdash; <strong>the makers of Pratyek</strong>, at <strong>Relynext Solutions Private Limited</strong>
         </p>
     </div>
 </section>

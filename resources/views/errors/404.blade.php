@@ -13,8 +13,8 @@
             We couldn't find that page. <em>Don't worry &mdash; we remember everything else.</em>
         </h1>
         <p class="lede" style="margin-inline: auto;">
-            The link may be old, or we may have moved the page. Pratyek (a <strong>Relynext Solutions</strong>
-            product, Mumbai) lives just one tap away &mdash; try one of these instead:
+            The link may be old, or we may have moved the page. Pratyek is a product of
+            <strong>Relynext Solutions Private Limited</strong> and lives just one tap away &mdash; try one of these instead:
         </p>
     </div>
 </section>

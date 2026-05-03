@@ -2,7 +2,6 @@
     $currentRoute = request()->route()?->getName();
     $navLinks = [
         ['route' => 'product',  'label' => 'Product'],
-        ['route' => 'why',      'label' => 'Why Pratyek'],
         ['route' => 'features', 'label' => 'Features'],
         ['route' => 'trust',    'label' => 'Trust'],
         ['route' => 'about',    'label' => 'About'],

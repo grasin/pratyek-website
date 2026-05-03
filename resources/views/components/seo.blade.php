@@ -1,6 +1,6 @@
 @props([
     'title'       => 'Pratyek',
-    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families, by Relynext Solutions.',
+    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families, by Relynext Solutions Private Limited.',
     'keywords'    => 'WhatsApp household concierge India, Indian family bill reminder, DPDP compliant family assistant, household management WhatsApp, Pratyek',
     'ogImage'     => '/og/default.svg',
     'ogType'      => 'website',
@@ -31,8 +31,8 @@
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:160, max-video-preview:-1">
 <meta name="theme-color" content="#FAF4E4">
 <meta name="format-detection" content="telephone=no">
-<meta name="author" content="Relynext Solutions">
-<meta name="publisher" content="Relynext Solutions">
+<meta name="author" content="Relynext Solutions Private Limited">
+<meta name="publisher" content="Relynext Solutions Private Limited">
 <meta name="geo.region" content="IN">
 <meta name="geo.placename" content="Mumbai">
 <meta name="geo.country" content="India">
@@ -74,9 +74,9 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://pratyek.com/#organization",
-  "name": "Relynext Solutions",
-  "alternateName": ["Pratyek", "Pratyek by Relynext Solutions"],
-  "legalName": "Relynext Solutions",
+  "name": "Relynext Solutions Private Limited",
+  "alternateName": ["Pratyek", "A Relynext Solutions product"],
+  "legalName": "Relynext Solutions Private Limited",
   "url": "https://pratyek.com",
   "logo": {
     "@type": "ImageObject",
@@ -86,8 +86,8 @@
   },
   "image": "https://pratyek.com/og/default.svg",
   "slogan": "A second mind for the Indian household.",
-  "description": "Relynext Solutions is the maker of Pratyek, a WhatsApp-native household concierge for Indian families. DPDP-compliant, India-hosted, no ads, no data sold.",
-  "disambiguatingDescription": "Pratyek (the WhatsApp-native household concierge by Relynext Solutions, Mumbai) is a software product company. Distinct from any other entity sharing the name 'Pratyek'.",
+  "description": "Relynext Solutions Private Limited is the maker of Pratyek, a WhatsApp-native household concierge for Indian families. DPDP-aware, India-hosted, no ads, no data sold.",
+  "disambiguatingDescription": "Pratyek is a WhatsApp-native household concierge product of Relynext Solutions Private Limited, Mumbai. Distinct from any other entity sharing the name 'Pratyek'.",
   "foundingDate": "2026",
   "foundingLocation": {
     "@type": "Place",
@@ -100,6 +100,7 @@
   },
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "[Registered address placeholder]",
     "addressLocality": "Mumbai",
     "addressRegion": "Maharashtra",
     "addressCountry": "IN"

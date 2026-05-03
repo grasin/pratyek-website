@@ -1,6 +1,6 @@
 <x-layouts.app
     title="DPDP Act 2023 Compliance — Pratyek"
-    description="How Pratyek complies with India's Digital Personal Data Protection Act, 2023. Consent, retention, user rights, grievance officer named."
+    description="How Pratyek is built around India's Digital Personal Data Protection Act, 2023 as its provisions commence in phases. Consent, retention, user rights, grievance officer placeholders."
     keywords="DPDP Act 2023, Digital Personal Data Protection Act compliance, India data fiduciary, grievance officer, Indian privacy law, Data Protection Board India"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -22,20 +22,35 @@
             <h2>The Digital Personal Data Protection Act, 2023</h2>
             <p>
                 India's Digital Personal Data Protection Act, 2023 ("DPDP Act") is the law that governs the
-                processing of digital personal data in India. It came into force in 2024 and applies to any
-                entity that processes personal data of Indian residents.
+                processing of digital personal data in India. The Central Government notified phased commencement
+                on <strong>13 November 2025</strong>: some provisions are already in force, some come into force
+                one year from that date, and the main consent, notice, data-principal-rights, and data-fiduciary
+                obligations come into force eighteen months from that date.
             </p>
             <p>
-                <strong>Pratyek is built around the DPDP Act &mdash; not retrofitted to comply.</strong>
-                The rest of this page explains how, point by point. The full Privacy Policy is at
+                <strong>Pratyek is being built around the DPDP Act &mdash; not retrofitted later.</strong>
+                Relynext Solutions Private Limited is treating the notified requirements as product requirements
+                now, even where the statutory obligation has a later commencement date. The full Privacy Policy is at
                 <a href="{{ route('legal.privacy-policy') }}">/legal/privacy-policy</a>.
             </p>
+
+            <h2>Commencement timeline</h2>
+            <p>
+                The DPDP Act and the Digital Personal Data Protection Rules, 2025 do not switch on all at once.
+                As notified on 13 November 2025, the operational timeline is:
+            </p>
+            <ul>
+                <li><strong>13 November 2025:</strong> selected provisions, including definitions and Data Protection Board provisions, came into force.</li>
+                <li><strong>13 November 2026:</strong> Section 6(9) and Section 27(1)(d) are scheduled to come into force; Rule 4 is also scheduled from one year after publication.</li>
+                <li><strong>13 May 2027:</strong> the main processing, notice, consent, data principal rights, data fiduciary duties, and related rules are scheduled to come into force.</li>
+            </ul>
 
             <h2>1. Identity of the data fiduciary</h2>
             <p>
                 The data fiduciary for the personal data Pratyek processes is
-                <strong>Relynext Solutions</strong>, an Indian product company based in Mumbai, Maharashtra,
-                India. Email: <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>.
+                <strong>Relynext Solutions Private Limited</strong>, an Indian product company registered in
+                India. Registered address: [Registered address placeholder], Mumbai, Maharashtra, India.
+                Email: <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>.
                 WhatsApp: <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a>.
             </p>
 
@@ -70,7 +85,8 @@
             <p>
                 The notice required by Section 5 of the DPDP Act is provided through this page, the Privacy
                 Policy, and the on-boarding messages Pratyek sends in WhatsApp the first time you message it.
-                Notices are written in plain English and translated into the language you use.
+                Notices are written in plain English and translated into the language you use. We provide this
+                notice now even though the main notice provisions are scheduled for later commencement.
             </p>
 
             <h2>6. Storage limitation</h2>
@@ -125,7 +141,7 @@
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:hello@pratyek.com">hello@pratyek.com</a> (subject line beginning with <em>DPDP</em>)</li>
                 <li><strong>WhatsApp:</strong> <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a></li>
-                <li><strong>Postal:</strong> Relynext Solutions, Mumbai, India</li>
+                <li><strong>Postal:</strong> Relynext Solutions Private Limited, [Registered address placeholder], Mumbai, India</li>
                 <li><strong>Response time:</strong> within 7 working days of receipt.</li>
             </ul>
 

@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Terms of Service — Pratyek by Relynext Solutions"
-    description="Terms governing your use of Pratyek, the WhatsApp-native household concierge by Relynext Solutions. Governed by the laws of India."
-    keywords="terms of service India, Relynext Solutions terms, Pratyek user agreement, governing law India, Mumbai jurisdiction"
+    title="Terms of Service — Pratyek"
+    description="Terms governing your use of Pratyek, the WhatsApp-native household concierge operated by Relynext Solutions Private Limited. Governed by the laws of India."
+    keywords="terms of service India, Relynext Solutions Private Limited terms, Pratyek user agreement, governing law India, Mumbai jurisdiction"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -21,8 +21,8 @@
 
             <p>
                 These Terms of Service ("Terms") govern your use of <strong>Pratyek</strong>, a WhatsApp-native
-                household concierge service operated by <strong>Relynext Solutions</strong>
-                ("Relynext", "we", "us"), an Indian product company based in Mumbai, Maharashtra, India.
+                household concierge service operated by <strong>Relynext Solutions Private Limited</strong>
+                ("Relynext", "we", "us"), an Indian product company registered in India.
             </p>
             <p>
                 By using Pratyek you agree to these Terms. If you don't agree, please don't use the service.
@@ -81,7 +81,7 @@
             <p>
                 The Pratyek brand, the Pratyek service, the website at pratyek.com, the dashboard at
                 memory.pratyek.com, and all source code are the intellectual property of
-                <strong>Relynext Solutions</strong>. The data you send us remains yours; you grant us only the
+                <strong>Relynext Solutions Private Limited</strong>. The data you send us remains yours; you grant us only the
                 licence necessary to provide the service.
             </p>
 
@@ -131,7 +131,7 @@
             <h2>13. Contact</h2>
             <p>
                 Email <a href="mailto:hello@pratyek.com">hello@pratyek.com</a> or write to:
-                Relynext Solutions, Mumbai, Maharashtra, India.
+                Relynext Solutions Private Limited, [Registered address placeholder], Mumbai, Maharashtra, India.
             </p>
 
         </div>

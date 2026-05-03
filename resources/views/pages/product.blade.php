@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="How Pratyek by Relynext Solutions Works — WhatsApp Memory"
-    description="How Pratyek by Relynext Solutions works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, warranties, renewals, staff — all sorted, all searchable."
-    keywords="how Pratyek works, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker integration, household app two surfaces, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, family CFO dashboard"
+    title="How Pratyek Works — WhatsApp Memory"
+    description="How Pratyek, a product of Relynext Solutions Private Limited, works: capture in WhatsApp, retrieve at memory.pratyek.com. Bills, tasks, assets, services, staff, family records — all sorted, all searchable."
+    keywords="how Pratyek works, Relynext Solutions Private Limited, WhatsApp household management, Indian family memory app, voice note bill reminder, DigiLocker integration, household app two surfaces, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, family CFO dashboard"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -43,7 +43,7 @@
         <p class="hero-eyebrow">A Relynext Solutions product &middot; How it works</p>
         <h1>WhatsApp <em>writes.</em> The dashboard <em>reads.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek &mdash; built and operated by <strong>Relynext Solutions</strong>, Mumbai &mdash; runs on two
+            Pratyek &mdash; a product of <strong>Relynext Solutions Private Limited</strong> &mdash; runs on two
             surfaces. The WhatsApp chat is where your family captures, effortlessly, in the language they already
             speak. The web dashboard at <strong>memory.pratyek.com</strong> is where you retrieve, sort, and export.
             One product, two doors.
@@ -84,10 +84,10 @@
             <p class="surface-label">Surface 2 &middot; memory.pratyek.com</p>
             <h3 class="surface-name">Retrieval is precise, sortable, and exportable on demand.</h3>
             <p class="surface-caption">
-                Open the dashboard. Sidebar lists every category &mdash; Bills, Renewals, Documents, Vehicles,
-                Staff, Appliances, Subscriptions, Occasions, Health, Education, Finance, Coordination.
-                Each tab is a real product surface, not a marketing screenshot. Filter by date, by family member,
-                by status. Search across everything.
+                Open the dashboard. Sidebar lists the same Memory surfaces the product uses every day:
+                Reminders, Tasks, Bills, Assets, Services, Staff, and Family. Each tab is a real product
+                surface, not a marketing screenshot. Filter by date, by family member, by status. Search
+                across everything.
             </p>
             <ul class="trust-list" style="margin-top: var(--space-4);">
                 <li>One log-in for the entire household</li>
@@ -120,11 +120,10 @@
             </div>
             <div class="trust-block-body">
                 <p>
-                    Bills (electricity, water, gas, broadband, mobile, DTH, society maintenance), warranty cards
-                    and appliance service cycles, insurance policies (motor, health, home, life), vehicle
-                    documents and PUCs, staff attendance and salary, subscription deliveries (milk, newspaper,
-                    OTT), occasions (birthdays, anniversaries, festival prep windows), shopping lists, todos,
-                    family contacts, calendar events.
+                    Reminders (today, calendar, rules), tasks and shopping lists, bills and renewals,
+                    assets (appliances, warranties, vehicles, property), recurring services (milk,
+                    newspaper, ironing, therapist visits), staff attendance and salary, and family records
+                    (members, document references, contacts, occasions, health).
                 </p>
                 <p>
                     Pratyek captures <strong>metadata</strong> &mdash; the structured facts the household needs to
@@ -487,23 +486,18 @@
         <div class="dash-frame" data-nosnippet>
             <div class="dash-chrome">
                 <div class="dash-chrome-dots"><span></span><span></span><span></span></div>
-                <div class="dash-url"><strong>pratyek.com</strong>/memory/bills</div>
+                <div class="dash-url"><strong>memory.pratyek.com</strong>/bills</div>
             </div>
             <div class="dash-grid">
                 <aside class="dash-sidebar">
                     <div class="dash-sidebar-title">Memory</div>
+                    <div class="dash-nav-item"><x-icon name="clock" /> Reminders</div>
+                    <div class="dash-nav-item"><x-icon name="check" /> Tasks</div>
                     <div class="dash-nav-item dash-nav-item--active"><x-icon name="bill" /> Bills</div>
-                    <div class="dash-nav-item"><x-icon name="renewal" /> Renewals</div>
-                    <div class="dash-nav-item"><x-icon name="document" /> Documents</div>
-                    <div class="dash-nav-item"><x-icon name="vehicle" /> Vehicles</div>
+                    <div class="dash-nav-item"><x-icon name="appliance" /> Assets</div>
+                    <div class="dash-nav-item"><x-icon name="subscription" /> Services</div>
                     <div class="dash-nav-item"><x-icon name="staff" /> Staff</div>
-                    <div class="dash-nav-item"><x-icon name="appliance" /> Appliances</div>
-                    <div class="dash-nav-item"><x-icon name="subscription" /> Subscriptions</div>
-                    <div class="dash-nav-item"><x-icon name="occasion" /> Occasions</div>
-                    <div class="dash-nav-item"><x-icon name="health" /> Health</div>
-                    <div class="dash-nav-item"><x-icon name="education" /> Education</div>
-                    <div class="dash-nav-item"><x-icon name="finance" /> Finance</div>
-                    <div class="dash-nav-item"><x-icon name="coordination" /> Coordination</div>
+                    <div class="dash-nav-item"><x-icon name="heart" /> Family</div>
                 </aside>
                 <div class="dash-main">
                     <div class="dash-main-head">
@@ -584,7 +578,7 @@
     <div class="wrap">
         <h2>Ready to invite Pratyek into your household?</h2>
         <p>
-            Send <em>"Hi"</em> to <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> &mdash; or scan the QR on the home page.
+            Send "Hi" on WhatsApp and start with the first thing your household needs Pratyek to remember.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

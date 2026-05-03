@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Privacy Policy — Pratyek by Relynext Solutions"
+    title="Privacy Policy — Pratyek"
     description="What we collect, what we don't, where we store it, how to delete it. Plain-language privacy policy, DPDP-compliant. Last updated 30 April 2026."
-    keywords="privacy policy India, DPDP compliance, household data protection, Relynext Solutions privacy, Pratyek data retention, India data residency"
+    keywords="privacy policy India, DPDP compliance, household data protection, Relynext Solutions Private Limited privacy, Pratyek data retention, India data residency"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -20,7 +20,7 @@
         <div class="legal-content">
 
             <p>
-                This Privacy Policy explains how <strong>Relynext Solutions</strong>
+                This Privacy Policy explains how <strong>Relynext Solutions Private Limited</strong>
                 ("Relynext", "we", "us"), the company that builds and operates the Pratyek service ("Pratyek",
                 "the service"), collects, uses, stores, and protects your personal data. By using Pratyek you
                 agree to this policy.
@@ -28,7 +28,7 @@
 
             <h2>1. Who we are</h2>
             <p>
-                Relynext Solutions is an Indian product company based in Mumbai, Maharashtra, India.
+                Relynext Solutions Private Limited is an Indian product company registered in India.
                 We are the <em>data fiduciary</em> for the personal data Pratyek processes, in the sense
                 of the Digital Personal Data Protection Act, 2023 ("DPDP Act").
             </p>
@@ -129,7 +129,7 @@
             <p>
                 Email <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>. For DPDP-related questions
                 specifically, contact our grievance officer named on the <a href="{{ route('legal.dpdp') }}">DPDP page</a>.
-                Postal address: Relynext Solutions, Mumbai, Maharashtra, India.
+                Postal address: Relynext Solutions Private Limited, [Registered address placeholder], Mumbai, Maharashtra, India.
             </p>
 
         </div>

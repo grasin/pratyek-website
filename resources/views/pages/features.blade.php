@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Features — Pratyek by Relynext Solutions, Mumbai"
-    description="Twelve categories Pratyek (by Relynext Solutions) tracks — bills, renewals, staff, appliances, occasions, health, education, finance, and more."
-    keywords="Pratyek features, household management features India, Pratyek by Relynext Solutions, bill tracking app India, warranty management India, AC service reminder, RO filter change reminder, BBMP property tax tracker, BMC property tax reminder, Adani electricity reminder, JioFiber bill, Tata Play subscription, Bajaj Allianz renewal, ICICI Lombard mediclaim renewal, vehicle PUC reminder, passport renewal reminder, FASTag balance tracker, maid salary tracker, Diwali bonus reminder, family expense tracker WhatsApp"
+    title="Features — Aligned With Memory Dashboard | Pratyek"
+    description="Pratyek, a product of Relynext Solutions Private Limited, is organised around the same Memory dashboard surfaces the product uses: Reminders, Tasks, Bills, Assets, Services, Staff, and Family."
+    keywords="Pratyek features, Relynext Solutions Private Limited, Memory dashboard, household management features India, bill tracking app India, staff salary tracker, appliance warranty tracker, Indian family WhatsApp concierge"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -20,34 +20,28 @@
   "applicationCategory": "LifestyleApplication",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com/features",
-  "description": "Pratyek tracks twelve household categories for Indian families — every bill, every renewal, every staff record, every appliance warranty, every family occasion.",
+  "description": "Pratyek's public features mirror its Memory dashboard: Reminders, Tasks, Bills, Assets, Services, Staff, and Family.",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "featureList": [
-    "Bills & utilities — Adani, BSES, BESCOM, BEST, MSEDCL, TANGEDCO, KSEB, JioFiber, Tata Play",
-    "Renewals & expiry — motor insurance, mediclaim, PUC, passport, driving licence, vehicle RC",
-    "Documents & IDs — DigiLocker pointers, expiry-only storage, no images of Aadhaar PAN passport",
-    "Vehicles — registration, insurance, PUC, FASTag, service cycle, fines and 15-year re-registration",
-    "Domestic staff — maid, cook, driver, nanny, attendance, salary, leaves, festival bonuses",
-    "Appliances & warranties — AC, washing machine, refrigerator, water purifier, geyser, microwave",
-    "Subscriptions & deliveries — milk, newspaper, OTT (Netflix, Hotstar, Prime), DTH, cloud storage",
-    "Family & occasions — birthdays, anniversaries, shraadh, Diwali Onam Eid Pongal Christmas prep",
-    "Health — medication refills, periodic tests, elder care, children milestones, pet care",
-    "Education — school fees, tuition, exam dates, transport fees, coaching IIT NEET prep",
-    "Finance — EMIs, SIPs, advance tax, ITR, GST, credit card dues, BBMP BMC MCD property tax",
-    "Coordination — shared shopping list, todos, family contacts, holiday list, meal planning"
+    "Pratyek Reminders — Today, Calendar, Rules, done and snooze",
+    "Pratyek Tasks — to-dos and shopping",
+    "Pratyek Bills — bills and renewals",
+    "Pratyek Assets — appliances, warranties, vehicles, property",
+    "Pratyek Services — recurring deliveries and visits",
+    "Pratyek Staff — monthly household help",
+    "Pratyek Family — members, documents, contacts, occasions, health"
   ],
   "offers": {
     "@type": "Offer",
     "price": "0",
     "priceCurrency": "INR",
-    "availability": "https://schema.org/LimitedAvailability",
-    "description": "Free to use; no advertising, no data sale."
+    "availability": "https://schema.org/InStock",
+    "description": "Live on WhatsApp."
   },
   "publisher": { "@id": "https://pratyek.com/#organization" }
 }
 @endverbatim</script>
 </x-slot:structuredData>
-
 
 {{-- ============================================================
      Page intro
@@ -55,11 +49,12 @@
 <section class="page-intro">
     <div class="wrap">
         <p class="hero-eyebrow">A Relynext Solutions product &middot; Features</p>
-        <h1>Everything an Indian household actually <em>tracks</em>.</h1>
+        <h1>Every feature maps to the <em>Memory dashboard.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Pratyek (by <strong>Relynext Solutions</strong>, Mumbai) started by writing down what one household
-            needed to remember in a single year. We came up with <strong>twelve categories</strong>. Every category
-            below is something a real Indian family deals with; we name brands and providers because vagueness is a tell.
+            Pratyek is a product of <strong>Relynext Solutions Private Limited</strong>. The feature list below is
+            organised exactly like the product: seven Memory surfaces, each with its own dashboard page and WhatsApp
+            examples. The old long taxonomy still lives inside these surfaces; it no longer appears as a separate,
+            conflicting navigation model.
         </p>
     </div>
 </section>
@@ -67,281 +62,156 @@
 <hr class="hairline">
 
 {{-- ============================================================
-     12 categories
+     Dashboard-aligned surfaces
      ============================================================ --}}
 <section class="section">
     <div class="wrap">
 
-        {{-- 01 Bills --}}
+        <article class="cat">
+            <div class="cat-head">
+                <div class="cat-icon"><x-icon name="clock" /></div>
+                <p class="cat-num">Memory surface 01</p>
+                <h2 class="cat-name">Pratyek Reminders</h2>
+                <p class="cat-intro">
+                    Everything due across the household, collected into one place: today, calendar, rules, done,
+                    snooze. This is where dates become action.
+                </p>
+            </div>
+            <ul class="cat-list">
+                <li>Today view <small>overdue, due today, tomorrow, this week</small></li>
+                <li>Calendar view <small>for bills, todos, occasions, staff, services</small></li>
+                <li>Reminder rules <small>repeat cycles, lead time, quiet reminders</small></li>
+                <li>Done and snooze flows <small>reply "done", "snooze 1d", "snooze 1w"</small></li>
+                <li>iCal feed <small>household reminders in Google or Apple Calendar</small></li>
+                <li>Morning digest <small>what matters today, in one WhatsApp summary</small></li>
+            </ul>
+        </article>
+
+        <article class="cat">
+            <div class="cat-head">
+                <div class="cat-icon"><x-icon name="check" /></div>
+                <p class="cat-num">Memory surface 02</p>
+                <h2 class="cat-name">Pratyek Tasks</h2>
+                <p class="cat-intro">
+                    To-dos and shopping lists that begin in WhatsApp and stay visible on the dashboard.
+                    Nothing elaborate; just the shared household work that needs remembering.
+                </p>
+            </div>
+            <ul class="cat-list">
+                <li>To-dos with assignment <small>"Mummy", "Papa", "me", "Nanu"</small></li>
+                <li>Shopping list <small>shared staples, medicines, festival prep</small></li>
+                <li>Task reminders <small>call electrician tomorrow at 4pm</small></li>
+                <li>Household announcements <small>one canonical note, not five chat threads</small></li>
+                <li>Holiday list planning <small>office + school + public holidays</small></li>
+                <li>Meal planning <span class="coming-soon">Coming soon</span></li>
+            </ul>
+        </article>
+
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="bill" /></div>
-                <p class="cat-num">Category 01</p>
-                <h2 class="cat-name">Bills &amp; utilities</h2>
+                <p class="cat-num">Memory surface 03</p>
+                <h2 class="cat-name">Pratyek Bills</h2>
                 <p class="cat-intro">
-                    The monthly drumbeat. Pratyek extracts amount, due date, account number from any forwarded bill,
-                    and nudges before the late fee.
+                    Bills and renewals live together because the household experiences them the same way:
+                    something is due, and forgetting is expensive.
                 </p>
             </div>
             <ul class="cat-list">
-                <li>Electricity <small>Adani, BSES, BESCOM, BEST, MSEDCL, TANGEDCO, KSEB, TSSPDCL</small></li>
-                <li>Piped gas <small>Mahanagar, IGL, Adani Gas, GGL</small></li>
-                <li>Broadband <small>JioFiber, ACT, Airtel Xstream, Hathway, BSNL</small></li>
-                <li>Mobile <small>Jio, Airtel, Vi &mdash; postpaid &amp; prepaid</small></li>
-                <li>Water <small>BWSSB, MJP, JJB, KMC and most municipal boards</small></li>
-                <li>LPG cylinder <small>Indane, HP Gas, Bharat Gas</small></li>
-                <li>DTH <small>Tata Play, Airtel Digital TV, d2h, Dish TV</small></li>
-                <li>Society maintenance <small>any RWA invoice format</small></li>
+                <li>Electricity <small>Adani, BSES, BESCOM, BEST, MSEDCL, TANGEDCO, KSEB</small></li>
+                <li>Water, piped gas, LPG <small>municipal boards, Mahanagar Gas, Indane, HP, Bharat Gas</small></li>
+                <li>Broadband, mobile, DTH <small>JioFiber, Airtel Xstream, ACT, Tata Play</small></li>
+                <li>Rent and society maintenance <small>monthly reminders, payment logs</small></li>
+                <li>School and tuition fees <small>term-wise, transport, coaching classes</small></li>
+                <li>Insurance renewals <small>motor, health, life, home, mediclaim</small></li>
+                <li>Vehicle PUC and registration <small>15-year re-registration windows</small></li>
+                <li>Finance dates <small>EMIs, credit cards, advance tax, ITR, PPF, NPS, Sukanya Samriddhi</small></li>
+                <li>Property tax <small>BMC, BBMP, MCD, GHMC, city-aware reminders</small></li>
+                <li>No auto-pay <small>Pratyek never touches payment credentials</small></li>
             </ul>
         </article>
 
-        {{-- 02 Renewals --}}
-        <article class="cat">
-            <div class="cat-head">
-                <div class="cat-icon"><x-icon name="renewal" /></div>
-                <p class="cat-num">Category 02</p>
-                <h2 class="cat-name">Renewals &amp; expiry tracking</h2>
-                <p class="cat-intro">
-                    The expensive things to forget. Pratyek nudges weeks ahead &mdash; never the morning of.
-                </p>
-            </div>
-            <ul class="cat-list">
-                <li>Motor insurance <small>Bajaj Allianz, ICICI Lombard, Acko, HDFC Ergo</small></li>
-                <li>Health insurance / mediclaim <small>HDFC Ergo, Star Health, Niva Bupa, ManipalCigna</small></li>
-                <li>Vehicle PUC <small>3-month, 6-month, 1-year cycles</small></li>
-                <li>Driving licence renewal</li>
-                <li>Vehicle registration <small>15-year re-registration window</small></li>
-                <li>Passport renewal <small>10-week, 4-week, 1-week nudges</small></li>
-                <li>Life insurance premiums</li>
-                <li>Home insurance</li>
-                <li>Professional licences <small>CA, advocate, doctor &mdash; on request</small></li>
-            </ul>
-        </article>
-
-        {{-- 03 Documents --}}
-        <article class="cat">
-            <div class="cat-head">
-                <div class="cat-icon"><x-icon name="document" /></div>
-                <p class="cat-num">Category 03</p>
-                <h2 class="cat-name">Documents &amp; IDs</h2>
-                <p class="cat-intro">
-                    Pratyek <strong>refuses</strong> to store IDs. Instead it remembers expiry dates and points
-                    you to <strong>DigiLocker</strong>, the government's own vault.
-                </p>
-            </div>
-            <ul class="cat-list">
-                <li>Passport <small>expiry only &mdash; image stays in DigiLocker</small></li>
-                <li>Aadhaar <small>existence noted &mdash; never the number</small></li>
-                <li>PAN <small>existence noted &mdash; never the image</small></li>
-                <li>Driving licence <small>expiry only</small></li>
-                <li>Vehicle RC <small>via DigiLocker</small></li>
-                <li>Mediclaim card <small>policy number stored, image refused</small></li>
-                <li>Professional certifications <small>expiry tracking only</small></li>
-                <li>Birth certificates <small>existence + DigiLocker pointer</small></li>
-            </ul>
-        </article>
-
-        {{-- 04 Vehicles --}}
-        <article class="cat">
-            <div class="cat-head">
-                <div class="cat-icon"><x-icon name="vehicle" /></div>
-                <p class="cat-num">Category 04</p>
-                <h2 class="cat-name">Vehicles</h2>
-                <p class="cat-intro">
-                    One car, two wheelers, the family scooter. Pratyek tracks them all, separately, for years.
-                </p>
-            </div>
-            <ul class="cat-list">
-                <li>Identity <small>registration, model, year of purchase</small></li>
-                <li>Insurance <small>provider, policy number, end date</small></li>
-                <li>PUC <small>last test, next due</small></li>
-                <li>FASTag balance <small>read from monthly statement</small></li>
-                <li>Service cycle <small>kms or months, whichever first</small></li>
-                <li>Fines &amp; challans <small>read-only reminder, never auto-pay</small></li>
-                <li>15-year re-registration <small>nudge starts at year 14</small></li>
-                <li>Multi-vehicle households <small>each vehicle tracked separately</small></li>
-            </ul>
-        </article>
-
-        {{-- 05 Staff --}}
-        <article class="cat">
-            <div class="cat-head">
-                <div class="cat-icon"><x-icon name="staff" /></div>
-                <p class="cat-num">Category 05</p>
-                <h2 class="cat-name">Domestic staff</h2>
-                <p class="cat-intro">
-                    The most casually managed labour in the household. Pratyek brings dignity to the records,
-                    in the language the conversation already happens in.
-                </p>
-            </div>
-            <ul class="cat-list">
-                <li>Maid, cook, driver, nanny, gardener, part-time help</li>
-                <li>Attendance <small>logged casually by voice or text</small></li>
-                <li>Monthly salary <small>paid / partial / due</small></li>
-                <li>Leaves <small>paid, unpaid, casual</small></li>
-                <li>Festival bonuses <small>Diwali, Eid, Onam, Bihu &mdash; with history</small></li>
-                <li>ID reference <small>via DigiLocker, never our database</small></li>
-                <li>Salary revisions <small>year-over-year</small></li>
-                <li>Multiple households <small>same maid across two flats? handled</small></li>
-            </ul>
-        </article>
-
-        {{-- 06 Appliances --}}
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="appliance" /></div>
-                <p class="cat-num">Category 06</p>
-                <h2 class="cat-name">Appliances &amp; warranties</h2>
+                <p class="cat-num">Memory surface 04</p>
+                <h2 class="cat-name">Pratyek Assets</h2>
                 <p class="cat-intro">
-                    The receipts that vanish. Pratyek remembers what you bought, when, where from, and when
-                    the next service is due.
+                    Things the household owns: appliances, warranties, vehicles, property. Pratyek remembers
+                    what was bought, when, where from, and what comes due next.
                 </p>
             </div>
             <ul class="cat-list">
-                <li>Air conditioners <small>brand, model, AMC end date</small></li>
-                <li>Washing machines</li>
-                <li>Refrigerators</li>
-                <li>Water purifiers <small>filter change cycle</small></li>
-                <li>Geysers</li>
-                <li>Microwaves &amp; ovens</li>
-                <li>Televisions</li>
-                <li>RO filters <small>quarterly nudge</small></li>
-                <li>Inverters &amp; UPS <small>battery replacement window</small></li>
+                <li>Appliances <small>AC, washing machine, refrigerator, geyser, microwave, TV, RO, inverter</small></li>
+                <li>Warranties <small>purchase date, warranty end, serial or model, service partner</small></li>
+                <li>Service cycles <small>RO filter, AC service, inverter battery, annual maintenance</small></li>
+                <li>Vehicles <small>registration, model, fuel, insurance, PUC, service cycle</small></li>
+                <li>FASTag and challans <small>read-only reminders, never payment handling</small></li>
+                <li>Property <small>address, city, ownership, deed or khata reference</small></li>
+                <li>Receipts and proofs <small>metadata first; raw media deleted after extraction</small></li>
             </ul>
         </article>
 
-        {{-- 07 Subscriptions --}}
         <article class="cat">
             <div class="cat-head">
                 <div class="cat-icon"><x-icon name="subscription" /></div>
-                <p class="cat-num">Category 07</p>
-                <h2 class="cat-name">Subscriptions &amp; deliveries</h2>
+                <p class="cat-num">Memory surface 05</p>
+                <h2 class="cat-name">Pratyek Services</h2>
                 <p class="cat-intro">
-                    Pause and resume on command &mdash; "pause milk 10&ndash;17 May" handled in the chat.
+                    Recurring deliveries and visits: milk, newspaper, ironing, water cans, therapist, car washer,
+                    tutor. Services are tracked by the rhythm of visits, not by monthly salary.
                 </p>
             </div>
             <ul class="cat-list">
-                <li>Daily milk <small>doodhwala, Country Delight</small></li>
-                <li>Newspaper <small>Times, HT, Mint, regional</small></li>
-                <li>Water cans</li>
-                <li>Tiffin / dabba services</li>
-                <li>OTT <small>Netflix, Hotstar, Prime, Sony LIV</small></li>
-                <li>Music <small>Spotify, Apple Music, JioSaavn</small></li>
-                <li>DTH bundles <small>Tata Play, Airtel Digital TV</small></li>
-                <li>Cloud storage <small>iCloud, Google One, Dropbox</small></li>
+                <li>Daily milk <small>doodhwala, Country Delight, quantity and rate</small></li>
+                <li>Newspaper and water cans</li>
+                <li>Ironing and laundry <small>clothes count, collections, delivery gaps</small></li>
+                <li>Per-visit professionals <small>therapist, masseur, physio, tutor, tailor</small></li>
+                <li>Car washer and recurring electrician <small>visit logs and missed days</small></li>
+                <li>Pause and resume <small>"pause milk 10-17 May"</small></li>
+                <li>Per-service attendance <small>opened from the service row, not a separate aggregate page</small></li>
             </ul>
         </article>
 
-        {{-- 08 Occasions --}}
         <article class="cat">
             <div class="cat-head">
-                <div class="cat-icon"><x-icon name="occasion" /></div>
-                <p class="cat-num">Category 08</p>
-                <h2 class="cat-name">Family &amp; occasions</h2>
+                <div class="cat-icon"><x-icon name="staff" /></div>
+                <p class="cat-num">Memory surface 06</p>
+                <h2 class="cat-name">Pratyek Staff</h2>
                 <p class="cat-intro">
-                    The dates that are too important to live in your head alone. Pratyek runs the calendar
-                    of belonging.
+                    Monthly household help: the people who make the home work. Pratyek keeps salary, attendance,
+                    leave, bonus, and role records without turning the relationship into HR software.
                 </p>
             </div>
             <ul class="cat-list">
-                <li>Birthdays</li>
-                <li>Anniversaries</li>
-                <li>Death anniversaries / shraadh <small>Hindu calendar supported</small></li>
-                <li>Festival prep <small>Diwali, Onam, Eid, Pongal, Christmas</small></li>
-                <li>Festival runways <small>N-week reminders for cleaning, sweets, gifts</small></li>
-                <li>Gift history <small>per person, year-on-year</small></li>
-                <li>Religious vrats / fasts <small>on request</small></li>
-                <li>School holidays &amp; events</li>
+                <li>Maid, cook, driver, nanny, nurse, gardener, guard</li>
+                <li>Attendance <small>voice or text: "Mala came", "Mala did not come"</small></li>
+                <li>Monthly salary <small>paid, partial, due, revisions over time</small></li>
+                <li>Leaves <small>paid, unpaid, casual</small></li>
+                <li>Festival bonuses <small>Diwali, Eid, Onam, Bihu, with history</small></li>
+                <li>ID reference <small>DigiLocker pointer only; no ID image in our database</small></li>
+                <li>Per-staff attendance page <small>opened from each staff row</small></li>
             </ul>
         </article>
 
-        {{-- 09 Health --}}
         <article class="cat">
             <div class="cat-head">
-                <div class="cat-icon"><x-icon name="health" /></div>
-                <p class="cat-num">Category 09</p>
-                <h2 class="cat-name">Health</h2>
+                <div class="cat-icon"><x-icon name="heart" /></div>
+                <p class="cat-num">Memory surface 07</p>
+                <h2 class="cat-name">Pratyek Family</h2>
                 <p class="cat-intro">
-                    The slow-burning reminders &mdash; medication refills, periodic tests, elder care.
-                    Quiet, not alarmist.
+                    People, documents, contacts, occasions, and health sit together because they belong to family
+                    members, not to abstract categories.
                 </p>
             </div>
             <ul class="cat-list">
-                <li>Medication refills <small>BP, diabetes, thyroid</small></li>
-                <li>Periodic tests <small>lipid profile, HbA1c, vitamin D</small></li>
-                <li>Doctor appointments <small>follow-ups</small></li>
-                <li>Elder care reminders <small>weekly check-in nudges</small></li>
-                <li>Children's milestones <small>height, weight, vaccinations</small></li>
-                <li>Pet care <small>vaccinations, deworming, vet visits, grooming</small></li>
-                <li>Specialist visits <small>annual / bi-annual</small></li>
-            </ul>
-        </article>
-
-        {{-- 10 Education --}}
-        <article class="cat">
-            <div class="cat-head">
-                <div class="cat-icon"><x-icon name="education" /></div>
-                <p class="cat-num">Category 10</p>
-                <h2 class="cat-name">Education</h2>
-                <p class="cat-intro">
-                    School fees come in waves. Pratyek tracks the deadlines, the term plans, the supplies.
-                </p>
-            </div>
-            <ul class="cat-list">
-                <li>School fees <small>term-wise</small></li>
-                <li>Tuition fees</li>
-                <li>Exam dates <small>boards, semester, internal</small></li>
-                <li>School transport fees</li>
-                <li>Coaching class fees <small>IIT, NEET, CA prep</small></li>
-                <li>Uniform / clothing sizing <small>quarterly for under-10s</small></li>
-                <li>Stationery cycles</li>
-                <li>Fee payment receipts <small>filed by year</small></li>
-            </ul>
-        </article>
-
-        {{-- 11 Finance --}}
-        <article class="cat">
-            <div class="cat-head">
-                <div class="cat-icon"><x-icon name="finance" /></div>
-                <p class="cat-num">Category 11</p>
-                <h2 class="cat-name">Finance</h2>
-                <p class="cat-intro">
-                    Pratyek <strong>never</strong> touches payment credentials and never auto-pays anything.
-                    It only remembers and nudges.
-                </p>
-            </div>
-            <ul class="cat-list">
-                <li>EMIs <small>home, car, personal &mdash; due dates only</small></li>
-                <li>SIPs <small>monthly mutual fund commitments</small></li>
-                <li>Tax deadlines <small>advance tax, ITR, GST</small></li>
-                <li>Credit card due dates <small>across multiple cards</small></li>
-                <li>PPF / NPS / Sukanya Samriddhi <small>annual contribution windows</small></li>
-                <li>Property tax <small>BBMP, BMC, MCD, GHMC, KMC &mdash; city-aware</small></li>
-                <li>Locker rent <small>annual</small></li>
-                <li>Investment statements <small>filed for retrieval</small></li>
-            </ul>
-        </article>
-
-        {{-- 12 Coordination --}}
-        <article class="cat">
-            <div class="cat-head">
-                <div class="cat-icon"><x-icon name="coordination" /></div>
-                <p class="cat-num">Category 12</p>
-                <h2 class="cat-name">Coordination</h2>
-                <p class="cat-intro">
-                    The shared layer of family life. Lists, todos, contacts, holidays &mdash; one canonical version,
-                    not five WhatsApp threads.
-                </p>
-            </div>
-            <ul class="cat-list">
-                <li>Shared shopping list</li>
-                <li>Todos with assignment <small>"Mummy, Papa, me, Nanu"</small></li>
-                <li>Family contacts <small>doctor, plumber, school, pharmacy</small></li>
-                <li>Shared calendar</li>
-                <li>Household announcements</li>
-                <li>Holiday list <small>office + school + public &mdash; merged per family</small></li>
-                <li>Meal planning <span class="coming-soon">Coming soon</span></li>
-                <li>Maid / cook coordination across families <span class="coming-soon">Coming soon</span></li>
+                <li>Members <small>partner, elder, child, other household roles</small></li>
+                <li>Documents <small>Aadhaar, PAN, passport, driving licence as references only</small></li>
+                <li>DigiLocker-first storage <small>expiry and last four digits where useful, never ID images</small></li>
+                <li>Contacts <small>doctor, plumber, school, pharmacy, society office</small></li>
+                <li>Occasions per member <small>birthdays, anniversaries, shraadh, gift history</small></li>
+                <li>Health per member <small>medicine refills, tests, elder care, vaccinations, pet care</small></li>
+                <li>Education details <small>school fees live in Bills; milestones and contacts live here</small></li>
             </ul>
         </article>
 
@@ -372,9 +242,10 @@
      ============================================================ --}}
 <section class="cta-block">
     <div class="wrap">
-        <h2>Pratyek is patient. We'd rather get this right than ship fast.</h2>
+        <h2>Pratyek is live on WhatsApp.</h2>
         <p>
-            Pratyek is live on WhatsApp. If your household has more to track than this list, send <em>"Hi"</em> to <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a>.
+            The public feature list now matches the Memory dashboard that households actually see.
+            Start with any bill, staff note, service visit, or reminder.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

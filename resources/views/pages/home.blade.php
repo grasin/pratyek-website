@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="Pratyek by Relynext Solutions — WhatsApp Household Concierge"
-    description="Pratyek by Relynext Solutions, Mumbai — a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes; Pratyek remembers."
-    keywords="Pratyek, Pratyek WhatsApp, Pratyek by Relynext Solutions, Relynext Solutions Mumbai, household management app India, WhatsApp household concierge, family bill reminder app, track maid salary, Indian family productivity, Adani electricity bill reminder, BMC property tax tracker, Bajaj Allianz renewal alert, JioFiber bill tracker, Tata Play renewal, mediclaim renewal reminder, household CFO tool, DPDP compliant family app, made in India productivity"
+    title="Pratyek - WhatsApp Household Concierge"
+    description="Pratyek is a product of Relynext Solutions Private Limited - a WhatsApp-native household concierge for Indian families. Forward bills, send voice notes; Pratyek remembers."
+    keywords="Pratyek, Pratyek WhatsApp, Relynext Solutions Private Limited, household management app India, WhatsApp household concierge, family bill reminder app, track maid salary, Indian family productivity, Adani electricity bill reminder, BMC property tax tracker, Bajaj Allianz renewal alert, JioFiber bill tracker, Tata Play renewal, mediclaim renewal reminder, household CFO tool, DPDP aware family app, made in India productivity"
     og-image="/og/default.svg"
     page-type="WebPage"
 >
@@ -15,7 +15,7 @@
   "@id": "https://pratyek.com/#website",
   "url": "https://pratyek.com",
   "name": "Pratyek",
-  "alternateName": "प्रत्येक",
+  "alternateName": "\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915",
   "description": "WhatsApp-native household concierge for Indian families.",
   "inLanguage": "en-IN",
   "publisher": { "@id": "https://pratyek.com/#organization" },
@@ -39,14 +39,14 @@
   "@type": "SoftwareApplication",
   "@id": "https://pratyek.com/#software",
   "name": "Pratyek",
-  "alternateName": ["Pratyek by Relynext Solutions", "Pratyek WhatsApp household concierge"],
+  "alternateName": ["A Relynext Solutions product", "Pratyek WhatsApp household concierge"],
   "applicationCategory": "LifestyleApplication",
   "applicationSubCategory": "Household management concierge",
   "operatingSystem": "WhatsApp, Web",
   "url": "https://pratyek.com",
   "image": "https://pratyek.com/og/default.svg",
   "screenshot": "https://pratyek.com/og/default.svg",
-  "description": "Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim — Pratyek extracts, files, and remembers.",
+  "description": "Pratyek is a WhatsApp-native household concierge for Indian families. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim - Pratyek extracts, files, and remembers.",
   "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
   "audience": {
     "@type": "PeopleAudience",
@@ -64,444 +64,294 @@
   },
   "publisher": { "@id": "https://pratyek.com/#organization" },
   "featureList": [
-    "Bills & utilities tracking — Adani Electricity, BSES, BESCOM, BEST, MSEDCL, JioFiber, Tata Play",
-    "Renewals and expiry tracking — Bajaj Allianz, ICICI Lombard, vehicle PUC, passport, DL",
-    "Document expiry tracking via DigiLocker",
-    "Vehicle records — registration, insurance, PUC, FASTag, service cycle",
-    "Domestic staff attendance, salary, leaves, festival bonuses",
-    "Appliance warranties and service cycles — AC, washing machine, refrigerator, RO filter",
-    "Subscription and delivery management — milk, newspaper, OTT, DTH",
-    "Family occasions — birthdays, anniversaries, shraadh, Diwali Onam Eid Pongal Christmas prep",
-    "Health reminders, periodic tests, elder care, children milestones, pet care",
-    "Education — school fees, tuition, exam dates, IIT/NEET coaching",
-    "Finance — EMIs, SIPs, advance tax, ITR, GST, BBMP/BMC property tax",
-    "Coordination — shared shopping list, todos, family contacts, holiday list"
+    "Reminders - today, calendar, rules, done and snooze flows",
+    "Tasks - to-dos and shopping lists",
+    "Bills - bills, renewals, school fees, rent, insurance, property tax",
+    "Assets - appliances, warranties, vehicles, property",
+    "Services - milk, newspaper, ironing, therapist visits, car washer",
+    "Staff - maid, cook, driver, nanny, nurse, gardener, guard",
+    "Family - members, document references, contacts, occasions, health"
   ]
 }
 @endverbatim</script>
 </x-slot:structuredData>
 
 
+@php
+    $heroFlow = [
+        'surface' => 'Bills',
+        'icon' => 'bill',
+        'message' => 'Adani bill Rs 4,237 due 1 May. file kar do',
+        'source' => 'WhatsApp message + PDF',
+        'record' => 'Adani Electricity',
+        'route' => 'memory.pratyek.com/bills',
+        'status' => 'Due 1 May',
+        'fields' => [
+            ['Amount', '&#8377;4,237'],
+            ['Consumer', '10212 21178'],
+            ['Nudge', '28 Apr'],
+        ],
+    ];
+
+    $flows = [
+        [
+            'surface' => 'Reminders',
+            'icon' => 'clock',
+            'message' => 'Remind me to renew car insurance next Monday at 9',
+            'source' => 'Plain text',
+            'record' => 'Car insurance renewal',
+            'route' => 'memory.pratyek.com/reminders',
+            'status' => 'Monday, 9:00 AM',
+            'entities' => ['One-time nudges', 'Repeating rules', 'Done / snooze'],
+            'fields' => [['Rule', 'One-time'], ['Owner', 'Household'], ['Action', 'Snooze / done']],
+        ],
+        [
+            'surface' => 'Tasks',
+            'icon' => 'check',
+            'message' => 'Add milk, thyroid tablets, and school socks to shopping',
+            'source' => 'WhatsApp list',
+            'record' => 'Shopping list',
+            'route' => 'memory.pratyek.com/tasks',
+            'status' => '3 open items',
+            'entities' => ['Todos', 'Shopping', 'Assignments'],
+            'fields' => [['Milk', 'Pending'], ['Thyroid tablets', 'Pending'], ['School socks', 'Pending']],
+        ],
+        [
+            'surface' => 'Bills',
+            'icon' => 'bill',
+            'message' => 'JioFiber Rs 1,499 paid today via UPI',
+            'source' => 'Payment note',
+            'record' => 'JioFiber',
+            'route' => 'memory.pratyek.com/bills',
+            'status' => 'Paid',
+            'entities' => ['Utilities', 'School fees', 'Insurance', 'Property tax'],
+            'fields' => [['Amount', '&#8377;1,499'], ['Period', 'May 2026'], ['Next due', '12 Jun']],
+        ],
+        [
+            'surface' => 'Assets',
+            'icon' => 'appliance',
+            'message' => 'Bought LG washing machine Rs 32,000. 4 year warranty.',
+            'source' => 'Receipt photo',
+            'record' => 'LG washing machine',
+            'route' => 'memory.pratyek.com/assets',
+            'status' => 'Warranty saved',
+            'entities' => ['Appliances', 'Vehicles', 'Property', 'Warranties'],
+            'fields' => [['Price', '&#8377;32,000'], ['Warranty', '4 years'], ['Service', 'Annual']],
+        ],
+        [
+            'surface' => 'Services',
+            'icon' => 'subscription',
+            'message' => 'Mahesh delivered 1.5L milk today. Rs 90.',
+            'source' => 'Daily service log',
+            'record' => 'Milk delivery',
+            'route' => 'memory.pratyek.com/services',
+            'status' => 'Today logged',
+            'entities' => ['Milk', 'Newspaper', 'Ironing', 'Car wash'],
+            'fields' => [['Quantity', '1.5L'], ['Rate', '&#8377;90'], ['Pattern', 'Daily']],
+        ],
+        [
+            'surface' => 'Staff',
+            'icon' => 'staff',
+            'message' => 'Paid Kamala April salary 6000. She was off 2 days.',
+            'source' => 'Voice or text',
+            'record' => 'Kamala, maid',
+            'route' => 'memory.pratyek.com/staff',
+            'status' => 'Salary paid',
+            'entities' => ['Maid', 'Cook', 'Driver', 'Nanny', 'Nurse'],
+            'fields' => [['April salary', '&#8377;6,000'], ['Attendance', '28 / 30'], ['Bonus history', 'Saved']],
+        ],
+        [
+            'surface' => 'Family',
+            'icon' => 'heart',
+            'message' => 'Aanya passport expires 12 Aug 2032. Keep in DigiLocker.',
+            'source' => 'Document reference',
+            'record' => 'Aanya / Passport',
+            'route' => 'memory.pratyek.com/family',
+            'status' => 'Expiry only',
+            'entities' => ['Members', 'Documents', 'Occasions', 'Health'],
+            'fields' => [['Expiry', '12 Aug 2032'], ['Storage', 'DigiLocker'], ['Image', 'Not stored']],
+        ],
+    ];
+@endphp
+
 {{-- ============================================================
      Hero
      ============================================================ --}}
-<section class="hero">
-    <div class="wrap">
-        <p class="hero-eyebrow">A Relynext Solutions product &middot; A second mind for the household CFO</p>
-        <h1>
-            Your family's WhatsApp forgets everything.
-            <em>We built something that remembers.</em>
-        </h1>
-        <p class="hero-sub">
-            Forward a bill. Send a voice note about the maid's leave. Ask in Hinglish when the car insurance expires.
-            Pratyek reads, sorts, and remembers — quietly, in the background, in the chat your family already lives in.
-        </p>
-        <div class="hero-actions">
-            <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-track-location="hero_home">
-                <x-icon name="whatsapp" />
-                Start on WhatsApp
-            </a>
-            <a href="{{ route('product') }}" class="btn-link" data-track-event="cta_click" data-track-location="hero_home">
-                See how it works
-                <x-icon name="arrow-right" />
-            </a>
+<section class="hero hero-product">
+    <div class="wrap-wide">
+        <div class="hero-product-grid">
+            <div class="hero-product-copy">
+                <p class="hero-eyebrow">A Relynext Solutions product &middot; Live on WhatsApp</p>
+                <h1>
+                    Send a household message.
+                    <em>Get a managed dashboard record.</em>
+                </h1>
+                <p class="hero-sub">
+                    Pratyek turns bills, tasks, services, staff notes, assets, and family details from WhatsApp into a clean Memory dashboard.
+                    No app to install. No new habit to teach the family.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-track-location="hero_home">
+                        <x-icon name="whatsapp" />
+                        Start on WhatsApp
+                    </a>
+                    <a href="#memory-flows" class="btn-link" data-track-event="cta_click" data-track-location="hero_home">
+                        See examples
+                        <x-icon name="arrow-right" />
+                    </a>
+                </div>
+                <p class="hero-fineprint">
+                    Live now &middot; <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> &middot; works inside WhatsApp
+                </p>
+            </div>
+
+            <div class="flow-demo flow-demo--hero" aria-label="WhatsApp message transformed into a Memory dashboard record" data-nosnippet>
+                <div class="flow-phone">
+                    <div class="flow-phone-top">
+                        <span class="flow-avatar">P</span>
+                        <span>Pratyek</span>
+                    </div>
+                    <div class="flow-bubble">
+                        <span class="flow-bubble-label">{{ $heroFlow['source'] }}</span>
+                        {{ $heroFlow['message'] }}
+                    </div>
+                </div>
+
+                <div class="flow-arrow" aria-hidden="true">
+                    <x-icon name="arrow-right" />
+                    <span>extracts</span>
+                </div>
+
+                <div class="flow-record">
+                    <div class="flow-record-top">
+                        <span class="flow-record-icon"><x-icon :name="$heroFlow['icon']" /></span>
+                        <div>
+                            <span>{{ $heroFlow['route'] }}</span>
+                            <strong>{{ $heroFlow['record'] }}</strong>
+                        </div>
+                    </div>
+                    <dl>
+                        @foreach ($heroFlow['fields'] as $field)
+                            <div>
+                                <dt>{{ $field[0] }}</dt>
+                                <dd>{!! $field[1] !!}</dd>
+                            </div>
+                        @endforeach
+                    </dl>
+                    <div class="flow-record-foot">
+                        <span>{{ $heroFlow['surface'] }}</span>
+                        <strong>{{ $heroFlow['status'] }}</strong>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p class="hero-fineprint">
-            Live now &middot; <a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-underline-offset: 3px;">+91 93720 23537</a> &middot; no app to install &middot; works inside WhatsApp
-        </p>
     </div>
 </section>
 
 <hr class="hairline">
 
 {{-- ============================================================
-     Founder's story (the Why)
-     ============================================================ --}}
-<section class="editorial">
-    <div class="wrap-narrow">
-        <p class="editorial-kicker">Why Pratyek</p>
-        <h2>One Diwali, my mother paid the maid's bonus twice.</h2>
-        <div class="editorial-body" style="margin-top: var(--space-6);">
-            <p class="dropcap">
-                Not because she's careless &mdash; she's the most careful person I know. She'd handed over an envelope
-                three weeks before Diwali, then again on the day itself, the way a hundred small things flow through
-                an Indian household: half-remembered, half-noted, never written down. The maid said nothing. Why would she.
-            </p>
-            <p>
-                Later that week I watched my mother scroll back through eight months of WhatsApp groups looking for the
-                rent receipt I'd sent in March. She never found it. The chat had moved on &mdash; sweet messages,
-                forwarded videos, a poll about the building's water tank, my cousin's engagement photos.
-                The receipt was somewhere in there. It might as well have been in the Indian Ocean.
-            </p>
-            <p>
-                What the household needs isn't another app. It needs <em>memory</em>. A quiet, patient,
-                Indian-tongued memory that lives where the family already talks &mdash; on WhatsApp &mdash;
-                and remembers what the chat itself forgets the moment the next message arrives.
-            </p>
-            <p>
-                That's the only thing Pratyek does. It listens to the household's right hand.
-                It writes everything down. And when you need it, it remembers.
-            </p>
-        </div>
-        <p class="signoff">&mdash; a story from <strong>one of the makers</strong> &middot; Mumbai</p>
-    </div>
-</section>
-
-{{-- ============================================================
-     Two surfaces
-     ============================================================ --}}
-<section class="surfaces">
-    <div class="wrap" style="margin-bottom: var(--space-7);">
-        <p class="kicker kicker--red">The product, in one sentence</p>
-        <h2 style="margin-top: var(--space-3); max-width: 22ch;">
-            WhatsApp <em>writes.</em> The dashboard <em>reads.</em>
-        </h2>
-    </div>
-
-    <div class="surfaces-grid">
-        <div class="surface">
-            <p class="surface-label">WhatsApp &mdash; capture</p>
-            <h3 class="surface-name">The chat your family already uses.</h3>
-            <p class="surface-caption">
-                Forward a bill, send a voice note, drop a photo of the warranty card. Pratyek extracts, files,
-                and confirms back &mdash; in the language you wrote in.
-            </p>
-        </div>
-
-        <div class="bridge" aria-hidden="true">
-            <span class="bridge-line"></span>
-            <span class="bridge-label">feeds</span>
-            <span class="bridge-line"></span>
-        </div>
-
-        <div class="surface">
-            <p class="surface-label">memory.pratyek.com &mdash; retrieval</p>
-            <h3 class="surface-name">Everything sorted, searchable, exportable.</h3>
-            <p class="surface-caption">
-                Bills, renewals, staff attendance, appliance warranties &mdash; all in one quiet dashboard.
-                Sidebar to filter, search across everything, export anytime.
-            </p>
-        </div>
-    </div>
-</section>
-
-{{-- ============================================================
-     What Pratyek tracks — SEO-rich text section (snippet-eligible).
-     Uses real Indian brand names so Google indexes long-tail queries
-     like 'Adani electricity bill reminder', 'BMC property tax tracker',
-     'Bajaj Allianz renewal alert' against this page.
+     Process
      ============================================================ --}}
 <section class="section-tight">
-    <div class="wrap-narrow">
-        <p class="kicker">What Pratyek tracks</p>
-        <h2 style="margin-top: var(--space-3); margin-bottom: var(--space-5);">
-            A WhatsApp household concierge for Indian families.
-        </h2>
-        <p class="lede" style="max-width: 64ch;">
-            Pratyek (by Relynext Solutions, Mumbai) is a <strong>household management app for Indian
-            families</strong> that lives on WhatsApp. Forward your <strong>Adani Electricity</strong>,
-            <strong>JioFiber</strong>, <strong>Tata Play</strong>, or <strong>Mahanagar Gas</strong>
-            bill and Pratyek extracts the amount, due date, and account number. Get
-            <strong>Bajaj Allianz motor insurance</strong>, <strong>ICICI Lombard mediclaim</strong>,
-            and <strong>vehicle PUC</strong> renewal reminders weeks ahead. Log your maid's attendance
-            and salary in three words, track <strong>BMC / BBMP property tax</strong> windows, remember
-            Diwali bonuses across years, never miss an AC service or RO filter change.
-            All in your existing WhatsApp chat &mdash; nothing to install, no app to learn.
-        </p>
+    <div class="wrap-wide">
+        <div class="process-strip" aria-label="How Pratyek works">
+            <article class="process-step">
+                <span class="process-num">01</span>
+                <h2>Message Pratyek.</h2>
+                <p>Forward a PDF, send a voice note, type in Hinglish, or drop a receipt photo.</p>
+            </article>
+            <article class="process-step">
+                <span class="process-num">02</span>
+                <h2>It extracts fields.</h2>
+                <p>Amount, due date, owner, provider, warranty, attendance, expiry, status.</p>
+            </article>
+            <article class="process-step">
+                <span class="process-num">03</span>
+                <h2>Memory stays managed.</h2>
+                <p>Every record lands in the right dashboard surface, searchable and exportable.</p>
+            </article>
+        </div>
     </div>
 </section>
 
-<section class="section">
+{{-- ============================================================
+     Memory flows
+     ============================================================ --}}
+<section class="section" id="memory-flows">
     <div class="wrap-wide">
-        <div class="section-head">
-            <p class="kicker">Four moments</p>
-            <h2 style="max-width: 24ch;">What it looks like inside the chat.</h2>
-            <p class="lede" style="margin-top: var(--space-3); max-width: 56ch;">
-                Pratyek lives at <strong><a href="https://wa.me/919372023537?text=Hi" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 4px;">+91 93720 23537</a></strong>. You message it like any other contact.
-                Below: four real beats, four real days.
+        <div class="section-head section-head--center">
+            <p class="kicker">Major categories</p>
+            <h2 style="max-width: 24ch;">One pattern, every household surface.</h2>
+            <p class="lede" style="margin-top: var(--space-3); max-width: 62ch; margin-inline: auto;">
+                The public site now follows the live Memory dashboard: Reminders, Tasks, Bills, Assets, Services, Staff, and Family.
             </p>
         </div>
 
-        <div class="scenes-grid" data-nosnippet>
-
-            {{-- Scene 1 — Bill forwarded --}}
-            <div class="scene">
-                <p class="scene-cap">
-                    <strong>Papa forwards the electricity bill.</strong> Pratyek extracts the amount, due date, and
-                    consumer number, files it under <em>Bills</em>, and replies in eight seconds.
-                </p>
-                <div class="wa-frame" aria-label="WhatsApp chat: bill forwarded">
-                    <div class="wa-header">
-                        <div class="wa-avatar">P</div>
-                        <div class="wa-contact">
-                            <div class="wa-name">Pratyek</div>
-                            <div class="wa-status">online</div>
+        <div class="flow-grid" data-nosnippet>
+            @foreach ($flows as $flow)
+                <article class="flow-card">
+                    <div class="flow-card-head">
+                        <span class="flow-card-icon"><x-icon :name="$flow['icon']" /></span>
+                        <div>
+                            <p>{{ $flow['route'] }}</p>
+                            <h3>{{ $flow['surface'] }}</h3>
                         </div>
                     </div>
-                    <div class="wa-body">
-                        <div class="wa-msg wa-msg--out">
-                            <div class="wa-msg-attachment">
-                                <div class="wa-msg-attachment-icon"><x-icon name="document" /></div>
+
+                    <div class="flow-mini" aria-label="{{ $flow['surface'] }} WhatsApp to dashboard example">
+                        <div class="flow-phone">
+                            <div class="flow-phone-top">
+                                <span class="flow-avatar">P</span>
+                                <span>{{ $flow['source'] }}</span>
+                            </div>
+                            <div class="flow-bubble">{{ $flow['message'] }}</div>
+                        </div>
+
+                        <div class="flow-mini-arrow" aria-hidden="true">
+                            <x-icon name="arrow-right" />
+                        </div>
+
+                        <div class="flow-record">
+                            <div class="flow-record-top">
+                                <span class="flow-record-icon"><x-icon :name="$flow['icon']" /></span>
                                 <div>
-                                    <div class="wa-msg-attachment-name">Adani-Bill-Apr2026.pdf</div>
-                                    <div class="wa-msg-attachment-meta">2 pages &middot; 184 KB</div>
+                                    <span>{{ $flow['surface'] }}</span>
+                                    <strong>{{ $flow['record'] }}</strong>
                                 </div>
                             </div>
-                            <span style="font-size:13px;color:var(--ink-soft);">file kar do</span>
-                            <span class="wa-msg-meta">10:42 AM <span class="wa-msg-ticks">
-                                <svg viewBox="0 0 16 11" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6l3 3L11 1M5 6l3 3 7-8"/></svg>
-                            </span></span>
-                        </div>
-                        <div class="wa-msg wa-msg--in">
-                            <div class="wa-card">
-                                <div class="wa-card-title">Adani Electricity &middot; April</div>
-                                <div class="wa-card-row"><span>Consumer no.</span><strong>10212 21178</strong></div>
-                                <div class="wa-card-row"><span>Amount</span><strong>&#8377;4,237</strong></div>
-                                <div class="wa-card-row"><span>Due</span><strong>1 May 2026</strong></div>
-                                <div class="wa-card-foot">Filed under Bills &middot; I'll nudge on 28 Apr</div>
+                            <dl>
+                                @foreach ($flow['fields'] as $field)
+                                    <div>
+                                        <dt>{{ $field[0] }}</dt>
+                                        <dd>{!! $field[1] !!}</dd>
+                                    </div>
+                                @endforeach
+                            </dl>
+                            <div class="flow-record-foot">
+                                <span>Dashboard</span>
+                                <strong>{{ $flow['status'] }}</strong>
                             </div>
-                            <span style="font-size:13.5px;">Got it. Saved.</span>
-                            <span class="wa-msg-meta">10:42 AM</span>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            {{-- Scene 2 — Hinglish voice note about staff --}}
-            <div class="scene">
-                <p class="scene-cap">
-                    <strong>Mummy sends a Hinglish voice note about Kamala's salary.</strong> Pratyek transcribes,
-                    logs the payment, updates the staff register, deletes the audio.
-                </p>
-                <div class="wa-frame" aria-label="WhatsApp chat: voice note about staff">
-                    <div class="wa-header">
-                        <div class="wa-avatar">P</div>
-                        <div class="wa-contact">
-                            <div class="wa-name">Pratyek</div>
-                            <div class="wa-status">online</div>
-                        </div>
-                    </div>
-                    <div class="wa-body">
-                        <div class="wa-msg wa-msg--out">
-                            <div class="wa-voice">
-                                <div class="wa-voice-play"><x-icon name="arrow-right" /></div>
-                                <div class="wa-voice-wave">
-                                    @for ($i = 0; $i < 28; $i++)
-                                        <span style="height: {{ 4 + (($i * 7) % 14) }}px;"></span>
-                                    @endfor
-                                </div>
-                                <span class="wa-voice-time">0:09</span>
-                            </div>
-                            <span class="wa-msg-meta">9:14 AM <span class="wa-msg-ticks">
-                                <svg viewBox="0 0 16 11" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6l3 3L11 1M5 6l3 3 7-8"/></svg>
-                            </span></span>
-                        </div>
-                        <div class="wa-msg wa-msg--in" style="font-style: italic; color: var(--ink-mute);">
-                            <span style="font-size:13px;">heard: &ldquo;Kamala ko April salary de diya, 6 hazaar.&rdquo;</span>
-                        </div>
-                        <div class="wa-msg wa-msg--in">
-                            <div class="wa-card">
-                                <div class="wa-card-title">Staff &middot; Kamala (maid)</div>
-                                <div class="wa-card-row"><span>April salary</span><strong>&#8377;6,000 paid</strong></div>
-                                <div class="wa-card-row"><span>Diwali bonus 2025</span><strong>&#8377;3,000 paid</strong></div>
-                                <div class="wa-card-foot">Audio deleted &middot; only the line above is stored</div>
-                            </div>
-                            <span style="font-size:13.5px;">Logged.</span>
-                            <span class="wa-msg-meta">9:14 AM</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {{-- Scene 3 — Renewal nudge --}}
-            <div class="scene">
-                <p class="scene-cap">
-                    <strong>Renewal pings, ahead of time.</strong> Three weeks before the policy lapses,
-                    Pratyek nudges &mdash; in the chat, not in a notification you'll miss.
-                </p>
-                <div class="wa-frame" aria-label="WhatsApp chat: renewal nudge">
-                    <div class="wa-header">
-                        <div class="wa-avatar">P</div>
-                        <div class="wa-contact">
-                            <div class="wa-name">Pratyek</div>
-                            <div class="wa-status">online</div>
-                        </div>
-                    </div>
-                    <div class="wa-body">
-                        <div class="wa-msg wa-msg--in">
-                            <div class="wa-card">
-                                <div class="wa-card-title" style="color: var(--amber);">Renewing in 21 days</div>
-                                <div class="wa-card-row"><span>Bajaj Allianz &middot; Honda City</span><strong></strong></div>
-                                <div class="wa-card-row"><span>Policy ends</span><strong>20 May 2026</strong></div>
-                                <div class="wa-card-row"><span>Last paid</span><strong>&#8377;14,860</strong></div>
-                                <div class="wa-card-foot">Want me to remind you again next Monday?</div>
-                            </div>
-                            <span style="font-size:13.5px;">Heads up &mdash; car insurance up for renewal.</span>
-                            <span class="wa-msg-meta">7:30 AM</span>
-                        </div>
-                        <div class="wa-msg wa-msg--out">
-                            <span style="font-size:13.5px;">haan monday morning bata dena</span>
-                            <span class="wa-msg-meta">7:31 AM <span class="wa-msg-ticks">
-                                <svg viewBox="0 0 16 11" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6l3 3L11 1M5 6l3 3 7-8"/></svg>
-                            </span></span>
-                        </div>
-                        <div class="wa-msg wa-msg--in">
-                            <span style="font-size:13.5px;">Done. Pinging Monday at 9.</span>
-                            <span class="wa-msg-meta">7:31 AM</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            {{-- Scene 4 — Hinglish question --}}
-            <div class="scene">
-                <p class="scene-cap">
-                    <strong>Ask anything, in any language.</strong> Pratyek understands Hindi, English, Marathi, Tamil,
-                    Telugu, Kannada, Bengali, Gujarati, Punjabi &mdash; and the Hinglish your family actually speaks.
-                </p>
-                <div class="wa-frame" aria-label="WhatsApp chat: Hinglish question">
-                    <div class="wa-header">
-                        <div class="wa-avatar">P</div>
-                        <div class="wa-contact">
-                            <div class="wa-name">Pratyek</div>
-                            <div class="wa-status">online</div>
-                        </div>
-                    </div>
-                    <div class="wa-body">
-                        <div class="wa-msg wa-msg--out">
-                            <span style="font-size:13.5px;">Diwali pe Kamala ko bonus diya kya last year?</span>
-                            <span class="wa-msg-meta">8:55 PM <span class="wa-msg-ticks">
-                                <svg viewBox="0 0 16 11" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6l3 3L11 1M5 6l3 3 7-8"/></svg>
-                            </span></span>
-                        </div>
-                        <div class="wa-msg wa-msg--in">
-                            <span style="font-size:13.5px;">
-                                Haan, 2025 mein &#8377;3,000 diya tha &mdash; 30 Oct, Mummy ne envelope diya.
-                                2024 mein bhi same amount. Is saal kab dena hai bata du?
-                            </span>
-                            <span class="wa-msg-meta">8:55 PM</span>
-                        </div>
-                        <div class="wa-msg wa-msg--out">
-                            <span style="font-size:13.5px;">haan 15 Oct ko nudge kar dena</span>
-                            <span class="wa-msg-meta">8:56 PM <span class="wa-msg-ticks">
-                                <svg viewBox="0 0 16 11" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 6l3 3L11 1M5 6l3 3 7-8"/></svg>
-                            </span></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+                    <ul class="flow-entities" aria-label="{{ $flow['surface'] }} entities">
+                        @foreach ($flow['entities'] as $entity)
+                            <li>{{ $entity }}</li>
+                        @endforeach
+                    </ul>
+                </article>
+            @endforeach
         </div>
 
-        <div style="text-align: center; margin-top: var(--space-7);">
+        <div class="flow-cta">
             <a href="{{ route('product') }}" class="btn-link">
-                See all eight scenes &mdash; rent, attendance, passport, Sunday digest, more
+                See the full Memory model
                 <x-icon name="arrow-right" />
             </a>
         </div>
     </div>
 </section>
-
-<hr class="hairline">
-
-{{-- ============================================================
-     Memory dashboard preview
-     ============================================================ --}}
-<section class="dashboard-section">
-    <div class="wrap-wide">
-        <div class="section-head section-head--center">
-            <p class="kicker">The other surface</p>
-            <h2 style="max-width: 24ch;">Open <em>memory.pratyek.com</em>. Your household, sorted.</h2>
-        </div>
-
-        <div class="dash-frame" aria-label="Memory dashboard preview" data-nosnippet>
-            <div class="dash-chrome">
-                <div class="dash-chrome-dots"><span></span><span></span><span></span></div>
-                <div class="dash-url"><strong>pratyek.com</strong>/memory/bills</div>
-            </div>
-            <div class="dash-grid">
-                <aside class="dash-sidebar">
-                    <div class="dash-sidebar-title">Memory</div>
-                    <div class="dash-nav-item dash-nav-item--active">
-                        <x-icon name="bill" /> Bills
-                    </div>
-                    <div class="dash-nav-item"><x-icon name="renewal" /> Renewals</div>
-                    <div class="dash-nav-item"><x-icon name="document" /> Documents</div>
-                    <div class="dash-nav-item"><x-icon name="vehicle" /> Vehicles</div>
-                    <div class="dash-nav-item"><x-icon name="staff" /> Staff</div>
-                    <div class="dash-nav-item"><x-icon name="appliance" /> Appliances</div>
-                    <div class="dash-nav-item"><x-icon name="subscription" /> Subscriptions</div>
-                    <div class="dash-nav-item"><x-icon name="occasion" /> Occasions</div>
-                    <div class="dash-nav-item"><x-icon name="health" /> Health</div>
-                    <div class="dash-nav-item"><x-icon name="finance" /> Finance</div>
-                </aside>
-                <div class="dash-main">
-                    <div class="dash-main-head">
-                        <h3 class="dash-h1">Bills</h3>
-                        <div class="dash-tabs">
-                            <span class="dash-tab dash-tab--active">All</span>
-                            <span class="dash-tab">Due soon</span>
-                            <span class="dash-tab">Paid</span>
-                            <span class="dash-tab">Overdue</span>
-                        </div>
-                    </div>
-
-                    <div class="dash-kpis">
-                        <div class="dash-kpi">
-                            <div class="dash-kpi-label">Due in 7 days</div>
-                            <div class="dash-kpi-value">&#8377;12,840</div>
-                            <div class="dash-kpi-meta dash-kpi-meta--amber">3 bills</div>
-                        </div>
-                        <div class="dash-kpi">
-                            <div class="dash-kpi-label">Paid this month</div>
-                            <div class="dash-kpi-value">&#8377;28,490</div>
-                            <div class="dash-kpi-meta dash-kpi-meta--green">8 bills</div>
-                        </div>
-                        <div class="dash-kpi">
-                            <div class="dash-kpi-label">Overdue</div>
-                            <div class="dash-kpi-value">&#8377;0</div>
-                            <div class="dash-kpi-meta">All clear</div>
-                        </div>
-                    </div>
-
-                    <div class="dash-table">
-                        <div class="dash-table-row dash-table-row--head">
-                            <div>Provider</div>
-                            <div>Account</div>
-                            <div>Amount</div>
-                            <div>Status</div>
-                        </div>
-                        <div class="dash-table-row">
-                            <div><strong>Adani Electricity</strong><br><small style="color:var(--ink-mute);font-size:11.5px;">Apr 2026</small></div>
-                            <div>10212 21178</div>
-                            <div class="dash-table-amount">&#8377;4,237</div>
-                            <div><span class="pill pill--due">due 1 May</span></div>
-                        </div>
-                        <div class="dash-table-row">
-                            <div><strong>JioFiber</strong><br><small style="color:var(--ink-mute);font-size:11.5px;">Apr 2026</small></div>
-                            <div>JFB &middot; 8830</div>
-                            <div class="dash-table-amount">&#8377;1,499</div>
-                            <div><span class="pill pill--paid">paid</span></div>
-                        </div>
-                        <div class="dash-table-row">
-                            <div><strong>Tata Play</strong><br><small style="color:var(--ink-mute);font-size:11.5px;">Apr 2026</small></div>
-                            <div>1037 4421</div>
-                            <div class="dash-table-amount">&#8377;599</div>
-                            <div><span class="pill pill--paid">paid</span></div>
-                        </div>
-                        <div class="dash-table-row">
-                            <div><strong>BMC Property Tax</strong><br><small style="color:var(--ink-mute);font-size:11.5px;">FY 2025&ndash;26</small></div>
-                            <div>K/W 2199</div>
-                            <div class="dash-table-amount">&#8377;7,104</div>
-                            <div><span class="pill pill--due">due 30 Apr</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 {{-- ============================================================
      Promise (Kasam se)
      ============================================================ --}}
@@ -623,7 +473,7 @@
                         </a>
                     </p>
                     <p class="live-cta-sub">
-                        No app to install. No form to fill. No beta waitlist.
+                        No app to install. No form to fill. No waitlist.
                         Just the WhatsApp number your household will message
                         for everything from now on.
                     </p>

@@ -6,9 +6,23 @@
             </a>
             <p class="devanagari-accent" aria-label="Pratyek in Devanagari">प्रत्येक</p>
             <p class="footer-company-line">
-                A product of Relynext Solutions.
+                Pratyek is a product of Relynext Solutions Private Limited.
             </p>
-            <p class="footer-location">Mumbai, India.</p>
+            <p class="footer-location">Registered address: [Registered address placeholder], Mumbai, Maharashtra, India.</p>
+            <dl class="footer-entity-rows">
+                <div>
+                    <dt>CIN</dt>
+                    <dd>[CIN placeholder]</dd>
+                </div>
+                <div>
+                    <dt>GST</dt>
+                    <dd>[GST placeholder]</dd>
+                </div>
+                <div>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:hello@pratyek.com" data-track-location="footer">hello@pratyek.com</a></dd>
+                </div>
+            </dl>
         </div>
 
         <div class="footer-col">
@@ -16,7 +30,6 @@
             <ul role="list">
                 <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('product') }}">Product</a></li>
-                <li><a href="{{ route('why') }}">Why Pratyek</a></li>
                 <li><a href="{{ route('features') }}">Features</a></li>
                 <li><a href="{{ route('trust') }}">Trust &amp; Privacy</a></li>
                 <li><a href="{{ route('faq') }}">FAQ</a></li>
@@ -49,7 +62,7 @@
     <div class="footer-bottom">
         <div class="footer-bottom-inner wrap-wide">
             <p class="footer-legal-line">
-                &copy; 2026 Relynext Solutions. All rights reserved.
+                &copy; 2026 Relynext Solutions Private Limited. All rights reserved.
                 <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="mailto:hello@pratyek.com" data-track-location="footer">hello@pratyek.com</a>
                 <span class="footer-sep" aria-hidden="true">&nbsp;&middot;&nbsp;</span><a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer" data-track-location="footer">+91 93720 23537</a>
             </p>
