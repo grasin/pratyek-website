@@ -37,10 +37,10 @@
    1. Tokens
    ----------------------------------------------------------- */
 :root {
-  --paper:      #FFF7E0;
-  --paper-warm: #FFE7A8;
-  --paper-soft: #FFF0C7;
-  --surface:    #FFFCF2;
+  --paper:      #F8F1E4;
+  --paper-warm: #EFE1C8;
+  --paper-soft: #F5E9D6;
+  --surface:    #FFFDF7;
   --surface-pop:#FFFFFF;
   --ink:        #10211F;
   --ink-soft:   #31413C;
@@ -106,7 +106,7 @@
 html { font-size: 16px; -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
 body {
   background:
-    linear-gradient(180deg, var(--paper) 0%, #FFF2BF 58%, var(--paper) 100%);
+    linear-gradient(180deg, var(--paper) 0%, #F3E8D6 58%, var(--paper) 100%);
   color: var(--ink);
   font-family: 'Inter', system-ui, sans-serif;
   font-weight: 400;
@@ -390,7 +390,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: rgba(255, 247, 224, 0.92);
+  background-color: rgba(248, 241, 228, 0.92);
   border-bottom: 1px solid var(--rule-faint);
   backdrop-filter: saturate(140%) blur(6px);
 }
@@ -1795,7 +1795,8 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   padding: var(--space-8);
   max-width: var(--wrap-wide);
   margin-inline: auto;
-  background: linear-gradient(135deg, var(--paper-warm), var(--amber-soft));
+  background: linear-gradient(135deg, var(--surface) 0%, #EAF7F1 100%);
+  border-color: rgba(0, 124, 103, 0.20);
   box-shadow: var(--shadow-card);
 }
 
