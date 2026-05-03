@@ -1,6 +1,6 @@
 <x-layouts.app
     title="FAQ — How Pratyek Works for Indian Families"
-    description="What it is, where data lives, what languages it speaks, what it costs. The 25 questions every family asks before they invite Pratyek in."
+    description="What it is, where data lives, what languages it speaks, what it costs. The questions every family asks before they invite Pratyek in."
     keywords="Pratyek FAQ, WhatsApp household concierge questions, Pratyek pricing, DPDP family service, Indian languages WhatsApp, Aadhaar PAN passport storage"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -25,7 +25,7 @@
     {"@type":"Question","name":"What does Pratyek cost?","acceptedAnswer":{"@type":"Answer","text":"Free to use right now. Paid plans will arrive when the product is mature; we will publish prices in advance with notice. There will never be an advertising tier or a data-sale tier."}},
     {"@type":"Question","name":"Will Pratyek auto-pay my bills?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek never handles payment credentials and never auto-pays anything. Pratyek's job is to remember and nudge — paying stays with you, on the platform you trust."}},
     {"@type":"Question","name":"Are you DPDP-compliant?","acceptedAnswer":{"@type":"Answer","text":"Pratyek is built around India's Digital Personal Data Protection Act 2023 as its provisions commence in phases: consent, purpose limitation, data minimisation, retention, user rights, and grievance redressal."}},
-    {"@type":"Question","name":"Do you train AI models on my messages?","acceptedAnswer":{"@type":"Answer","text":"No. We use Claude (Anthropic) and Gemma (Google) via OpenRouter under contracts that explicitly forbid training on our data."}},
+    {"@type":"Question","name":"Do you train models on my messages?","acceptedAnswer":{"@type":"Answer","text":"No. We use Claude (Anthropic) and Gemma (Google) via OpenRouter under contracts that explicitly forbid training on our data."}},
     {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Relynext Solutions, an Indian partnership firm. Pratyek is its current product."}}
   ]
 }
@@ -156,7 +156,7 @@
             </div>
 
             <div class="faq">
-                <button class="faq-q">Do you train AI models on my messages? <span class="faq-mark"><x-icon name="plus" /></span></button>
+                <button class="faq-q">Do you train models on my messages? <span class="faq-mark"><x-icon name="plus" /></span></button>
                 <div class="faq-a"><div class="faq-a-inner"><div class="faq-a-content">
                     <p>No. We use Claude (from Anthropic) and Gemma (from Google) via OpenRouter to extract structured data &mdash; both are accessed under contracts that explicitly forbid training on our data. We don't have our own models, and we don't sell access to your messages for anyone else's training either.</p>
                 </div></div></div>

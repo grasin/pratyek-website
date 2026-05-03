@@ -446,7 +446,7 @@
 
         <p style="text-align: center; margin-top: var(--space-7);">
             <a href="{{ route('faq') }}" class="btn-link">
-                See the full FAQ &mdash; 25 more answers
+                See the full FAQ
                 <x-icon name="arrow-right" />
             </a>
         </p>

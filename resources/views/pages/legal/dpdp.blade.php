@@ -1,6 +1,6 @@
 <x-layouts.app
     title="DPDP Act 2023 Compliance — Pratyek"
-    description="How Pratyek is built around India's Digital Personal Data Protection Act, 2023 as its provisions commence in phases. Consent, retention, user rights, grievance officer placeholders."
+    description="How Pratyek is built around India's Digital Personal Data Protection Act, 2023 as its provisions commence in phases. Consent, retention, user rights, and grievance redressal."
     keywords="DPDP Act 2023, Digital Personal Data Protection Act compliance, India data fiduciary, grievance officer, Indian privacy law, Data Protection Board India"
     og-image="/og/default.svg"
     page-type="WebPage"
@@ -72,7 +72,7 @@
                 The personal data we process is used only for the purpose of providing the Pratyek service to
                 you &mdash; filing what you forward, surfacing what you ask for, nudging on the dates you'd want
                 to be nudged on. We do not repurpose your data for advertising, profiling for third parties, or
-                training of AI models.
+                model training.
             </p>
 
             <h2>4. Data minimisation</h2>

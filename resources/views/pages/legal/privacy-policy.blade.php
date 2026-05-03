@@ -66,7 +66,7 @@
             <p>
                 Strictly to provide the Pratyek service: to file what you forward, to remind you of upcoming
                 renewals and bills, to answer your questions about your own household. We do not use your data
-                for advertising, profiling for third parties, or training of AI models.
+                for advertising, profiling for third parties, or model training.
             </p>
 
             <h2>5. Where it lives</h2>

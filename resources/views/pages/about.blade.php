@@ -92,12 +92,14 @@
         <h2>Built by people close to the problem.</h2>
         <div class="editorial-body" style="margin-top: var(--space-6);">
             <p>
-                <strong>Nisarg</strong> — [Nisarg's bio placeholder. Add the founder story, location, and the
-                household memory problem that led to Pratyek.]
+                <strong>Nisarg</strong> — Nisarg leads product and engineering for Pratyek from Mumbai,
+                shaped by the same household memory problem the product is built to solve: bills, renewals,
+                staff payments, documents, and a hundred small responsibilities living in one person's head.
             </p>
             <p>
-                <strong>Team</strong> — [Additional founder or team bio placeholder. Keep this human and concrete:
-                what they build, why this product matters to them, and what standard they hold the product to.]
+                <strong>Team</strong> — The wider team is intentionally small for now, focused on reliability,
+                privacy, and the craft of making WhatsApp feel like useful household memory instead of another
+                app to manage.
             </p>
         </div>
     </div>

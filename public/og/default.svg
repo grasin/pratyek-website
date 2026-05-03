@@ -1,28 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <rect width="1200" height="630" fill="#FAF4E4"/>
+  <rect width="1200" height="630" fill="#FFF7E0"/>
+  <rect x="0" y="0" width="1200" height="170" fill="#FFE7A8"/>
+  <rect x="880" y="80" width="240" height="86" rx="18" fill="#007C67" opacity="0.16"/>
+  <rect x="930" y="118" width="150" height="44" rx="22" fill="#F2A900" opacity="0.38"/>
 
   <!-- Hairline at top -->
-  <rect x="0" y="0" width="1200" height="1" fill="rgba(18,17,16,0.06)"/>
+  <rect x="0" y="0" width="1200" height="1" fill="rgba(16,33,31,0.07)"/>
 
   <!-- Wordmark top-left -->
   <text x="80" y="100" font-family="Georgia, 'Times New Roman', serif"
-        font-size="34" font-weight="400" letter-spacing="-0.012em" fill="#121110">Pratyek</text>
-  <circle cx="219" cy="93" r="6" fill="#B8321E"/>
+        font-size="34" font-weight="400" letter-spacing="-0.012em" fill="#10211F">Pratyek</text>
+  <circle cx="219" cy="93" r="6" fill="#E23B22"/>
 
   <!-- Headline -->
   <text x="80" y="290" font-family="Georgia, 'Times New Roman', serif"
-        font-size="76" font-weight="300" letter-spacing="-0.025em" fill="#121110">Your family's WhatsApp,</text>
+        font-size="76" font-weight="300" letter-spacing="-0.025em" fill="#10211F">Your family's WhatsApp,</text>
   <text x="80" y="380" font-family="Georgia, 'Times New Roman', serif"
-        font-size="76" font-weight="300" letter-spacing="-0.025em" font-style="italic" fill="#B8321E">with memory.</text>
+        font-size="76" font-weight="300" letter-spacing="-0.025em" font-style="italic" fill="#E23B22">with memory.</text>
 
   <!-- Sub -->
   <text x="80" y="450" font-family="Helvetica, Arial, sans-serif"
-        font-size="22" font-weight="400" fill="#3C3A35">A WhatsApp-native household concierge for Indian families.</text>
+        font-size="22" font-weight="400" fill="#31413C">A WhatsApp-native household concierge for Indian families.</text>
 
   <!-- Footer line -->
-  <rect x="80" y="540" width="1040" height="1" fill="rgba(18,17,16,0.12)"/>
+  <rect x="80" y="540" width="1040" height="1" fill="rgba(16,33,31,0.14)"/>
   <text x="80" y="585" font-family="Helvetica, Arial, sans-serif"
-        font-size="18" font-weight="500" fill="#3C3A35">A product of Relynext Solutions, a partnership firm.</text>
+        font-size="18" font-weight="500" fill="#31413C">A product of Relynext Solutions, a partnership firm.</text>
   <text x="1120" y="585" font-family="Georgia, 'Times New Roman', serif"
-        font-size="22" font-weight="400" fill="#B8321E" text-anchor="end">&#2346;&#2381;&#2352;&#2340;&#2381;&#2351;&#2375;&#2325;</text>
+        font-size="22" font-weight="400" fill="#E23B22" text-anchor="end">&#2346;&#2381;&#2352;&#2340;&#2381;&#2351;&#2375;&#2325;</text>
 </svg>
