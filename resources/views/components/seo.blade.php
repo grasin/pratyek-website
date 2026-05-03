@@ -50,9 +50,9 @@
 <meta name="twitter:image:alt" content="Pratyek - Household management app for every Indian household and family">
 
 {{-- Favicon --}}
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png">
 <link rel="alternate icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <link rel="alternate" hreflang="en-IN" href="{{ $canonicalUrl }}">
 <link rel="alternate" hreflang="x-default" href="{{ $canonicalUrl }}">
