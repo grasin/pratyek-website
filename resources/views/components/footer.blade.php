@@ -6,14 +6,10 @@
             </a>
             <p class="devanagari-accent" aria-label="Pratyek in Devanagari">प्रत्येक</p>
             <p class="footer-company-line">
-                Pratyek is a product of Relynext Solutions, a partnership firm.
+                Pratyek is a product of Relynext Solutions.
             </p>
             <p class="footer-location">Registered address: B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India.</p>
             <dl class="footer-entity-rows">
-                <div>
-                    <dt>Type</dt>
-                    <dd>Partnership firm</dd>
-                </div>
                 <div>
                     <dt>GST</dt>
                     <dd>27AAZFR7341G1ZK</dd>

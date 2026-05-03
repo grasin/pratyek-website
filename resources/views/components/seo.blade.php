@@ -1,6 +1,6 @@
 @props([
     'title'       => 'Pratyek',
-    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families, by Relynext Solutions, a partnership firm.',
+    'description' => 'Pratyek is a WhatsApp-native household concierge for Indian families.',
     'keywords'    => 'WhatsApp household concierge India, Indian family bill reminder, DPDP compliant family assistant, household management WhatsApp, Pratyek',
     'ogImage'     => '/og/default.svg',
     'ogType'      => 'website',
@@ -9,30 +9,22 @@
     'breadcrumbs' => null,
 ])
 @php
-    /* ---------- Title (smart suffix, 60-char target) -------------- */
-    $brand     = 'Pratyek';
-    $fullTitle = $title;
-    if (stripos($title, $brand) === false) {
-        $fullTitle = $title . ' | ' . $brand;
-    }
-
-    /* ---------- Canonical (stable, absolute, always production) ---- */
-    /* SEO canonical must be the public production URL regardless of
-       where the request was served from (local dev, staging, CDN). */
-    $base         = rtrim(env('CANONICAL_URL', 'https://pratyek.com'), '/');
-    $path         = request()->getRequestUri();
+    $brand = 'Pratyek';
+    $fullTitle = stripos($title, $brand) === false ? $title . ' | ' . $brand : $title;
+    $base = rtrim(env('CANONICAL_URL', 'https://pratyek.com'), '/');
+    $path = request()->getRequestUri();
     $canonicalUrl = $canonical ?: $base . $path;
-    $absoluteOg   = preg_match('#^https?://#', $ogImage) ? $ogImage : $base . $ogImage;
+    $absoluteOg = preg_match('#^https?://#', $ogImage) ? $ogImage : $base . $ogImage;
 @endphp
 
 <title>{{ $fullTitle }}</title>
 <meta name="description" content="{{ $description }}">
 <meta name="keywords" content="{{ $keywords }}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:160, max-video-preview:-1">
-<meta name="theme-color" content="#FAF4E4">
+<meta name="theme-color" content="#FFF7E0">
 <meta name="format-detection" content="telephone=no">
-<meta name="author" content="Relynext Solutions">
-<meta name="publisher" content="Relynext Solutions">
+<meta name="author" content="Pratyek">
+<meta name="publisher" content="Pratyek">
 <meta name="geo.region" content="IN">
 <meta name="geo.placename" content="Mumbai">
 <meta name="geo.country" content="India">
@@ -57,44 +49,21 @@
 <meta name="twitter:image" content="{{ $absoluteOg }}">
 <meta name="twitter:image:alt" content="Pratyek &mdash; WhatsApp household concierge for Indian families">
 
-{{-- Favicon (inline SVG so we never 404) --}}
+{{-- Favicon --}}
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/favicon.svg">
 
-{{-- hreflang (only declared languages we actually serve) --}}
 <link rel="alternate" hreflang="en-IN" href="{{ $canonicalUrl }}">
 <link rel="alternate" hreflang="x-default" href="{{ $canonicalUrl }}">
 
-{{-- Schema.org Organization (every page).
-     Includes Knowledge-Graph-friendly fields for entity disambiguation
-     vs. similarly-named entities (e.g., the NGO at pratyek.org.in). --}}
 <script type="application/ld+json">@verbatim
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "@id": "https://pratyek.com/#organization",
-  "name": "Relynext Solutions",
-  "alternateName": ["Pratyek", "A Relynext Solutions product"],
-  "legalName": "Relynext Solutions",
-  "taxID": "AAZFR7341G",
-  "identifier": [
-    {
-      "@type": "PropertyValue",
-      "propertyID": "GSTIN",
-      "value": "27AAZFR7341G1ZK"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "PAN",
-      "value": "AAZFR7341G"
-    },
-    {
-      "@type": "PropertyValue",
-      "propertyID": "Entity type",
-      "value": "Partnership firm"
-    }
-  ],
+  "name": "Pratyek",
+  "alternateName": ["\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915", "Pratyek WhatsApp household concierge"],
   "url": "https://pratyek.com",
   "logo": {
     "@type": "ImageObject",
@@ -104,25 +73,17 @@
   },
   "image": "https://pratyek.com/og/default.svg",
   "slogan": "A second mind for the Indian household.",
-  "description": "Relynext Solutions is the partnership firm behind Pratyek, a WhatsApp-native household concierge for Indian families. DPDP-aware, India-hosted, no ads, no data sold.",
-  "disambiguatingDescription": "Pratyek is a WhatsApp-native household concierge product of Relynext Solutions, a partnership firm in Mumbai. Distinct from any other entity sharing the name 'Pratyek'.",
+  "description": "Pratyek is a WhatsApp-native household concierge for Indian families. DPDP-aware, India-hosted, no ads, no data sold.",
+  "disambiguatingDescription": "Pratyek is a WhatsApp-native household concierge for Indian families, distinct from any other entity sharing the name.",
   "foundingDate": "2026",
   "foundingLocation": {
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Mumbai Suburban",
+      "addressLocality": "Mumbai",
       "addressRegion": "Maharashtra",
       "addressCountry": "IN"
     }
-  },
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST",
-    "addressLocality": "Mumbai Suburban",
-    "addressRegion": "Maharashtra",
-    "postalCode": "400077",
-    "addressCountry": "IN"
   },
   "contactPoint": [
     {
@@ -166,21 +127,14 @@
   "areaServed": {
     "@type": "Country",
     "name": "India"
-  },
-  "subjectOf": {
-    "@type": "WebPage",
-    "url": "https://pratyek.com/about"
   }
 }
 @endverbatim</script>
 
-{{-- Per-page WebPage / page-type marker --}}
 @php
-    /* Build JSON-LD inside @php so Laravel 11's @context Blade
-       directive doesn't eat our JSON-LD '@context' string keys. */
     $atContext = '@context';
-    $atType    = '@type';
-    $atId      = '@id';
+    $atType = '@type';
+    $atId = '@id';
 
     $webPageJson = json_encode([
         $atContext    => 'https://schema.org',

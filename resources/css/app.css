@@ -24,7 +24,7 @@
      18. FAQ accordion
      19. Contact form
      20. Trust page sections
-     21. About page legal entity card
+     21. Footer legal details
      22. Legal pages (long-form)
      23. CTA block
      24. File stubs (PASSPORT, PDF)
@@ -364,51 +364,6 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   flex-shrink: 0;
 }
 .icon svg { width: 100%; height: 100%; }
-
-/* -----------------------------------------------------------
-   7b. Entity ribbon (Meta-compliance, every page, first pixel)
-   ----------------------------------------------------------- */
-.entity-ribbon {
-  background: var(--amber-soft);
-  border-bottom: 1px solid rgba(16, 33, 31, 0.16);
-  font-family: 'Inter', sans-serif;
-  font-size: 12.5px;
-  letter-spacing: 0.005em;
-  color: var(--ink-soft);
-}
-
-.entity-ribbon-inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: var(--space-2);
-  padding-block: 7px;
-  text-align: center;
-}
-
-.entity-ribbon strong { font-weight: 500; color: var(--ink); }
-
-.entity-ribbon a {
-  color: var(--ink);
-  text-decoration: underline;
-  text-decoration-color: var(--rule-strong);
-  text-underline-offset: 2px;
-  transition: text-decoration-color 0.12s ease, color 0.12s ease;
-}
-.entity-ribbon a:hover {
-  text-decoration-color: var(--red);
-  color: var(--red);
-}
-.entity-ribbon a:focus-visible {
-  outline: 2px solid var(--ink);
-  outline-offset: 2px;
-  border-radius: 2px;
-}
-
-@media (max-width: 480px) {
-  .entity-ribbon { font-size: 11.5px; }
-  .entity-ribbon-inner { padding-block: 6px; }
-}
 
 /* -----------------------------------------------------------
    8. Header
@@ -2461,7 +2416,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 }
 
 /* -----------------------------------------------------------
-   21. About page legal entity card
+   21. Footer legal details
    ----------------------------------------------------------- */
 .legal-entity {
   border: 1px solid rgba(242, 169, 0, 0.38);

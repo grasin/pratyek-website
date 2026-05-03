@@ -13,8 +13,8 @@
             We couldn't find that page. <em>Don't worry &mdash; we remember everything else.</em>
         </h1>
         <p class="lede" style="margin-inline: auto;">
-            The link may be old, or we may have moved the page. Pratyek is a product of
-            <strong>Relynext Solutions</strong> and lives just one tap away &mdash; try one of these instead:
+            The link may be old, or we may have moved the page. Pratyek lives just one tap away &mdash;
+            try one of these instead:
         </p>
     </div>
 </section>
@@ -26,7 +26,7 @@
             <li><a href="{{ route('product') }}"  style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Product</a> &mdash; how it works, the two surfaces, the memory model</li>
             <li><a href="{{ route('features') }}" style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Features</a> &mdash; the twelve categories Pratyek tracks</li>
             <li><a href="{{ route('trust') }}"    style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Trust &amp; Privacy</a> &mdash; DPDP, DigiLocker, Bangalore servers</li>
-            <li><a href="{{ route('faq') }}"      style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">FAQ</a> &mdash; 25 questions, answered</li>
+            <li><a href="{{ route('faq') }}"      style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">FAQ</a> &mdash; common questions, answered</li>
             <li><a href="{{ route('contact') }}"  style="color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule-strong); text-underline-offset: 3px;">Contact</a> &mdash; <span style="color: var(--ink-mute);">hello@pratyek.com</span></li>
         </ul>
     </div>

@@ -29,8 +29,8 @@
             </p>
             <p>
                 <strong>Pratyek is being built around the DPDP Act &mdash; not retrofitted later.</strong>
-                Relynext Solutions is treating the notified requirements as product requirements
-                now, even where the statutory obligation has a later commencement date. The full Privacy Policy is at
+                We treat the notified requirements as product requirements now, even where the statutory
+                obligation has a later commencement date. The full Privacy Policy is at
                 <a href="{{ route('legal.privacy-policy') }}">/legal/privacy-policy</a>.
             </p>
 
@@ -45,12 +45,10 @@
                 <li><strong>13 May 2027:</strong> the main processing, notice, consent, data principal rights, data fiduciary duties, and related rules are scheduled to come into force.</li>
             </ul>
 
-            <h2>1. Identity of the data fiduciary</h2>
+            <h2>1. Service identity and contact</h2>
             <p>
-                The data fiduciary for the personal data Pratyek processes is
-                <strong>Relynext Solutions</strong>, an Indian partnership firm registered in
-                India. GST: 27AAZFR7341G1ZK. PAN: AAZFR7341G. Registered address:
-                B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India. Email:
+                Pratyek is the service that processes the personal data you send into your household chat
+                and Memory dashboard. For privacy questions, email
                 <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>.
                 WhatsApp: <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a>.
             </p>
@@ -142,9 +140,6 @@
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:hello@pratyek.com">hello@pratyek.com</a> (subject line beginning with <em>DPDP</em>)</li>
                 <li><strong>WhatsApp:</strong> <a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a></li>
-                <li><strong>Postal:</strong> Relynext Solutions, B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India</li>
-                <li><strong>GST:</strong> 27AAZFR7341G1ZK</li>
-                <li><strong>PAN:</strong> AAZFR7341G</li>
                 <li><strong>Response time:</strong> within 7 working days of receipt.</li>
             </ul>
 

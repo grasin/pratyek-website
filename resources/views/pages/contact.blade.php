@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Contact — +91 93720 23537 | Pratyek"
     description="WhatsApp +91 93720 23537 or email hello@pratyek.com. We read every message. A real person replies, usually within a working day."
-    keywords="contact Pratyek, WhatsApp 9372023537, hello@pratyek.com, Relynext Solutions email, partnership firm Mumbai"
+    keywords="contact Pratyek, WhatsApp 9372023537, hello@pratyek.com, Pratyek support, household concierge support"
     og-image="/og/default.svg"
     page-type="ContactPage"
     :breadcrumbs="[
@@ -125,42 +125,6 @@
                 </p>
             </form>
 
-        </div>
-    </div>
-</section>
-
-<hr class="hairline">
-
-{{-- ============================================================
-     Slim company line
-     ============================================================ --}}
-<section class="section-tight">
-    <div class="wrap">
-        <p class="kicker" style="margin-bottom: var(--space-4);">The company</p>
-        <div class="legal-entity">
-            <h2 class="legal-entity-name">Pratyek is a product of Relynext Solutions, a partnership firm.</h2>
-            <dl class="legal-entity-rows">
-                <dt>Legal name</dt>
-                <dd>Relynext Solutions</dd>
-
-                <dt>Entity type</dt>
-                <dd>Partnership firm</dd>
-
-                <dt>Registered address</dt>
-                <dd>B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India</dd>
-
-                <dt>GST</dt>
-                <dd>27AAZFR7341G1ZK</dd>
-
-                <dt>PAN</dt>
-                <dd>AAZFR7341G</dd>
-
-                <dt>WhatsApp</dt>
-                <dd><a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a></dd>
-
-                <dt>Email</dt>
-                <dd><a href="mailto:hello@pratyek.com">hello@pratyek.com</a></dd>
-            </dl>
         </div>
     </div>
 </section>

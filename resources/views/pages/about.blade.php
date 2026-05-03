@@ -1,7 +1,7 @@
 <x-layouts.app
-    title="About — Relynext Solutions | Pratyek"
-    description="Pratyek is a product of Relynext Solutions, an Indian partnership firm building a WhatsApp-native household concierge."
-    keywords="Relynext Solutions, Pratyek legal entity, about Pratyek, household concierge mission, Indian partnership firm, Mumbai product firm"
+    title="About Pratyek"
+    description="Why Pratyek exists: a WhatsApp-native household memory for Indian families."
+    keywords="about Pratyek, household concierge mission, WhatsApp household memory, Indian family productivity, Mumbai product team"
     og-image="/og/default.svg"
     page-type="AboutPage"
     :breadcrumbs="[
@@ -11,71 +11,39 @@
 >
 
 {{-- ============================================================
-     Meta-facing company intro
+     Product intro
      ============================================================ --}}
 <section class="page-intro">
     <div class="wrap">
-        <p class="hero-eyebrow">Company</p>
-        <h1>Pratyek is a product of <em>Relynext Solutions, a partnership firm.</em></h1>
+        <p class="hero-eyebrow">About</p>
+        <h1>A second mind for the <em>Indian household.</em></h1>
         <p class="lede" style="margin-top: var(--space-5);">
-            Relynext Solutions is an Indian partnership firm. Pratyek is its first product:
-            a WhatsApp-native household concierge that helps Indian families remember bills, renewals,
-            staff payments, appliance warranties, documents, contacts, and the everyday details that
-            usually live in one person's head.
+            Pratyek exists for the person who quietly keeps track of everything at home:
+            bills, renewals, staff payments, appliance warranties, documents, contacts,
+            medicine refills, school fees, and the hundred small details that usually live
+            in one person's head.
         </p>
-    </div>
-</section>
-
-<section class="section-tight">
-    <div class="wrap">
-        <div class="legal-entity">
-            <p class="legal-entity-title">Legal entity</p>
-            <h2 class="legal-entity-name">Pratyek is a product of Relynext Solutions, a partnership firm.</h2>
-            <dl class="legal-entity-rows">
-                <dt>Legal name</dt>
-                <dd>Relynext Solutions</dd>
-
-                <dt>Entity type</dt>
-                <dd>Partnership firm</dd>
-
-                <dt>Registered address</dt>
-                <dd>B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India</dd>
-
-                <dt>GST</dt>
-                <dd>27AAZFR7341G1ZK</dd>
-
-                <dt>PAN</dt>
-                <dd>AAZFR7341G</dd>
-
-                <dt>Email</dt>
-                <dd><a href="mailto:hello@pratyek.com">hello@pratyek.com</a></dd>
-
-                <dt>Phone</dt>
-                <dd><a href="https://wa.me/919372023537?text=Hi" target="_blank" rel="noopener noreferrer">+91 93720 23537</a></dd>
-            </dl>
-        </div>
     </div>
 </section>
 
 <hr class="hairline">
 
 {{-- ============================================================
-     Company
+     What we build
      ============================================================ --}}
 <section class="editorial">
     <div class="wrap-narrow">
-        <p class="editorial-kicker">The company</p>
-        <h2>An Indian partnership firm, building one careful household product first.</h2>
+        <p class="editorial-kicker">What we build</p>
+        <h2>WhatsApp for capture. Memory for retrieval.</h2>
         <div class="editorial-body" style="margin-top: var(--space-6);">
             <p>
-                Relynext Solutions builds software for Indian families and the real operating
-                systems they already use: WhatsApp, shared calendars, forwarded PDFs, voice notes, and the
-                memory of the person who quietly keeps track of everything.
+                Indian households already run on WhatsApp, forwarded PDFs, voice notes, shared calendars,
+                and the memory of one careful person. Pratyek works with that reality instead of asking the
+                family to move into another app.
             </p>
             <p>
-                Pratyek is the company's first product. The ambition is simple: make the invisible work of
-                running a household lighter, more searchable, and less fragile, without asking the family to
-                install another app or learn another workflow.
+                Send a bill, a voice note, a photo, or a question. Pratyek extracts the useful detail, files it
+                into the right Memory surface, and keeps it searchable when the household needs it later.
             </p>
         </div>
     </div>
@@ -92,14 +60,13 @@
         <h2>Built by people close to the problem.</h2>
         <div class="editorial-body" style="margin-top: var(--space-6);">
             <p>
-                <strong>Nisarg</strong> — Nisarg leads product and engineering for Pratyek from Mumbai,
-                shaped by the same household memory problem the product is built to solve: bills, renewals,
-                staff payments, documents, and a hundred small responsibilities living in one person's head.
+                <strong>Nisarg</strong> leads product and engineering for Pratyek from Mumbai, shaped by the same
+                household memory problem the product is built to solve: bills, renewals, staff payments,
+                documents, and a hundred small responsibilities living in one person's head.
             </p>
             <p>
-                <strong>Team</strong> — The wider team is intentionally small for now, focused on reliability,
-                privacy, and the craft of making WhatsApp feel like useful household memory instead of another
-                app to manage.
+                The wider team is intentionally small for now, focused on reliability, privacy, and the craft
+                of making WhatsApp feel like useful household memory instead of another app to manage.
             </p>
         </div>
     </div>

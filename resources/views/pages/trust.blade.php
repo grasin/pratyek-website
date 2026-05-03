@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Trust &amp; Privacy — DPDP-Aware, India-Hosted | Pratyek"
-    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. DPDP-aware privacy commitments. Built by Relynext Solutions, a partnership firm."
-    keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Relynext Solutions trust, Bangalore servers"
+    description="Servers in India. No Aadhaar / PAN / passport storage. DigiLocker for sensitive IDs. DPDP-aware privacy commitments."
+    keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, Bangalore servers"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -179,25 +179,6 @@
             </div>
         </div>
 
-        <div class="trust-block">
-            <div class="trust-block-head">
-                <p class="trust-block-num">07 &middot; Who's behind this</p>
-                <h3 class="trust-block-name">Pratyek is a product of Relynext Solutions, a partnership firm.</h3>
-            </div>
-            <div class="trust-block-body">
-                <p>
-                    Relynext Solutions is an Indian partnership firm, registered in India.
-                    GST: 27AAZFR7341G1ZK. PAN: AAZFR7341G.
-                    Pratyek is its first and current product. We sign every contract &mdash; with WhatsApp,
-                    with our LLM partners, with our hosting provider &mdash; under that name. There's no
-                    holding-company shell game.
-                </p>
-                <p>
-                    See the full legal entity block on the <a href="{{ route('about') }}">About page</a>.
-                </p>
-            </div>
-        </div>
-
     </div>
 </section>
 
@@ -206,7 +187,7 @@
      ============================================================ --}}
 <section class="cta-block">
     <div class="wrap">
-        <h2>If this is the company you'd want handling your household's memory&hellip;</h2>
+        <h2>If this is the product you'd want handling your household's memory&hellip;</h2>
         <p>
             Pratyek is live. Send "Hi" on WhatsApp and start with the first thing your household needs remembered.
         </p>

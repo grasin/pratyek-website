@@ -1,7 +1,7 @@
 <x-layouts.app
     title="Terms of Service — Pratyek"
-    description="Terms governing your use of Pratyek, the WhatsApp-native household concierge operated by Relynext Solutions, a partnership firm. Governed by the laws of India."
-    keywords="terms of service India, Relynext Solutions terms, Pratyek user agreement, governing law India, Mumbai jurisdiction"
+    description="Terms governing your use of Pratyek, the WhatsApp-native household concierge. Governed by the laws of India."
+    keywords="terms of service India, Pratyek user agreement, governing law India, Mumbai jurisdiction"
     og-image="/og/default.svg"
     page-type="WebPage"
     :breadcrumbs="[
@@ -21,9 +21,7 @@
 
             <p>
                 These Terms of Service ("Terms") govern your use of <strong>Pratyek</strong>, a WhatsApp-native
-                household concierge service operated by <strong>Relynext Solutions</strong>
-                ("Relynext", "we", "us"), an Indian partnership firm registered in India.
-                GST: 27AAZFR7341G1ZK. PAN: AAZFR7341G.
+                household concierge service ("we", "us").
             </p>
             <p>
                 By using Pratyek you agree to these Terms. If you don't agree, please don't use the service.
@@ -81,8 +79,7 @@
             <h2>7. Intellectual property</h2>
             <p>
                 The Pratyek brand, the Pratyek service, the website at pratyek.com, the dashboard at
-                memory.pratyek.com, and all source code are the intellectual property of
-                <strong>Relynext Solutions</strong>. The data you send us remains yours; you grant us only the
+                memory.pratyek.com, and all source code are our intellectual property. The data you send us remains yours; you grant us only the
                 licence necessary to provide the service.
             </p>
 
@@ -108,7 +105,7 @@
 
             <h2>10. Limitation of liability</h2>
             <p>
-                To the maximum extent permitted by Indian law, Relynext's total liability to you for any claim
+                To the maximum extent permitted by Indian law, our total liability to you for any claim
                 arising from your use of Pratyek is limited to the fees you paid us in the 12 months preceding
                 the claim, or &#8377;5,000, whichever is greater. We are not liable for indirect, incidental,
                 or consequential losses (e.g., a missed renewal you would have remembered yourself).
@@ -131,9 +128,7 @@
 
             <h2>13. Contact</h2>
             <p>
-                Email <a href="mailto:hello@pratyek.com">hello@pratyek.com</a> or write to:
-                Relynext Solutions, B, 34, SINDHU BUSINESS PARK, GHATKOPAR EAST, Mumbai Suburban, Maharashtra, 400077, India.
-                GST: 27AAZFR7341G1ZK. PAN: AAZFR7341G.
+                Email <a href="mailto:hello@pratyek.com">hello@pratyek.com</a>.
             </p>
 
         </div>
