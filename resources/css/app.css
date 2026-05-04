@@ -410,7 +410,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 
 .brand-logo {
   width: auto;
-  height: 36px;
+  height: 41px;
   object-fit: contain;
 }
 
@@ -2876,7 +2876,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 
   /* Header gets less padding-bottom on mobile */
   .header-inner { height: 56px; gap: var(--space-3); }
-  .brand-logo { height: 30px; }
+  .brand-logo { height: 35px; }
 
   /* Buttons need bigger tap area */
   .btn { min-height: 44px; }
