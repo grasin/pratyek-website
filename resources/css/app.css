@@ -393,7 +393,6 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   background-color: rgba(255, 249, 239, 0.92);
   border-bottom: 1px solid var(--rule-faint);
   backdrop-filter: saturate(140%) blur(6px);
-  overflow: visible;
 }
 
 .header-inner {
@@ -409,22 +408,10 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   flex-shrink: 0;
 }
 
-.header-inner > .wordmark {
-  position: relative;
-  align-self: stretch;
-  min-width: 324px;
-  padding: 0 22px 0 0;
-  isolation: isolate;
-}
-
 .brand-logo {
   width: auto;
   height: 36px;
   object-fit: contain;
-}
-
-.header-inner > .wordmark .brand-logo {
-  height: 70px;
 }
 
 .brand-logo-footer {
@@ -552,13 +539,6 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 @media (max-width: 767px) {
   .main-nav, .header-inner > .btn { display: none; }
   .menu-toggle { display: flex; margin-left: auto; }
-  .header-inner > .wordmark {
-    min-width: 252px;
-    padding-right: 8px;
-  }
-  .header-inner > .wordmark .brand-logo {
-    height: 58px;
-  }
 }
 
 /* -----------------------------------------------------------
