@@ -109,8 +109,8 @@
             <p class="kicker">The Memory dashboard model</p>
             <h2>A household management system must know what to remember.</h2>
             <p class="lede" style="margin-top: var(--space-3);">
-                A home management system should not become a hoarder. We keep what helps the household run; we refuse what would put the
-                household at risk. The line is bright, and we hold it.
+                A home management system should not become a hoarder. We keep what helps the household run and
+                refuse everything else that puts the household at risk.
             </p>
         </div>
 
@@ -579,7 +579,7 @@
     <div class="wrap">
         <h2>Ready to give your household its own operating system?</h2>
         <p>
-            Send "Hi" on WhatsApp and start with the first thing your home needs organised.
+            Send "Hi" on WhatsApp and start with the first thing your home needs to be organised.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">

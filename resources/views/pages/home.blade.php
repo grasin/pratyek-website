@@ -380,7 +380,7 @@
                     and within 30 days it's gone - by law and by design.
                 </p>
                 <p style="font-style: italic; color: var(--ink); margin-top: var(--space-5);">
-                    We WhatsApp our own mothers on this product. Trust is the whole game.
+                    We share this with our own mothers because trust is the whole game.
                 </p>
             </div>
         </div>

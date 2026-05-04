@@ -43,7 +43,7 @@
                     the dates of your parents' anniversaries - none of that becomes anyone else's product.
                 </p>
                 <p>
-                    We WhatsApp our own mothers on this product. <em>Trust is the whole game.</em>
+                    We share this with our own mothers because trust is the whole game.
                 </p>
             </div>
         </div>
@@ -171,7 +171,7 @@
     <div class="wrap">
         <h2>If this is the household management system you'd trust in your home&hellip;</h2>
         <p>
-            Pratyek is live. Send "Hi" on WhatsApp and start with the first thing your household needs organised.
+            Pratyek is live. Send "Hi" on WhatsApp and start with the first thing your household needs to be organised.
         </p>
         <div class="cta-block-actions">
             <a href="https://wa.me/919372023537?text=Hi" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
