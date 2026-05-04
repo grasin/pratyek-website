@@ -412,7 +412,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 .header-inner > .wordmark {
   position: relative;
   align-self: stretch;
-  min-width: 270px;
+  min-width: 324px;
   padding: 0 22px 0 0;
   isolation: isolate;
 }
@@ -424,7 +424,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 }
 
 .header-inner > .wordmark .brand-logo {
-  height: 58px;
+  height: 70px;
 }
 
 .brand-logo-footer {
@@ -553,11 +553,11 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   .main-nav, .header-inner > .btn { display: none; }
   .menu-toggle { display: flex; margin-left: auto; }
   .header-inner > .wordmark {
-    min-width: 210px;
+    min-width: 252px;
     padding-right: 8px;
   }
   .header-inner > .wordmark .brand-logo {
-    height: 48px;
+    height: 58px;
   }
 }
 
