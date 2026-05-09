@@ -1,8 +1,7 @@
 <x-layouts.app
     title="Page not found - Pratyek"
     description="The page you were looking for doesn't exist. Try the home page, or start using Pratyek on WhatsApp."
-    keywords="404, page not found, Pratyek"
-    og-image="/og/default.svg"
+    og-image="/og/home.png"
     page-type="WebPage"
 >
 

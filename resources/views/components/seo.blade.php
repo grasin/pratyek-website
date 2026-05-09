@@ -1,8 +1,7 @@
 @props([
-    'title'       => 'Pratyek | Household Management App for Every Indian Family',
-    'description' => 'Pratyek is India\'s household management system, built inside WhatsApp for every Indian household and family.',
-    'keywords'    => 'household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, household management system India, Pratyek',
-    'ogImage'     => '/og/default.svg',
+    'title'       => 'Pratyek | India\'s Household Jugaad System',
+    'description' => 'Chat with Pratyek on WhatsApp to turn household messages into a Memory dashboard for every Indian home.',
+    'ogImage'     => '/og/home.png',
     'ogType'      => 'website',
     'canonical'   => '',
     'pageType'    => 'WebPage',
@@ -12,14 +11,13 @@
     $brand = 'Pratyek';
     $fullTitle = stripos($title, $brand) === false ? $title . ' | ' . $brand : $title;
     $base = rtrim(env('CANONICAL_URL', 'https://pratyek.com'), '/');
-    $path = request()->getRequestUri();
-    $canonicalUrl = $canonical ?: $base . $path;
+    $path = request()->getPathInfo();
+    $canonicalUrl = $canonical ?: $base . ($path === '/' ? '/' : $path);
     $absoluteOg = preg_match('#^https?://#', $ogImage) ? $ogImage : $base . $ogImage;
 @endphp
 
 <title>{{ $fullTitle }}</title>
 <meta name="description" content="{{ $description }}">
-<meta name="keywords" content="{{ $keywords }}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:160, max-video-preview:-1">
 <meta name="theme-color" content="#FFF9EF">
 <meta name="format-detection" content="telephone=no">
@@ -36,7 +34,7 @@
 <meta property="og:image" content="{{ $absoluteOg }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Pratyek - Household management app for every Indian household and family">
+<meta property="og:image:alt" content="Pratyek household dashboard preview for Indian families">
 <meta property="og:url" content="{{ $canonicalUrl }}">
 <meta property="og:type" content="{{ $ogType }}">
 <meta property="og:site_name" content="Pratyek">
@@ -47,7 +45,7 @@
 <meta name="twitter:title" content="{{ $fullTitle }}">
 <meta name="twitter:description" content="{{ $description }}">
 <meta name="twitter:image" content="{{ $absoluteOg }}">
-<meta name="twitter:image:alt" content="Pratyek - Household management app for every Indian household and family">
+<meta name="twitter:image:alt" content="Pratyek household dashboard preview for Indian families">
 
 {{-- Favicon --}}
 <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png">
@@ -56,6 +54,20 @@
 
 <link rel="alternate" hreflang="en-IN" href="{{ $canonicalUrl }}">
 <link rel="alternate" hreflang="x-default" href="{{ $canonicalUrl }}">
+
+<script type="application/ld+json">@verbatim
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://pratyek.com/#website",
+  "url": "https://pratyek.com",
+  "name": "Pratyek",
+  "alternateName": "\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915",
+  "description": "India's household jugaad system, built inside WhatsApp.",
+  "inLanguage": "en-IN",
+  "publisher": { "@id": "https://pratyek.com/#organization" }
+}
+@endverbatim</script>
 
 <script type="application/ld+json">@verbatim
 {
@@ -155,6 +167,7 @@
         'description' => $description,
         'isPartOf'    => [$atType => 'WebSite', $atId => 'https://pratyek.com/#website'],
         'about'       => [$atId => 'https://pratyek.com/#organization'],
+        'primaryImageOfPage' => $absoluteOg,
         'inLanguage'  => 'en-IN',
         'publisher'   => [$atId => 'https://pratyek.com/#organization'],
     ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);

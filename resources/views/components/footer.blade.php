@@ -30,6 +30,11 @@
                 <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('product') }}">Product</a></li>
                 <li><a href="{{ route('features') }}">Features</a></li>
+                <li><a href="{{ route('use-case', 'bill-reminder-app-india') }}">Bill reminders</a></li>
+                <li><a href="{{ route('use-case', 'warranty-tracker-india') }}">Warranty tracker</a></li>
+                <li><a href="{{ route('use-case', 'maid-salary-tracker') }}">Maid salary tracker</a></li>
+                <li><a href="{{ route('use-case', 'family-organizer-india') }}">Family organizer</a></li>
+                <li><a href="{{ route('use-case', 'whatsapp-household-assistant') }}">WhatsApp assistant</a></li>
                 <li><a href="{{ route('trust') }}">Trust &amp; Privacy</a></li>
                 <li><a href="{{ route('faq') }}">FAQ</a></li>
             </ul>

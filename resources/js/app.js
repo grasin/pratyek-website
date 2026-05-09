@@ -1,5 +1,5 @@
 /* ============================================================
-   PRATYEK — app.js
+   PRATYEK - app.js
    - Mobile menu (focus trap, Escape, body scroll lock)
    - FAQ accordion
    - IntersectionObserver reveal
@@ -208,7 +208,7 @@ function trackLocation(el) {
                     domain: url.hostname,
                 });
             }
-        } catch (_) { /* invalid URL — ignore */ }
+    } catch (_) { /* invalid URL - ignore */ }
     }, { capture: true, passive: true });
 })();
 

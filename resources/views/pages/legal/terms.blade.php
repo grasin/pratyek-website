@@ -1,8 +1,7 @@
 <x-layouts.app
     title="Terms of Service - Pratyek"
     description="Terms governing your use of Pratyek, the WhatsApp-native household management service. Governed by the laws of India."
-    keywords="terms of service India, Pratyek user agreement, governing law India, Mumbai jurisdiction"
-    og-image="/og/default.svg"
+    og-image="/og/legal.png"
     page-type="WebPage"
     :breadcrumbs="[
         ['name' => 'Home',             'url' => '/'],

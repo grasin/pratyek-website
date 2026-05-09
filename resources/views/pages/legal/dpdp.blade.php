@@ -1,8 +1,7 @@
 <x-layouts.app
     title="DPDP Act 2023 Compliance - Pratyek"
     description="DPDP compliance for Pratyek: consent, retention, deletion, user rights, grievance redressal, and India's phased privacy law timeline."
-    keywords="DPDP Act 2023, Digital Personal Data Protection Act compliance, India data fiduciary, grievance officer, Indian privacy law, Data Protection Board India"
-    og-image="/og/default.svg"
+    og-image="/og/legal.png"
     page-type="WebPage"
     :breadcrumbs="[
         ['name' => 'Home',            'url' => '/'],

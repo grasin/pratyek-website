@@ -1,8 +1,7 @@
 <x-layouts.app
     title="About Pratyek - Built for Every Indian Home"
     description="Why Pratyek exists: India's household management system, built inside WhatsApp for every Indian family."
-    keywords="about Pratyek, Indian household productivity tool, household management app India, family management app India, household management system India, WhatsApp household assistant, Mumbai product team"
-    og-image="/og/default.svg"
+    og-image="/og/about.png"
     page-type="AboutPage"
     :breadcrumbs="[
         ['name' => 'Home',  'url' => '/'],

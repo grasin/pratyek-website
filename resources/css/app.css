@@ -1,5 +1,5 @@
 /* ============================================================
-   PRATYEK — app.css
+   PRATYEK - app.css
    The complete design system: tokens, reset, typography,
    layout, components, and page-specific patterns.
    ============================================================
@@ -439,7 +439,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 .menu-toggle { display: none; color: var(--ink); padding: var(--space-2); }
 .menu-toggle:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; border-radius: 2px; }
 
-/* Mobile menu — opaque full-screen panel that fully covers the page */
+/* Mobile menu - opaque full-screen panel that fully covers the page */
 .mobile-menu {
   display: none;
   position: fixed;
@@ -2802,7 +2802,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
 }
 
 /* -----------------------------------------------------------
-   28. Mobile-first polish (≤767px)
+   28. Mobile-first polish (<=767px)
    ----------------------------------------------------------- */
 @media (max-width: 767px) {
   /* Tighter h1 on phone, easier to read */
@@ -2836,7 +2836,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   }
   .cta-block-actions .btn-link { justify-content: center; }
 
-  /* Live CTA — tighter on phone */
+/* Live CTA - tighter on phone */
   .live-cta { padding-block: var(--space-7); }
   .live-cta-card { padding: var(--space-5) var(--space-4) var(--space-6); }
   .live-cta-stamp { left: 20px; top: -12px; }
@@ -2849,7 +2849,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   /* Scene captions: bump up readability */
   .scene-cap { font-size: 14px; line-height: 1.55; }
 
-  /* Promise card — tighter padding */
+/* Promise card - tighter padding */
   .promise-card { padding: var(--space-6) var(--space-4) var(--space-5); }
   .promise-stamp { font-size: 13px; padding: 4px 11px; }
   .promise-headline { font-size: clamp(24px, 6.5vw, 32px); }
@@ -2905,7 +2905,7 @@ h3 em        { font-style: italic; color: var(--red); font-weight: 400; }
   body { overflow-x: hidden; }
 }
 
-/* Tiny phones (≤360px) — iPhone SE 1st gen, small Androids */
+/* Tiny phones (<=360px) - iPhone SE 1st gen, small Androids */
 @media (max-width: 360px) {
   :root { --pad-x-mobile: 18px; }
   h1 { font-size: clamp(26px, 8.4vw, 32px); }

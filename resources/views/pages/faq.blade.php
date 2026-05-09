@@ -1,41 +1,13 @@
 <x-layouts.app
     title="FAQ - Household Management App for Indian Families"
     description="Answers about Pratyek, India's household management system: WhatsApp setup, family dashboard, data privacy, pricing, languages, and support."
-    keywords="Pratyek FAQ, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family dashboard, Pratyek pricing, DPDP family service, Indian languages WhatsApp"
-    og-image="/og/default.svg"
+    og-image="/og/faq.png"
     page-type="WebPage"
     :breadcrumbs="[
         ['name' => 'Home', 'url' => '/'],
         ['name' => 'FAQ',  'url' => '/faq'],
     ]"
 >
-
-<x-slot:structuredData>
-<script type="application/ld+json">@verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "@id": "https://pratyek.com/faq#faqpage",
-  "mainEntity": [
-    {"@type":"Question","name":"Is Pratyek an app I have to install?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek lives at a WhatsApp number. You add it to your contacts and message it like any other contact. There is nothing to install. The dashboard at memory.pratyek.com is web-only."}},
-    {"@type":"Question","name":"Is Pratyek a productivity app?","acceptedAnswer":{"@type":"Answer","text":"Yes, but for household work instead of office work. Pratyek is India's household management system: a WhatsApp assistant plus Memory dashboard for bills, tasks, reminders, assets, services, staff, and family records."}},
-    {"@type":"Question","name":"Who is Pratyek for?","acceptedAnswer":{"@type":"Answer","text":"Every Indian home that runs on WhatsApp: nuclear families, joint families, messy households, and highly organised families that want one shared dashboard for household work."}},
-    {"@type":"Question","name":"Can Pratyek join my existing family WhatsApp group?","acceptedAnswer":{"@type":"Answer","text":"No, and we wouldn't ask for that. You create a separate small chat with Pratyek and use it as your household's filing thread. Your existing family group stays untouched."}},
-    {"@type":"Question","name":"What languages does Pratyek understand?","acceptedAnswer":{"@type":"Answer","text":"English, Hindi, Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, Punjabi, plus the Hinglish your family actually speaks. Voice notes can switch mid-sentence."}},
-    {"@type":"Question","name":"Where is my data stored?","acceptedAnswer":{"@type":"Answer","text":"On servers in Bangalore, India (DigitalOcean BLR1). Backups also in India. No replication outside the country."}},
-    {"@type":"Question","name":"Do you store my Aadhaar / PAN / passport?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek refuses to store these and points you to DigiLocker, the government's official document vault. We keep only expiry dates."}},
-    {"@type":"Question","name":"What does Pratyek cost?","acceptedAnswer":{"@type":"Answer","text":"Free to use right now. Paid plans will arrive when the product is mature; we will publish prices in advance with notice. There will never be an advertising tier or a data-sale tier."}},
-    {"@type":"Question","name":"Is it only for organised families?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek is designed for messy real households as much as super-organised ones. One forwarded bill or voice note is enough to start; structure appears in the Memory dashboard after the message is sent."}},
-    {"@type":"Question","name":"Will Pratyek auto-pay my bills?","acceptedAnswer":{"@type":"Answer","text":"No. Pratyek never handles payment credentials and never auto-pays anything. Pratyek's job is to remember and nudge - paying stays with you, on the platform you trust."}},
-    {"@type":"Question","name":"Are you DPDP-compliant?","acceptedAnswer":{"@type":"Answer","text":"Pratyek is built around India's Digital Personal Data Protection Act 2023 as its provisions commence in phases: consent, purpose limitation, data minimisation, retention, user rights, and grievance redressal."}},
-    {"@type":"Question","name":"Do you train models on my messages?","acceptedAnswer":{"@type":"Answer","text":"No. We use Claude (Anthropic) and Gemma (Google) via OpenRouter under contracts that explicitly forbid training on our data."}},
-    {"@type":"Question","name":"What does Pratyek mean?","acceptedAnswer":{"@type":"Answer","text":"Pratyek means every. The name fits the product: every bill, every task, every staff payment, every renewal, every family reminder, and every Indian household on its own terms."}},
-    {"@type":"Question","name":"Who builds Pratyek?","acceptedAnswer":{"@type":"Answer","text":"Pratyek is built by a small Mumbai-based product team focused on household management, privacy, and WhatsApp-native workflows."}}
-  ]
-}
-@endverbatim</script>
-</x-slot:structuredData>
-
 
 {{-- ============================================================
      Page intro

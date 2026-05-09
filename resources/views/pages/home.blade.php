@@ -1,82 +1,9 @@
 <x-layouts.app
-    title="Pratyek | Household Management App for Every Indian Household and Family"
-    description="Pratyek is India's household management system, built inside WhatsApp for every Indian household and family. Turn family messages into bills, tasks, reminders, assets, staff, and services."
-    keywords="Pratyek, Pratyek WhatsApp, household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, family organizer India, family organiser India, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household management system India"
-    og-image="/og/default.svg"
+    title="Pratyek | India's Household Jugaad System"
+    description="Chat with Pratyek on WhatsApp to turn bills, reminders, tasks, staff, services, assets, and family details into a Memory dashboard for every Indian home."
+    og-image="/og/home.png"
     page-type="WebPage"
 >
-
-<x-slot:structuredData>
-{{-- WebSite + SearchAction (sitelinks searchbox eligibility) --}}
-<script type="application/ld+json">@verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://pratyek.com/#website",
-  "url": "https://pratyek.com",
-  "name": "Pratyek",
-  "alternateName": "\u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915",
-  "description": "India's household management system, built inside WhatsApp.",
-  "inLanguage": "en-IN",
-  "publisher": { "@id": "https://pratyek.com/#organization" },
-  "potentialAction": [
-    {
-      "@type": "SearchAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://memory.pratyek.com?q={search_term_string}"
-      },
-      "query-input": "required name=search_term_string"
-    }
-  ]
-}
-@endverbatim</script>
-
-{{-- SoftwareApplication describing the product itself --}}
-<script type="application/ld+json">@verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "@id": "https://pratyek.com/#software",
-  "name": "Pratyek",
-  "alternateName": ["Pratyek household management system", "Pratyek family management app", "Pratyek WhatsApp household assistant"],
-  "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household and family management system",
-  "operatingSystem": "WhatsApp, Web",
-  "url": "https://pratyek.com",
-  "image": "https://pratyek.com/og/default.svg",
-  "screenshot": "https://pratyek.com/og/default.svg",
-  "description": "Pratyek is India's household management system, built inside WhatsApp for every Indian home. Forward bills (Adani Electricity, JioFiber, Tata Play, BMC property tax), send voice notes about the maid's salary in any Indian language, get renewal reminders for Bajaj Allianz motor insurance and ICICI Lombard mediclaim - Pratyek extracts, files, and turns them into a searchable Memory dashboard.",
-  "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, bill reminder app India, warranty tracker India, staff salary tracker, maid salary tracker, family dashboard, shared family tasks, household management system India",
-  "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
-  "audience": {
-    "@type": "PeopleAudience",
-    "name": "Indian household CFO",
-    "geographicArea": { "@type": "Country", "name": "India" },
-    "suggestedMinAge": 18
-  },
-  "countriesSupported": "IN",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR",
-    "availability": "https://schema.org/InStock",
-    "description": "Free to use; no advertising tier, no data-sale tier."
-  },
-  "publisher": { "@id": "https://pratyek.com/#organization" },
-  "featureList": [
-    "Reminders - today, calendar, rules, done and snooze flows",
-    "Tasks - to-dos and shopping lists",
-    "Bills - bills, renewals, school fees, rent, insurance, property tax",
-    "Assets - appliances, warranties, vehicles, property",
-    "Services - milk, newspaper, ironing, therapist visits, car washer",
-    "Staff - maid, cook, driver, nanny, nurse, gardener, guard",
-    "Family - members, document references, contacts, occasions, health"
-  ]
-}
-@endverbatim</script>
-</x-slot:structuredData>
-
 
 @php
     $heroFlow = [
@@ -357,6 +284,46 @@
         </div>
     </div>
 </section>
+
+<hr class="hairline">
+
+{{-- ============================================================
+     Search use cases
+     ============================================================ --}}
+<section class="section-tight">
+    <div class="wrap">
+        <div class="section-head">
+            <p class="kicker">Popular household use cases</p>
+            <h2>Start where your family feels the most friction.</h2>
+            <p class="lede">
+                Pratyek works as a bill reminder app, warranty tracker, maid salary tracker, family organizer,
+                and WhatsApp household assistant for Indian homes.
+            </p>
+        </div>
+        <div class="feature-cards">
+            <article class="feature-card">
+                <div class="feature-card-icon"><x-icon name="bill" /></div>
+                <h3 class="feature-card-title">Bill reminders</h3>
+                <p class="feature-card-desc">Track electricity, broadband, school fees, rent, insurance, and tax due dates from WhatsApp.</p>
+                <a href="{{ route('use-case', 'bill-reminder-app-india') }}" class="btn-link" style="margin-top: auto;">Read more <x-icon name="arrow-right" /></a>
+            </article>
+            <article class="feature-card">
+                <div class="feature-card-icon"><x-icon name="appliance" /></div>
+                <h3 class="feature-card-title">Warranty tracker</h3>
+                <p class="feature-card-desc">File appliance bills, AMC dates, vehicle renewals, and service contacts in the Memory dashboard.</p>
+                <a href="{{ route('use-case', 'warranty-tracker-india') }}" class="btn-link" style="margin-top: auto;">Read more <x-icon name="arrow-right" /></a>
+            </article>
+            <article class="feature-card">
+                <div class="feature-card-icon"><x-icon name="staff" /></div>
+                <h3 class="feature-card-title">Maid salary tracker</h3>
+                <p class="feature-card-desc">Track staff attendance, leaves, salary, advances, and bonuses without opening a spreadsheet.</p>
+                <a href="{{ route('use-case', 'maid-salary-tracker') }}" class="btn-link" style="margin-top: auto;">Read more <x-icon name="arrow-right" /></a>
+            </article>
+        </div>
+    </div>
+</section>
+
+<hr class="hairline">
 {{-- ============================================================
      Promise (Kasam se)
      ============================================================ --}}

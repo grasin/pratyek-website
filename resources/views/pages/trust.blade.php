@@ -1,8 +1,7 @@
 <x-layouts.app
     title="Trust and Privacy - Household Management System | Pratyek"
     description="Pratyek trust commitments: India-hosted, DPDP-aware, no Aadhaar/PAN/passport storage, no ads, no data sold."
-    keywords="DPDP compliance, India data residency, DigiLocker integration, no ads no data sold, household privacy India, family management app India, Bangalore servers"
-    og-image="/og/default.svg"
+    og-image="/og/trust.png"
     page-type="WebPage"
     :breadcrumbs="[
         ['name' => 'Home',            'url' => '/'],

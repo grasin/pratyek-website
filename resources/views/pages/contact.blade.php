@@ -1,8 +1,7 @@
 <x-layouts.app
     title="Contact - Pratyek Household Management Support"
     description="WhatsApp +91 93720 23537 or email hello@pratyek.com for Pratyek, India's household management system for every Indian home."
-    keywords="contact Pratyek, WhatsApp 9372023537, hello@pratyek.com, Pratyek support, household management app India, family management app India, WhatsApp household assistant"
-    og-image="/og/default.svg"
+    og-image="/og/contact.png"
     page-type="ContactPage"
     :breadcrumbs="[
         ['name' => 'Home',    'url' => '/'],

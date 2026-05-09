@@ -1,8 +1,7 @@
 <x-layouts.app
     title="Privacy Policy - Pratyek"
     description="What we collect, what we don't, where we store it, how to delete it. Plain-language privacy policy, DPDP-compliant. Last updated 30 April 2026."
-    keywords="privacy policy India, DPDP compliance, household data protection, Pratyek privacy, Pratyek data retention, India data residency"
-    og-image="/og/default.svg"
+    og-image="/og/legal.png"
     page-type="WebPage"
     :breadcrumbs="[
         ['name' => 'Home',           'url' => '/'],

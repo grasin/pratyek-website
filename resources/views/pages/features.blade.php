@@ -1,48 +1,13 @@
 <x-layouts.app
     title="Features - Household Management App for India | Pratyek"
     description="Explore Pratyek's family dashboard for Indian homes: reminders, tasks, bills, assets, services, staff, and family management inside WhatsApp."
-    keywords="Pratyek features, household management app India, family management app India, home management app India, Indian household productivity tool, family dashboard, shared family tasks, bill reminder app India, staff salary tracker, maid salary tracker, appliance warranty tracker, warranty tracker India, WhatsApp household assistant"
-    og-image="/og/default.svg"
+    og-image="/og/features.png"
     page-type="WebPage"
     :breadcrumbs="[
         ['name' => 'Home',     'url' => '/'],
         ['name' => 'Features', 'url' => '/features'],
     ]"
 >
-
-<x-slot:structuredData>
-<script type="application/ld+json">@verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "@id": "https://pratyek.com/#software",
-  "name": "Pratyek",
-  "applicationCategory": "LifestyleApplication",
-  "operatingSystem": "WhatsApp, Web",
-  "url": "https://pratyek.com/features",
-  "description": "Pratyek's public features mirror its Memory dashboard: Reminders, Tasks, Bills, Assets, Services, Staff, and Family for every Indian household.",
-  "keywords": "household management app India, family management app India, home management app India, Indian household productivity tool, family organizer India, family organiser India, WhatsApp household assistant, family dashboard, shared family tasks, bill reminder app India, warranty tracker India, staff salary tracker",
-  "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
-  "featureList": [
-    "Pratyek Reminders - Today, Calendar, Rules, done and snooze",
-    "Pratyek Tasks - to-dos and shopping",
-    "Pratyek Bills - bills and renewals",
-    "Pratyek Assets - appliances, warranties, vehicles, property",
-    "Pratyek Services - recurring deliveries and visits",
-    "Pratyek Staff - monthly household help",
-    "Pratyek Family - members, documents, contacts, occasions, health"
-  ],
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR",
-    "availability": "https://schema.org/InStock",
-    "description": "Live on WhatsApp."
-  },
-  "publisher": { "@id": "https://pratyek.com/#organization" }
-}
-@endverbatim</script>
-</x-slot:structuredData>
 
 {{-- ============================================================
      Page intro

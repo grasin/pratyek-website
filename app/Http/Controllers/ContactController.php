@@ -23,11 +23,11 @@ class ContactController extends Controller
         try {
             Mail::raw($validated['message'], function ($mail) use ($to, $fromName, $fromAddr) {
                 $mail->to($to)
-                    ->subject('Pratyek contact form — ' . $fromName)
+                ->subject('Pratyek contact form - ' . $fromName)
                     ->replyTo($fromAddr, $fromName);
             });
         } catch (\Throwable $e) {
-            // Don't expose mailer errors to the user — log and degrade gracefully.
+            // Don't expose mailer errors to the user - log and degrade gracefully.
             Log::error('Contact form mail failed', [
                 'error' => $e->getMessage(),
                 'name'  => $fromName,

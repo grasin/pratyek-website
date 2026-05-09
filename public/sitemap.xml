@@ -2,61 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://pratyek.com/</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://pratyek.com/product</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://pratyek.com/features</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://pratyek.com/trust</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://pratyek.com/about</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://pratyek.com/faq</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://pratyek.com/contact</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
+        <loc>https://pratyek.com/use-cases/bill-reminder-app-india</loc>
+        <lastmod>2026-05-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://pratyek.com/use-cases/warranty-tracker-india</loc>
+        <lastmod>2026-05-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://pratyek.com/use-cases/maid-salary-tracker</loc>
+        <lastmod>2026-05-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://pratyek.com/use-cases/family-organizer-india</loc>
+        <lastmod>2026-05-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://pratyek.com/use-cases/whatsapp-household-assistant</loc>
+        <lastmod>2026-05-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
         <loc>https://pratyek.com/legal/privacy-policy</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
         <loc>https://pratyek.com/legal/terms</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
         <loc>https://pratyek.com/legal/dpdp</loc>
-        <lastmod>2026-04-30</lastmod>
+        <lastmod>2026-05-09</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
     </url>

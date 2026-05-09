@@ -1,8 +1,7 @@
 @props([
     'title'       => 'Pratyek',
     'description' => 'Pratyek is India\'s household management system, built inside WhatsApp for every Indian home.',
-    'keywords'    => 'household management app India, family management app India, home management app India, Indian household productivity tool, WhatsApp household assistant, household management system India, Pratyek',
-    'ogImage'     => '/og/default.svg',
+    'ogImage'     => '/og/home.png',
     'ogType'      => 'website',
     'canonical'   => '',
     'pageType'    => 'WebPage',
@@ -16,7 +15,6 @@
     <x-seo
         :title="$title"
         :description="$description"
-        :keywords="$keywords"
         :og-image="$ogImage"
         :og-type="$ogType"
         :canonical="$canonical"
@@ -24,7 +22,7 @@
         :breadcrumbs="$breadcrumbs"
     />
 
-    {{-- Page-specific JSON-LD (WebSite, SoftwareApplication, Person, FAQPage, etc.) --}}
+    {{-- Page-specific JSON-LD for genuinely useful page-level entities. --}}
     {{ $structuredData ?? '' }}
 
     <link rel="preconnect" href="https://fonts.googleapis.com">

@@ -1,40 +1,13 @@
 <x-layouts.app
     title="How Pratyek Works - WhatsApp to Memory Dashboard"
     description="How India's household management system works: capture in WhatsApp, retrieve bills, tasks, assets, services, staff, and family records in the Memory dashboard."
-    keywords="how Pratyek works, WhatsApp household assistant, household management app India, family management app India, home management app India, Indian household productivity tool, family dashboard, capture bills WhatsApp, Indian language voice note bill, Hinglish productivity assistant, household management system India"
-    og-image="/og/default.svg"
+    og-image="/og/product.png"
     page-type="WebPage"
     :breadcrumbs="[
         ['name' => 'Home',    'url' => '/'],
         ['name' => 'Product', 'url' => '/product'],
     ]"
 >
-
-<x-slot:structuredData>
-<script type="application/ld+json">@verbatim
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "@id": "https://pratyek.com/#software",
-  "name": "Pratyek",
-  "applicationCategory": "LifestyleApplication",
-  "applicationSubCategory": "Household and family management system",
-  "operatingSystem": "WhatsApp, Web",
-  "url": "https://pratyek.com",
-  "description": "Two-surface household management system: capture in WhatsApp (forward bills, voice notes, photos), retrieve at memory.pratyek.com (sortable, searchable, exportable).",
-  "keywords": "household management app India, family management app India, WhatsApp household assistant, family dashboard, shared family tasks, household management system India",
-  "inLanguage": ["en", "hi", "mr", "ta", "te", "kn", "bn", "gu", "pa"],
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "INR",
-    "availability": "https://schema.org/LimitedAvailability"
-  },
-  "publisher": { "@id": "https://pratyek.com/#organization" }
-}
-@endverbatim</script>
-</x-slot:structuredData>
-
 
 {{-- ============================================================
      Page intro
